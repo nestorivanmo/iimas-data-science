@@ -1,0 +1,16 @@
+---
+title: "R Notebook - "
+output: html_notebook
+---
+
+```{r}
+path = 'Downloads/datos.txt'
+datos = read.table(path, header = TRUE)
+datos
+```
+
+
+```{r}
+
+```
+
