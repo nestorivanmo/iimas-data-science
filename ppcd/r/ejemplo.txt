@@ -1,0 +1,5 @@
+x <-
+"cadena"
+y <-
+structure(list(a = 6, b = 1-2i), class = "data.frame", row.names = c(NA, 
+-1L))
