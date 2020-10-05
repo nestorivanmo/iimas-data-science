@@ -1,5 +1,5 @@
 ---
-title: "R Notebook - "
+title: "R Notebook - 02/10/2020"
 output: html_notebook
 ---
 
@@ -11,6 +11,39 @@ datos
 
 
 ```{r}
+datos$FamilyNames
+datos$FamilyAges
+datos$FamilyGenders
+datos$FamilyWeights
+```
+```{r}
+class(datos$FamilyAges)
+```
+```{r}
+col_names <- c('character', 'integer', 'factor', 'integer')
+col_names
+```
+```{r}
+col_names <- c('character', 'integer', 'factor', 'integer')
+dataInput <- read.table('Downloads/datos.txt', header = TRUE)
+class(dataInput$FamilyGenders)
+```
 
+```{r}
+x <- 'cadena'
+y <- data.frame(a=6,b=1-2i)
+dump(c('x','y'), file = 'ejemplo.txt')
+```
+
+
+```{r}
+source('ejemplo.txt')
+x
+y
+```
+
+```{r}
+x <- c('cat', 4, 'dog', 8.5)
+x <- c('cat', )
 ```
 
