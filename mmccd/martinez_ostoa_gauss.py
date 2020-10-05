@@ -1,3 +1,5 @@
+from general import *
+
 def swap(row, A):
   pr = -1
   if row < len(A) - 1:
@@ -26,19 +28,6 @@ def operate(row, A):
     for j in range(0, len(A[row])):
       A[i][j] += A[row][j] * e
   return A
-
-def print_matrix(A):
-  print("[")
-  for i in range(0, len(A)):
-    for j in range(0, len(A[i])):
-      if j == len(A[i]) - 1 and i == len(A) - 1:
-        print("", A[i][j])
-      else:
-        print("", A[i][j], ",", end='')
-    if i == len(A) - 1:
-      print("]")
-    else:
-      print("")
 
 A = []
 rows = int(input("Rows of the matrix: "))
