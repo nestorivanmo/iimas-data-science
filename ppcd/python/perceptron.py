@@ -37,6 +37,6 @@ class Perceptron(object):
 X = np.array([[0, 0], [0, 1], [1, 0], [1, 1]])
 y = np.array([1 ,1, 1, -1])
 
-ppn = Perceptron(n_iter=6, eta=0.1, random_state=None)
+ppn = Perceptron(n_iter=6, eta=0.1)
 ppn.fit(X, y)
-print('Pesos: %s', ppn.w_)
+print('Pesos: ', ppn.w_)
