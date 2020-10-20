@@ -1,7 +1,7 @@
 #---------------------
 # Simulación de una VA
 #---------------------
-f <- function(p, n = 1) {
+f <- function(x, n = 1) {
     vec <- c()
     for(i in 1:n) {
         num_iter <- 0
@@ -36,3 +36,30 @@ graph <- function(n, p) {
   plot(cuenta)  
 }
 graph(100, 0.4)
+
+densidad <- function(x, p){
+  if(x == -1){
+    return(0);
+  }
+  return(p * (1 - p) ^ x);
+}
+
+P <- function(p){
+  x <- runif(1);
+  # Vamos a truncar los intervalos a este numero maximo
+  maximo <- 10 %/% p;  
+  #print(maximo);
+  #print(x)
+  limite_superior <- 0
+  for(i in 0:maximo){
+    limite_inferior <- limite_superior
+    limite_superior <- limite_superior + densidad(i, p)
+    if(x > limite_inferior && x < limite_superior){
+      return(i);
+    }
+  } 
+  return(maximo);
+}
+
+print(P(.08))
+
