@@ -1,0 +1,21 @@
+---
+title: "Regresion-Lineal"
+author: "Martínez Ostoa Néstor"
+date: "11/9/2020"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Regresión Lineal
+
+Éste debería ser el primer método a intentar cuando tengamos datos disponibles pues muchos de los fenómenos de la naturaleza se acoplan a la RL. La idea detrás de este método es poder predecir valores $Y_i$ a partir de un vector *predictor* $x_i$ : $$E(Y_i | x_i)=\beta _0 + \beta _1 + \cdots + \beta _px_{i,p}$$
+
+Al vector $x_i$ se le agrega un $1$ al principio y se le conoce como valor de sesgo y le corresponde al término independiente $\beta _0$. Para realizar inferencias, $Y = E(Y|x) + \epsilon$; $E(Y|x) = x^T \beta$
+
+Este método se puede estimar mediante **mínimos cuadrados** cuyo objetivo es minimizar los errores cuadráticos. 
+
+## Pasos
+1. Calcular el vector de $\beta$

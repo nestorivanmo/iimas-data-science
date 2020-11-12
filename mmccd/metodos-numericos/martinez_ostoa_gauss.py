@@ -1,4 +1,5 @@
 from general import *
+import numpy as np
 
 def swap(row, A):
   pr = -1
@@ -29,19 +30,24 @@ def operate(row, A):
       A[i][j] += A[row][j] * e
   return A
 
-A = []
-rows = int(input("Rows of the matrix: "))
-if rows <= 0:
-  print("Size should only be greater than 1")
-else:
-  for i in range(0, rows):
-    row = []
-    for j in range(0, rows + 1):
-      e = int(input("Element ({}, {}): ".format(i, j)))
-      row.append(e)
-    A.append(row)
-print_matrix(A)
-element = 0
+
+
+#A = np.array([[-4, -3, 1], [8, 11, -1], [4, 18, 5]]) #LU
+#A = np.array([[6, 15, 55], [15, 55, 225], [55, 225, 979]]) #Cholesky
+A = np.array([[-1, -1, 1], [1, 3, 3], [-1, -1, 5], [1, 3, 7]]) #QR
+
+# rows = int(input("Rows of the matrix: "))
+# if rows <= 0:
+#   print("Size should only be greater than 1")
+# else:
+#   for i in range(0, rows):
+#     row = []
+#     for j in range(0, rows + 1):
+#       e = int(input("Element ({}, {}): ".format(i, j)))
+#       row.append(e)
+#     A.append(row)
+# print_matrix(A)
+# element = 0
 for i in range(0, len(A)):
   element = A[i][i]
   if element == 0:
