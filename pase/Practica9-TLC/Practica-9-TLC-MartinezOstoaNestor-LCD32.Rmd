@@ -80,4 +80,7 @@ bin_vs_norm(N,10, 0.99, 1000)
 ```
 
 ## 2. Velocidad de convergencia
-Como se puede apreciar en las gráficas anteriores, convergen mucho más rápido las simulacione con $p=0.5$ que las simulaciones con $p=0.99$. Esto se debe a que 
+De las gráficas anteriores vemos con facilidad que $Ber(n, 0.5)$ converge más rápido que $Ber(n, 0.99)$. Lo anterior lo atribuyo a dos razones principales: 
+
+1. Una variable aleatoria con distribución Bernoulli tiene como esperanza $E(X) = np$ por lo que sin importar la $n$, una $p$ mayor o menor que $0.5$ siempre taradará más en converger que $p=0.5$ ues su valor esperado está más alejado del valor esperado de la distribución $N(0,1)$ que tiene un valor medio de $0.5$. 
+2. Por otro lado, vemos que para $n$ suficientemente grande, la distribución $Ber(1000, 0.99)$ sí converge con mayor precisión a la $N(0,1)$. El hecho de que eventualmente la distribución Bernoulli converga se debe a la ley de los grandes números que nos indica que para una cantidad grande de experimentos, la media de esos experimentos tenderá al valor esperado, en este caso, $0.5$. 

@@ -1,6 +1,5 @@
 Z <- function(n, p, k) {
   bin <- rbinom(n, k, p)
-  print(bin)
   mu_k <- k*n*p
   sigma_k <- sqrt(k*n*p*(1-p))
   z <- (sum(bin) - mu_k) / sigma_k
@@ -13,10 +12,10 @@ bin_vs_norm <- function(N, n, p, k) {
     Z_vec <- c(Z_vec, Z(n, p, k))
   }
   hist(Z_vec, probability = TRUE, xlab = 'X', ylab = 'Z',
-       main = paste('N(0,1) ~ Bin(',n,',',p,')\n k =', k));
+       main = paste('N(0,1) ~ Bin(',n,',',p,')\n k =', k), col='#ffffff', border='black');
   sop <- seq(-6, 6, length.out=1000)
   par(new = TRUE)
-  lines(sop, dnorm(sop))
+  lines(sop, dnorm(sop), col='red', lwd=1.7)
 }
 
 N = 10000
