@@ -8,9 +8,6 @@ class Perceptron(object):
   
   def fit(self, X, y):
     rgen = np.random.RandomState(self.random_state)
-    #------------------------------
-    # Obtain initial weight vector
-    #------------------------------  
     if self.random_state is None:
       self.w_ = np.zeros(1 + len(X[1]))
     else:
@@ -33,10 +30,10 @@ class Perceptron(object):
   def net_input(self, X):
     return np.dot(X, self.w_[0] + self.w_[1:])
 
-#Implementación - pruebas
-X = np.array([[0, 0], [0, 1], [1, 0], [1, 1]])
-y = np.array([1 ,1, 1, -1])
-
-ppn = Perceptron(n_iter=6, eta=0.1)
-ppn.fit(X, y)
-print('Pesos: ', ppn.w_)
+if __name__ == '__main__':
+  #Implementación - pruebas
+  X = np.array([[0, 0], [0, 1], [1, 0], [1, 1]])
+  y = np.array([1 ,1, 1, -1])
+  ppn = Perceptron(n_iter=6, eta=0.1)
+  ppn.fit(X, y)
+  print('Pesos: ', ppn.w_)
