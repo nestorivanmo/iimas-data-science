@@ -1,5 +1,6 @@
 library(plotly)
 
+#Parte 1
 H <- function(u, v, theta) {
   if (u < (1-theta)*v^(1-theta)) {
     ans <- (u/(1-theta))*v^theta
@@ -50,3 +51,15 @@ thetas <- c(0, 0.1, 0.3, 0.85, 0.9)
 for (theta in thetas){
     genGraph(theta=theta)
 }
+
+
+
+thetas <- c(0, 0.1, 0.3, 0.85, 0.9)
+for (theta in thetas){
+  genGraph2(theta=theta)
+}
+
+
+
+
+
