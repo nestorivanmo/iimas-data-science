@@ -1,6 +1,7 @@
 import random
 import matplotlib.pyplot as plt
 import numpy as np
+import time
 
 def caminata(M, p):
     valores_caminata = [M]
@@ -16,10 +17,6 @@ def caminata(M, p):
         i += 1
     return valores_caminata
 
-def obten_media(M, K, p=0.5):
-    taos=[len(caminata(M, p)) for _ in range(K)]
-    return np.mean(taos)
-
 def ejercicio1():
     plt.figure(figsize=(11,6))
     caminatas = []
@@ -30,6 +27,11 @@ def ejercicio1():
     plt.xlabel("Pasos")
     plt.ylabel('Capital con M=50 inicial')
     plt.show()
+
+
+def obten_media(M, K, p=0.5):
+    taos=[len(caminata(M, p)) for _ in range(K)]
+    return np.mean(taos)
 
 def ejercicio2():
     print("Ejercicio 2:")
@@ -77,5 +79,7 @@ def ejercicio3():
 
 if __name__ == '__main__':
     #ejercicio1()
+    t = time.time()
     ejercicio2()
-    ejercicio3()
+    print(time.time() - t)
+    # ejercicio3()
