@@ -1,0 +1,523 @@
+llave_geografia,estado_id,estado_desc,ciudad_id,ciudad_desc,direccion_id,direccion_desc
+200001,20001,Alabama,2001,Birmingham,201,6778 Shady Lane
+200002,20001,Alabama,2002,Tuscaloosa,202,5086 Shady Lane
+200003,20002,Alaska,2003,Anchorage,203,669 Shady Lane
+200004,20002,Alaska,2004,Juneau,204,5385 Shady Lane
+200005,20003,Arizona,2005,Flagstaff,205,417 Shady Lane
+200006,20003,Arizona,2006,Phoenix,206,4109 Shady Lane
+200007,20004,Arkansas,2007,Little Rock,207,6174 Shady Lane
+200008,20004,Arkansas,2008,Midville,208,3309 Shady Lane
+200009,20005,California,2009,San Diego,209,7077 Shady Lane
+200010,20005,California,2010,Red Bluff,210,8138 Shady Lane
+200011,20006,Colorado,2011,Denver,211,201 Shady Lane
+200012,20006,Colorado,2012,Steamboat Springs,212,4693 Shady Lane
+200013,20007,Connecticut,2013,Hartford,213,4431 Shady Lane
+200014,20007,Connecticut,2014,Stamford,214,56 Shady Lane
+200015,20008,Delaware,2016,Wilmington,215,7619 Shady Lane
+200016,20008,Delaware,2015,Ashton,216,8770 Shady Lane
+200017,20009,Florida,2017,Sarasota,217,7225 Shady Lane
+200018,20009,Florida,2018,Miami,218,5456 Shady Lane
+200019,20010,Georgia,2020,Norcross,219,4471 Shady Lane
+200020,20010,Georgia,2019,Augusta,220,4001 Shady Lane
+200021,20011,Hawaii,2021,Kona,221,8553 Shady Lane
+200022,20011,Hawaii,2022,Hilo,222,3844 Shady Lane
+200023,20012,Idaho,2023,Ketchum,223,640 Shady Lane
+200024,20012,Idaho,2024,Sun Valley,224,5666 Shady Lane
+200025,20013,Illinois,2025,Chicago,225,5687 Shady Lane
+200026,20013,Illinois,2026,Decatur,226,9905 Shady Lane
+200027,20014,Indiana,2027,Lafayette,227,9135 Shady Lane
+200028,20014,Indiana,2028,Indianapolis,228,3303 Shady Lane
+200029,20015,Iowa,2029,Des Moines,229,183 Shady Lane
+200030,20015,Iowa,2030,Council Bluffs,230,2664 Shady Lane
+200031,20016,Kansas,2031,Topeka,231,8360 Shady Lane
+200032,20016,Kansas,2032,Kansas City,232,6368 Shady Lane
+200033,20017,Kentucky,2033,Lexington,233,9072 Shady Lane
+200034,20017,Kentucky,2034,Blueridge,234,7408 Shady Lane
+200035,20018,Louisiana,2035,New Orleans,235,6683 Shady Lane
+200036,20018,Louisiana,2036,Shreveport,236,2283 Shady Lane
+200037,20020,Maryland,2037,Bethesda,237,3072 Shady Lane
+200038,20020,Maryland,2038,Baltimore,238,3161 Shady Lane
+200039,20021,Maine,2039,Augusta,239,3347 Shady Lane
+200040,20021,Maine,2040,Bangor,240,3379 Shady Lane
+200041,20022,Massachusetts,2041,Boston,241,1936 Shady Lane
+200042,20022,Massachusetts,2042,Greenfield,242,5636 Shady Lane
+200043,20023,Michigan,2043,Ann Arbor,243,4967 Shady Lane
+200044,20023,Michigan,2044,Grand Rapids,244,3733 Shady Lane
+200045,20024,Minnesota,2045,Duluth,245,7135 Shady Lane
+200046,20024,Minnesota,2046,Minneapolis,246,7494 Shady Lane
+200047,20025,Mississippi,2047,Biloxi,247,1165 Shady Lane
+200048,20025,Mississippi,2048,Jackson,248,3904 Shady Lane
+200049,20026,Missouri,2049,St. Louis,249,7482 Shady Lane
+200050,20026,Missouri,2050,Springfield,250,8305 Shady Lane
+200051,20027,Montana,2051,Bozeman,251,8034 Shady Lane
+200052,20027,Montana,2052,Butte,252,8376 Shady Lane
+200053,20028,Nebraska,2053,Lincoln,253,3297 Shady Lane
+200054,20028,Nebraska,2054,North Platte,254,7515 Shady Lane
+200055,20001,Alabama,2001,Birmingham,255,2502 Shady Lane
+200056,20001,Alabama,2002,Tuscaloosa,256,4843 Shady Lane
+200057,20002,Alaska,2003,Anchorage,257,6675 Shady Lane
+200058,20002,Alaska,2004,Juneau,258,3538 Shady Lane
+200059,20003,Arizona,2005,Flagstaff,259,8382 Shady Lane
+200060,20003,Arizona,2006,Phoenix,260,7554 Shady Lane
+200061,20004,Arkansas,2007,Little Rock,261,7152 Shady Lane
+200062,20004,Arkansas,2008,Midville,262,6474 Shady Lane
+200063,20005,California,2009,San Diego,263,5491 Shady Lane
+200064,20005,California,2010,Red Bluff,264,128 Shady Lane
+200065,20006,Colorado,2011,Denver,265,4622 Shady Lane
+200066,20006,Colorado,2012,Steamboat Springs,266,7587 Shady Lane
+200067,20007,Connecticut,2013,Hartford,267,4899 Shady Lane
+200068,20007,Connecticut,2014,Stamford,268,1706 Shady Lane
+200069,20008,Delaware,2016,Wilmington,269,7618 Shady Lane
+200070,20008,Delaware,2015,Ashton,270,3272 Shady Lane
+200071,20009,Florida,2017,Sarasota,271,3088 Shady Lane
+200072,20009,Florida,2018,Miami,272,3009 Shady Lane
+200073,20010,Georgia,2020,Norcross,273,7346 Shady Lane
+200074,20010,Georgia,2019,Augusta,274,9743 Shady Lane
+200075,20011,Hawaii,2021,Kona,275,4795 Shady Lane
+200076,20011,Hawaii,2022,Hilo,276,4775 Shady Lane
+200077,20012,Idaho,2023,Ketchum,277,4667 Shady Lane
+200078,20012,Idaho,2024,Sun Valley,278,8293 Shady Lane
+200079,20013,Illinois,2025,Chicago,279,1184 Shady Lane
+200080,20013,Illinois,2026,Decatur,280,2058 Shady Lane
+200081,20014,Indiana,2027,Lafayette,281,9178 Shady Lane
+200082,20014,Indiana,2028,Indianapolis,282,8174 Shady Lane
+200083,20015,Iowa,2029,Des Moines,283,269 Shady Lane
+200084,20015,Iowa,2030,Council Bluffs,284,9416 Shady Lane
+200085,20017,Kentucky,2033,Lexington,285,1971 Shady Lane
+200086,20017,Kentucky,2034,Blueridge,286,9337 Shady Lane
+200087,20018,Louisiana,2035,New Orleans,287,8498 Shady Lane
+200088,20018,Louisiana,2036,Shreveport,288,6363 Shady Lane
+200089,20020,Maryland,2037,Bethesda,289,2039 Shady Lane
+200090,20020,Maryland,2038,Baltimore,290,2566 Shady Lane
+200091,20021,Maine,2039,Augusta,291,9560 Shady Lane
+200092,20021,Maine,2040,Bangor,292,1146 Shady Lane
+200093,20022,Massachusetts,2041,Boston,293,9882 Shady Lane
+200094,20022,Massachusetts,2042,Greenfield,294,1739 Shady Lane
+200095,20023,Michigan,2043,Ann Arbor,295,4488 Shady Lane
+200096,20023,Michigan,2044,Grand Rapids,296,7301 Shady Lane
+200097,20024,Minnesota,2045,Duluth,297,5506 Shady Lane
+200098,20024,Minnesota,2046,Minneapolis,298,3284 Shady Lane
+200099,20025,Mississippi,2047,Biloxi,299,6558 Shady Lane
+200100,20025,Mississippi,2048,Jackson,300,5682 Shady Lane
+200101,20026,Missouri,2049,St. Louis,301,2819 Shady Lane
+200102,20026,Missouri,2050,Springfield,302,7710 Shady Lane
+200103,20027,Montana,2051,Bozeman,303,6229 Shady Lane
+200104,20027,Montana,2052,Butte,304,4539 Shady Lane
+200105,20028,Nebraska,2053,Lincoln,305,643 Shady Lane
+200106,20028,Nebraska,2054,North Platte,306,8590 Shady Lane
+200107,20001,Alabama,2001,Birmingham,307,3478 Shady Lane
+200108,20001,Alabama,2002,Tuscaloosa,308,6096 Shady Lane
+200109,20002,Alaska,2003,Anchorage,309,1316 Shady Lane
+200110,20002,Alaska,2004,Juneau,310,299 Shady Lane
+200111,20003,Arizona,2005,Flagstaff,311,8849 Shady Lane
+200112,20003,Arizona,2006,Phoenix,312,1773 Shady Lane
+200113,20004,Arkansas,2007,Little Rock,313,9281 Shady Lane
+200114,20004,Arkansas,2008,Midville,314,396 Shady Lane
+200115,20005,California,2009,San Diego,315,5948 Shady Lane
+200116,20005,California,2010,Red Bluff,316,9391 Shady Lane
+200117,20006,Colorado,2011,Denver,317,5681 Shady Lane
+200118,20006,Colorado,2012,Steamboat Springs,318,8868 Shady Lane
+200119,20007,Connecticut,2013,Hartford,319,6921 Shady Lane
+200120,20007,Connecticut,2014,Stamford,320,651 Shady Lane
+200121,20008,Delaware,2016,Wilmington,321,1164 Shady Lane
+200122,20008,Delaware,2015,Ashton,322,8246 Shady Lane
+200123,20009,Florida,2017,Sarasota,323,1463 Shady Lane
+200124,20009,Florida,2018,Miami,324,1749 Shady Lane
+200125,20010,Georgia,2020,Norcross,325,8605 Shady Lane
+200126,20010,Georgia,2019,Augusta,326,8786 Shady Lane
+200127,20011,Hawaii,2021,Kona,327,9237 Shady Lane
+200128,20011,Hawaii,2022,Hilo,328,9051 Shady Lane
+200129,20012,Idaho,2023,Ketchum,329,8184 Shady Lane
+200130,20012,Idaho,2024,Sun Valley,330,36 Shady Lane
+200131,20013,Illinois,2025,Chicago,331,5679 Shady Lane
+200132,20013,Illinois,2026,Decatur,332,5119 Shady Lane
+200133,20014,Indiana,2027,Lafayette,333,7504 Shady Lane
+200134,20014,Indiana,2028,Indianapolis,334,3829 Shady Lane
+200135,20015,Iowa,2029,Des Moines,335,8371 Shady Lane
+200136,20015,Iowa,2030,Council Bluffs,336,8070 Shady Lane
+200137,20017,Kentucky,2033,Lexington,337,1735 Shady Lane
+200138,20017,Kentucky,2034,Blueridge,338,3510 Shady Lane
+200139,20018,Louisiana,2035,New Orleans,339,5711 Shady Lane
+200140,20018,Louisiana,2036,Shreveport,340,2676 Shady Lane
+200141,20020,Maryland,2037,Bethesda,341,3963 Shady Lane
+200142,20020,Maryland,2038,Baltimore,342,3076 Shady Lane
+200143,20021,Maine,2039,Augusta,343,2307 Shady Lane
+200144,20021,Maine,2040,Bangor,344,1555 Shady Lane
+200145,20022,Massachusetts,2041,Boston,345,698 Shady Lane
+200146,20022,Massachusetts,2042,Greenfield,346,5574 Shady Lane
+200147,20023,Michigan,2043,Ann Arbor,347,3637 Shady Lane
+200148,20023,Michigan,2044,Grand Rapids,348,7567 Shady Lane
+200149,20024,Minnesota,2045,Duluth,349,8208 Shady Lane
+200150,20024,Minnesota,2046,Minneapolis,350,5889 Shady Lane
+200151,20025,Mississippi,2047,Biloxi,351,7621 Shady Lane
+200152,20025,Mississippi,2048,Jackson,352,4846 Shady Lane
+200153,20026,Missouri,2049,St. Louis,353,3892 Shady Lane
+200154,20026,Missouri,2050,Springfield,354,7287 Shady Lane
+200155,20027,Montana,2051,Bozeman,355,6568 Shady Lane
+200156,20027,Montana,2052,Butte,356,4062 Shady Lane
+200157,20028,Nebraska,2053,Lincoln,357,9008 Shady Lane
+200158,20028,Nebraska,2054,North Platte,358,5200 Shady Lane
+200159,20001,Alabama,2001,Birmingham,359,7844 Shady Lane
+200160,20001,Alabama,2002,Tuscaloosa,360,525 Shady Lane
+200161,20002,Alaska,2003,Anchorage,361,2197 Shady Lane
+200162,20002,Alaska,2004,Juneau,362,6514 Shady Lane
+200163,20003,Arizona,2005,Flagstaff,363,4014 Shady Lane
+200164,20003,Arizona,2006,Phoenix,364,43 Shady Lane
+200165,20004,Arkansas,2007,Little Rock,365,2034 Shady Lane
+200166,20004,Arkansas,2008,Midville,366,9146 Shady Lane
+200167,20005,California,2009,San Diego,367,8649 Shady Lane
+200168,20005,California,2010,Red Bluff,368,9873 Shady Lane
+200169,20006,Colorado,2011,Denver,369,9928 Shady Lane
+200170,20006,Colorado,2012,Steamboat Springs,370,2632 Shady Lane
+200171,20007,Connecticut,2013,Hartford,371,3908 Shady Lane
+200172,20007,Connecticut,2014,Stamford,372,6066 Shady Lane
+200173,20008,Delaware,2016,Wilmington,373,5635 Shady Lane
+200174,20008,Delaware,2015,Ashton,374,7127 Shady Lane
+200175,20009,Florida,2017,Sarasota,375,566 Shady Lane
+200176,20009,Florida,2018,Miami,376,4891 Shady Lane
+200177,20010,Georgia,2020,Norcross,377,8150 Shady Lane
+200178,20010,Georgia,2019,Augusta,378,5028 Shady Lane
+200179,20011,Hawaii,2021,Kona,379,4413 Shady Lane
+200180,20011,Hawaii,2022,Hilo,380,8285 Shady Lane
+200181,20012,Idaho,2023,Ketchum,381,4214 Shady Lane
+200182,20012,Idaho,2024,Sun Valley,382,4654 Shady Lane
+200183,20013,Illinois,2025,Chicago,383,537 Shady Lane
+200184,20013,Illinois,2026,Decatur,384,2761 Shady Lane
+200185,20014,Indiana,2027,Lafayette,385,2621 Shady Lane
+200186,20014,Indiana,2028,Indianapolis,386,5282 Shady Lane
+200187,20015,Iowa,2029,Des Moines,387,3147 Shady Lane
+200188,20015,Iowa,2030,Council Bluffs,388,2289 Shady Lane
+200189,20017,Kentucky,2033,Lexington,389,1804 Shady Lane
+200190,20017,Kentucky,2034,Blueridge,390,9566 Shady Lane
+200191,20018,Louisiana,2035,New Orleans,391,4148 Shady Lane
+200192,20018,Louisiana,2036,Shreveport,392,8947 Shady Lane
+200193,20020,Maryland,2037,Bethesda,393,8788 Shady Lane
+200194,20020,Maryland,2038,Baltimore,394,5770 Shady Lane
+200195,20021,Maine,2039,Augusta,395,1767 Shady Lane
+200196,20021,Maine,2040,Bangor,396,209 Shady Lane
+200197,20022,Massachusetts,2041,Boston,397,2449 Shady Lane
+200198,20022,Massachusetts,2042,Greenfield,398,474 Shady Lane
+200199,20023,Michigan,2043,Ann Arbor,399,49 Shady Lane
+200200,20023,Michigan,2044,Grand Rapids,400,9629 Shady Lane
+200201,20024,Minnesota,2045,Duluth,401,9551 Shady Lane
+200202,20024,Minnesota,2046,Minneapolis,402,5931 Shady Lane
+200203,20025,Mississippi,2047,Biloxi,403,118 Shady Lane
+200204,20025,Mississippi,2048,Jackson,404,810 Shady Lane
+200205,20026,Missouri,2049,St. Louis,405,8214 Shady Lane
+200206,20026,Missouri,2050,Springfield,406,7532 Shady Lane
+200207,20027,Montana,2051,Bozeman,407,7899 Shady Lane
+200208,20027,Montana,2052,Butte,408,2636 Shady Lane
+200209,20028,Nebraska,2053,Lincoln,409,1952 Shady Lane
+200210,20028,Nebraska,2054,North Platte,410,4103 Shady Lane
+200211,20001,Alabama,2001,Birmingham,411,1883 Shady Lane
+200212,20001,Alabama,2002,Tuscaloosa,412,5616 Shady Lane
+200213,20002,Alaska,2003,Anchorage,413,3748 Shady Lane
+200214,20002,Alaska,2004,Juneau,414,2286 Shady Lane
+200215,20003,Arizona,2005,Flagstaff,415,9531 Shady Lane
+200216,20003,Arizona,2006,Phoenix,416,9957 Shady Lane
+200217,20004,Arkansas,2007,Little Rock,417,6165 Shady Lane
+200218,20004,Arkansas,2008,Midville,418,221 Shady Lane
+200219,20005,California,2009,San Diego,419,2930 Shady Lane
+200220,20005,California,2010,Red Bluff,420,3758 Shady Lane
+200221,20006,Colorado,2011,Denver,421,3380 Shady Lane
+200222,20006,Colorado,2012,Steamboat Springs,422,5601 Shady Lane
+200223,20007,Connecticut,2013,Hartford,423,5268 Shady Lane
+200224,20007,Connecticut,2014,Stamford,424,7799 Shady Lane
+200225,20008,Delaware,2016,Wilmington,425,9460 Shady Lane
+200226,20008,Delaware,2015,Ashton,426,3686 Shady Lane
+200227,20009,Florida,2017,Sarasota,427,1216 Shady Lane
+200228,20009,Florida,2018,Miami,428,4536 Shady Lane
+200229,20010,Georgia,2020,Norcross,429,8077 Shady Lane
+200230,20010,Georgia,2019,Augusta,430,634 Shady Lane
+200231,20011,Hawaii,2021,Kona,431,6620 Shady Lane
+200232,20011,Hawaii,2022,Hilo,432,4529 Shady Lane
+200233,20012,Idaho,2023,Ketchum,433,7796 Shady Lane
+200234,20012,Idaho,2024,Sun Valley,434,3385 Shady Lane
+200235,20013,Illinois,2025,Chicago,435,6474 Shady Lane
+200236,20013,Illinois,2026,Decatur,436,6839 Shady Lane
+200237,20014,Indiana,2027,Lafayette,437,457 Shady Lane
+200238,20014,Indiana,2028,Indianapolis,438,5410 Shady Lane
+200239,20015,Iowa,2029,Des Moines,439,4055 Shady Lane
+200240,20015,Iowa,2030,Council Bluffs,440,9465 Shady Lane
+200241,20017,Kentucky,2033,Lexington,441,5052 Shady Lane
+200242,20017,Kentucky,2034,Blueridge,442,4889 Shady Lane
+200243,20018,Louisiana,2035,New Orleans,443,9939 Shady Lane
+200244,20018,Louisiana,2036,Shreveport,444,3664 Shady Lane
+200245,20020,Maryland,2037,Bethesda,445,1842 Shady Lane
+200246,20020,Maryland,2038,Baltimore,446,6246 Shady Lane
+200247,20021,Maine,2039,Augusta,447,6921 Shady Lane
+200248,20021,Maine,2040,Bangor,448,5645 Shady Lane
+200249,20022,Massachusetts,2041,Boston,449,7351 Shady Lane
+200250,20022,Massachusetts,2042,Greenfield,450,7257 Shady Lane
+200251,20023,Michigan,2043,Ann Arbor,451,3322 Shady Lane
+200252,20023,Michigan,2044,Grand Rapids,452,5620 Shady Lane
+200253,20024,Minnesota,2045,Duluth,453,7723 Shady Lane
+200254,20024,Minnesota,2046,Minneapolis,454,6613 Shady Lane
+200255,20025,Mississippi,2047,Biloxi,455,5782 Shady Lane
+200256,20025,Mississippi,2048,Jackson,456,3959 Shady Lane
+200257,20026,Missouri,2049,St. Louis,457,4419 Shady Lane
+200258,20026,Missouri,2050,Springfield,458,5997 Shady Lane
+200259,20027,Montana,2051,Bozeman,459,8025 Shady Lane
+200260,20027,Montana,2052,Butte,460,2020 Shady Lane
+200261,20028,Nebraska,2053,Lincoln,461,8980 Shady Lane
+200262,20028,Nebraska,2054,North Platte,462,9415 Shady Lane
+200263,20001,Alabama,2001,Birmingham,463,9793 Shady Lane
+200264,20001,Alabama,2002,Tuscaloosa,464,6361 Shady Lane
+200265,20002,Alaska,2003,Anchorage,465,3845 Shady Lane
+200266,20002,Alaska,2004,Juneau,466,8576 Shady Lane
+200267,20003,Arizona,2005,Flagstaff,467,2237 Shady Lane
+200268,20003,Arizona,2006,Phoenix,468,8085 Shady Lane
+200269,20004,Arkansas,2007,Little Rock,469,3994 Shady Lane
+200270,20004,Arkansas,2008,Midville,470,7800 Shady Lane
+200271,20005,California,2009,San Diego,471,2513 Shady Lane
+200272,20005,California,2010,Red Bluff,472,3217 Shady Lane
+200273,20006,Colorado,2011,Denver,473,6039 Shady Lane
+200274,20006,Colorado,2012,Steamboat Springs,474,3099 Shady Lane
+200275,20007,Connecticut,2013,Hartford,475,773 Shady Lane
+200276,20007,Connecticut,2014,Stamford,476,6289 Shady Lane
+200277,20008,Delaware,2016,Wilmington,477,7942 Shady Lane
+200278,20008,Delaware,2015,Ashton,478,8358 Shady Lane
+200279,20009,Florida,2017,Sarasota,479,4848 Shady Lane
+200280,20009,Florida,2018,Miami,480,3513 Shady Lane
+200281,20010,Georgia,2020,Norcross,481,2832 Shady Lane
+200282,20010,Georgia,2019,Augusta,482,8309 Shady Lane
+200283,20011,Hawaii,2021,Kona,483,8785 Shady Lane
+200284,20011,Hawaii,2022,Hilo,484,8651 Shady Lane
+200285,20012,Idaho,2023,Ketchum,485,6508 Shady Lane
+200286,20012,Idaho,2024,Sun Valley,486,7318 Shady Lane
+200287,20013,Illinois,2025,Chicago,487,1968 Shady Lane
+200288,20013,Illinois,2026,Decatur,488,9488 Shady Lane
+200289,20014,Indiana,2027,Lafayette,489,4333 Shady Lane
+200290,20014,Indiana,2028,Indianapolis,490,2845 Shady Lane
+200291,20015,Iowa,2029,Des Moines,491,2181 Shady Lane
+200292,20015,Iowa,2030,Council Bluffs,492,5656 Shady Lane
+200293,20017,Kentucky,2033,Lexington,493,1922 Shady Lane
+200294,20017,Kentucky,2034,Blueridge,494,7414 Shady Lane
+200295,20018,Louisiana,2035,New Orleans,495,6282 Shady Lane
+200296,20018,Louisiana,2036,Shreveport,496,8757 Shady Lane
+200297,20020,Maryland,2037,Bethesda,497,1934 Shady Lane
+200298,20020,Maryland,2038,Baltimore,498,7860 Shady Lane
+200299,20021,Maine,2039,Augusta,499,8922 Shady Lane
+200300,20021,Maine,2040,Bangor,500,15 Shady Lane
+200301,20022,Massachusetts,2041,Boston,501,8668 Shady Lane
+200302,20022,Massachusetts,2042,Greenfield,502,2228 Shady Lane
+200303,20023,Michigan,2043,Ann Arbor,503,4026 Shady Lane
+200304,20023,Michigan,2044,Grand Rapids,504,5064 Shady Lane
+200305,20024,Minnesota,2045,Duluth,505,3080 Shady Lane
+200306,20024,Minnesota,2046,Minneapolis,506,2455 Shady Lane
+200307,20025,Mississippi,2047,Biloxi,507,9763 Shady Lane
+200308,20025,Mississippi,2048,Jackson,508,4733 Shady Lane
+200309,20026,Missouri,2049,St. Louis,509,985 Shady Lane
+200310,20026,Missouri,2050,Springfield,510,9570 Shady Lane
+200311,20027,Montana,2051,Bozeman,511,4663 Shady Lane
+200312,20027,Montana,2052,Butte,512,1160 Shady Lane
+200313,20028,Nebraska,2053,Lincoln,513,4286 Shady Lane
+200314,20028,Nebraska,2054,North Platte,514,1262 Shady Lane
+200315,20001,Alabama,2001,Birmingham,515,9087 Shady Lane
+200316,20001,Alabama,2002,Tuscaloosa,516,868 Shady Lane
+200317,20002,Alaska,2003,Anchorage,517,614 Shady Lane
+200318,20002,Alaska,2004,Juneau,518,8133 Shady Lane
+200319,20003,Arizona,2005,Flagstaff,519,6885 Shady Lane
+200320,20003,Arizona,2006,Phoenix,520,7317 Shady Lane
+200321,20004,Arkansas,2007,Little Rock,521,5752 Shady Lane
+200322,20004,Arkansas,2008,Midville,522,1689 Shady Lane
+200323,20005,California,2009,San Diego,523,4263 Shady Lane
+200324,20005,California,2010,Red Bluff,524,1280 Shady Lane
+200325,20006,Colorado,2011,Denver,525,2422 Shady Lane
+200326,20006,Colorado,2012,Steamboat Springs,526,3359 Shady Lane
+200327,20007,Connecticut,2013,Hartford,527,5545 Shady Lane
+200328,20007,Connecticut,2014,Stamford,528,7697 Shady Lane
+200329,20008,Delaware,2016,Wilmington,529,2241 Shady Lane
+200330,20008,Delaware,2015,Ashton,530,2637 Shady Lane
+200331,20009,Florida,2017,Sarasota,531,7855 Shady Lane
+200332,20009,Florida,2018,Miami,532,8559 Shady Lane
+200333,20010,Georgia,2020,Norcross,533,7032 Shady Lane
+200334,20010,Georgia,2019,Augusta,534,1371 Shady Lane
+200335,20011,Hawaii,2021,Kona,535,1683 Shady Lane
+200336,20011,Hawaii,2022,Hilo,536,918 Shady Lane
+200337,20012,Idaho,2023,Ketchum,537,1717 Shady Lane
+200338,20012,Idaho,2024,Sun Valley,538,9553 Shady Lane
+200339,20013,Illinois,2025,Chicago,539,8529 Shady Lane
+200340,20013,Illinois,2026,Decatur,540,9791 Shady Lane
+200341,20014,Indiana,2027,Lafayette,541,971 Shady Lane
+200342,20014,Indiana,2028,Indianapolis,542,1958 Shady Lane
+200343,20015,Iowa,2029,Des Moines,543,1777 Shady Lane
+200344,20015,Iowa,2030,Council Bluffs,544,7786 Shady Lane
+200345,20017,Kentucky,2033,Lexington,545,6434 Shady Lane
+200346,20017,Kentucky,2034,Blueridge,546,4076 Shady Lane
+200347,20018,Louisiana,2035,New Orleans,547,7025 Shady Lane
+200348,20018,Louisiana,2036,Shreveport,548,809 Shady Lane
+200349,20020,Maryland,2037,Bethesda,549,7637 Shady Lane
+200350,20020,Maryland,2038,Baltimore,550,8407 Shady Lane
+200351,20021,Maine,2039,Augusta,551,1004 Shady Lane
+200352,20021,Maine,2040,Bangor,552,1885 Shady Lane
+200353,20022,Massachusetts,2041,Boston,553,5735 Shady Lane
+200354,20022,Massachusetts,2042,Greenfield,554,6255 Shady Lane
+200355,20023,Michigan,2043,Ann Arbor,555,5869 Shady Lane
+200356,20023,Michigan,2044,Grand Rapids,556,2785 Shady Lane
+200357,20024,Minnesota,2045,Duluth,557,8517 Shady Lane
+200358,20024,Minnesota,2046,Minneapolis,558,4488 Shady Lane
+200359,20025,Mississippi,2047,Biloxi,559,7818 Shady Lane
+200360,20025,Mississippi,2048,Jackson,560,3516 Shady Lane
+200361,20026,Missouri,2049,St. Louis,561,4563 Shady Lane
+200362,20026,Missouri,2050,Springfield,562,1765 Shady Lane
+200363,20027,Montana,2051,Bozeman,563,984 Shady Lane
+200364,20027,Montana,2052,Butte,564,192 Shady Lane
+200365,20028,Nebraska,2053,Lincoln,565,1781 Shady Lane
+200366,20028,Nebraska,2054,North Platte,566,1367 Shady Lane
+200367,20001,Alabama,2001,Birmingham,567,7706 Shady Lane
+200368,20001,Alabama,2002,Tuscaloosa,568,7289 Shady Lane
+200369,20002,Alaska,2003,Anchorage,569,3833 Shady Lane
+200370,20002,Alaska,2004,Juneau,570,2121 Shady Lane
+200371,20003,Arizona,2005,Flagstaff,571,5948 Shady Lane
+200372,20003,Arizona,2006,Phoenix,572,1441 Shady Lane
+200373,20004,Arkansas,2007,Little Rock,573,9149 Shady Lane
+200374,20004,Arkansas,2008,Midville,574,1249 Shady Lane
+200375,20005,California,2009,San Diego,575,2322 Shady Lane
+200376,20005,California,2010,Red Bluff,576,6187 Shady Lane
+200377,20006,Colorado,2011,Denver,577,1584 Shady Lane
+200378,20006,Colorado,2012,Steamboat Springs,578,4666 Shady Lane
+200379,20007,Connecticut,2013,Hartford,579,50 Shady Lane
+200380,20007,Connecticut,2014,Stamford,580,1594 Shady Lane
+200381,20008,Delaware,2016,Wilmington,581,4619 Shady Lane
+200382,20008,Delaware,2015,Ashton,582,6044 Shady Lane
+200383,20009,Florida,2017,Sarasota,583,7052 Shady Lane
+200384,20009,Florida,2018,Miami,584,7328 Shady Lane
+200385,20010,Georgia,2020,Norcross,585,428 Shady Lane
+200386,20010,Georgia,2019,Augusta,586,8417 Shady Lane
+200387,20011,Hawaii,2021,Kona,587,6134 Shady Lane
+200388,20011,Hawaii,2022,Hilo,588,9710 Shady Lane
+200389,20012,Idaho,2023,Ketchum,589,1849 Shady Lane
+200390,20012,Idaho,2024,Sun Valley,590,6360 Shady Lane
+200391,20013,Illinois,2025,Chicago,591,4800 Shady Lane
+200392,20013,Illinois,2026,Decatur,592,9783 Shady Lane
+200393,20014,Indiana,2027,Lafayette,593,8031 Shady Lane
+200394,20014,Indiana,2028,Indianapolis,594,7072 Shady Lane
+200395,20015,Iowa,2029,Des Moines,595,5674 Shady Lane
+200396,20015,Iowa,2030,Council Bluffs,596,741 Shady Lane
+200397,20017,Kentucky,2033,Lexington,597,9908 Shady Lane
+200398,20017,Kentucky,2034,Blueridge,598,2213 Shady Lane
+200399,20018,Louisiana,2035,New Orleans,599,9439 Shady Lane
+200400,20018,Louisiana,2036,Shreveport,600,2783 Shady Lane
+200401,20020,Maryland,2037,Bethesda,601,7191 Shady Lane
+200402,20020,Maryland,2038,Baltimore,602,1370 Shady Lane
+200403,20021,Maine,2039,Augusta,603,4031 Shady Lane
+200404,20021,Maine,2040,Bangor,604,1372 Shady Lane
+200405,20022,Massachusetts,2041,Boston,605,626 Shady Lane
+200406,20022,Massachusetts,2042,Greenfield,606,1655 Shady Lane
+200407,20023,Michigan,2043,Ann Arbor,607,7909 Shady Lane
+200408,20023,Michigan,2044,Grand Rapids,608,9220 Shady Lane
+200409,20024,Minnesota,2045,Duluth,609,6472 Shady Lane
+200410,20024,Minnesota,2046,Minneapolis,610,729 Shady Lane
+200411,20025,Mississippi,2047,Biloxi,611,3250 Shady Lane
+200412,20025,Mississippi,2048,Jackson,612,1248 Shady Lane
+200413,20026,Missouri,2049,St. Louis,613,7088 Shady Lane
+200414,20026,Missouri,2050,Springfield,614,5546 Shady Lane
+200415,20027,Montana,2051,Bozeman,615,424 Shady Lane
+200416,20027,Montana,2052,Butte,616,2487 Shady Lane
+200417,20028,Nebraska,2053,Lincoln,617,9754 Shady Lane
+200418,20028,Nebraska,2054,North Platte,618,6730 Shady Lane
+200419,20001,Alabama,2001,Birmingham,619,5402 Shady Lane
+200420,20001,Alabama,2002,Tuscaloosa,620,4258 Shady Lane
+200421,20002,Alaska,2003,Anchorage,621,5355 Shady Lane
+200422,20002,Alaska,2004,Juneau,622,680 Shady Lane
+200423,20003,Arizona,2005,Flagstaff,623,9087 Shady Lane
+200424,20003,Arizona,2006,Phoenix,624,5622 Shady Lane
+200425,20004,Arkansas,2007,Little Rock,625,1195 Shady Lane
+200426,20004,Arkansas,2008,Midville,626,4501 Shady Lane
+200427,20005,California,2009,San Diego,627,8181 Shady Lane
+200428,20005,California,2010,Red Bluff,628,286 Shady Lane
+200429,20006,Colorado,2011,Denver,629,8278 Shady Lane
+200430,20006,Colorado,2012,Steamboat Springs,630,154 Shady Lane
+200431,20007,Connecticut,2013,Hartford,631,9958 Shady Lane
+200432,20007,Connecticut,2014,Stamford,632,4760 Shady Lane
+200433,20008,Delaware,2016,Wilmington,633,9240 Shady Lane
+200434,20008,Delaware,2015,Ashton,634,4005 Shady Lane
+200435,20009,Florida,2017,Sarasota,635,9382 Shady Lane
+200436,20009,Florida,2018,Miami,636,5438 Shady Lane
+200437,20010,Georgia,2020,Norcross,637,6548 Shady Lane
+200438,20010,Georgia,2019,Augusta,638,1898 Shady Lane
+200439,20011,Hawaii,2021,Kona,639,7643 Shady Lane
+200440,20011,Hawaii,2022,Hilo,640,9080 Shady Lane
+200441,20012,Idaho,2023,Ketchum,641,9964 Shady Lane
+200442,20012,Idaho,2024,Sun Valley,642,5123 Shady Lane
+200443,20013,Illinois,2025,Chicago,643,9461 Shady Lane
+200444,20013,Illinois,2026,Decatur,644,5847 Shady Lane
+200445,20014,Indiana,2027,Lafayette,645,5100 Shady Lane
+200446,20014,Indiana,2028,Indianapolis,646,7727 Shady Lane
+200447,20015,Iowa,2029,Des Moines,647,6993 Shady Lane
+200448,20015,Iowa,2030,Council Bluffs,648,1221 Shady Lane
+200449,20017,Kentucky,2033,Lexington,649,6424 Shady Lane
+200450,20017,Kentucky,2034,Blueridge,650,9446 Shady Lane
+200451,20018,Louisiana,2035,New Orleans,651,8463 Shady Lane
+200452,20018,Louisiana,2036,Shreveport,652,9415 Shady Lane
+200453,20020,Maryland,2037,Bethesda,653,7135 Shady Lane
+200454,20020,Maryland,2038,Baltimore,654,6722 Shady Lane
+200455,20021,Maine,2039,Augusta,655,4851 Shady Lane
+200456,20021,Maine,2040,Bangor,656,7096 Shady Lane
+200457,20022,Massachusetts,2041,Boston,657,2389 Shady Lane
+200458,20022,Massachusetts,2042,Greenfield,658,6767 Shady Lane
+200459,20023,Michigan,2043,Ann Arbor,659,1488 Shady Lane
+200460,20023,Michigan,2044,Grand Rapids,660,1477 Shady Lane
+200461,20024,Minnesota,2045,Duluth,661,4095 Shady Lane
+200462,20024,Minnesota,2046,Minneapolis,662,5793 Shady Lane
+200463,20025,Mississippi,2047,Biloxi,663,3015 Shady Lane
+200464,20025,Mississippi,2048,Jackson,664,4725 Shady Lane
+200465,20026,Missouri,2049,St. Louis,665,9113 Shady Lane
+200466,20026,Missouri,2050,Springfield,666,3578 Shady Lane
+200467,20027,Montana,2051,Bozeman,667,8644 Shady Lane
+200468,20027,Montana,2052,Butte,668,6396 Shady Lane
+200469,20028,Nebraska,2053,Lincoln,669,6481 Shady Lane
+200470,20028,Nebraska,2054,North Platte,670,5717 Shady Lane
+200471,20001,Alabama,2001,Birmingham,671,3517 Shady Lane
+200472,20001,Alabama,2002,Tuscaloosa,672,6864 Shady Lane
+200473,20002,Alaska,2003,Anchorage,673,6471 Shady Lane
+200474,20002,Alaska,2004,Juneau,674,1994 Shady Lane
+200475,20003,Arizona,2005,Flagstaff,675,625 Shady Lane
+200476,20003,Arizona,2006,Phoenix,676,3471 Shady Lane
+200477,20004,Arkansas,2007,Little Rock,677,5337 Shady Lane
+200478,20004,Arkansas,2008,Midville,678,8792 Shady Lane
+200479,20005,California,2009,San Diego,679,4699 Shady Lane
+200480,20005,California,2010,Red Bluff,680,7320 Shady Lane
+200481,20006,Colorado,2011,Denver,681,4620 Shady Lane
+200482,20006,Colorado,2012,Steamboat Springs,682,4320 Shady Lane
+200483,20007,Connecticut,2013,Hartford,683,9255 Shady Lane
+200484,20007,Connecticut,2014,Stamford,684,6010 Shady Lane
+200485,20008,Delaware,2016,Wilmington,685,861 Shady Lane
+200486,20008,Delaware,2015,Ashton,686,5109 Shady Lane
+200487,20009,Florida,2017,Sarasota,687,4484 Shady Lane
+200488,20009,Florida,2018,Miami,688,24 Shady Lane
+200489,20010,Georgia,2020,Norcross,689,1250 Shady Lane
+200490,20010,Georgia,2019,Augusta,690,2221 Shady Lane
+200491,20011,Hawaii,2021,Kona,691,745 Shady Lane
+200492,20011,Hawaii,2022,Hilo,692,1687 Shady Lane
+200493,20012,Idaho,2023,Ketchum,693,1820 Shady Lane
+200494,20012,Idaho,2024,Sun Valley,694,148 Shady Lane
+200495,20013,Illinois,2025,Chicago,695,7912 Shady Lane
+200496,20013,Illinois,2026,Decatur,696,7109 Shady Lane
+200497,20014,Indiana,2027,Lafayette,697,2111 Shady Lane
+200498,20014,Indiana,2028,Indianapolis,698,4876 Shady Lane
+200499,20015,Iowa,2029,Des Moines,699,8487 Shady Lane
+200500,20015,Iowa,2030,Council Bluffs,700,1531 Shady Lane
+200501,20017,Kentucky,2033,Lexington,701,5681 Shady Lane
+200502,20017,Kentucky,2034,Blueridge,702,1937 Shady Lane
+200503,20018,Louisiana,2035,New Orleans,703,2497 Shady Lane
+200504,20018,Louisiana,2036,Shreveport,704,4619 Shady Lane
+200505,20020,Maryland,2037,Bethesda,705,1453 Shady Lane
+200506,20020,Maryland,2038,Baltimore,706,4981 Shady Lane
+200507,20021,Maine,2039,Augusta,707,9095 Shady Lane
+200508,20021,Maine,2040,Bangor,708,7536 Shady Lane
+200509,20022,Massachusetts,2041,Boston,709,992 Shady Lane
+200510,20022,Massachusetts,2042,Greenfield,710,8150 Shady Lane
+200511,20023,Michigan,2043,Ann Arbor,711,7487 Shady Lane
+200512,20023,Michigan,2044,Grand Rapids,712,2240 Shady Lane
+200513,20024,Minnesota,2045,Duluth,713,6445 Shady Lane
+200514,20024,Minnesota,2046,Minneapolis,714,2168 Shady Lane
+200515,20025,Mississippi,2047,Biloxi,715,3563 Shady Lane
+200516,20025,Mississippi,2048,Jackson,716,285 Shady Lane
+200517,20026,Missouri,2049,St. Louis,717,7062 Shady Lane
+200518,20026,Missouri,2050,Springfield,718,817 Shady Lane
+200519,20027,Montana,2051,Bozeman,719,5445 Shady Lane
+200520,20027,Montana,2052,Butte,720,319 Shady Lane
+200521,20028,Nebraska,2053,Lincoln,721,9087 Shady Lane
+200522,20028,Nebraska,2054,North Platte,722,3324 Shady Lane

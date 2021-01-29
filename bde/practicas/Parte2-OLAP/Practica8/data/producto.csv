@@ -1,0 +1,540 @@
+Llave_producto,Tipo_producto_id,Tipo_producto_desc,producto_id,producto_desc,numero_cuenta,tasa_interes,saldo_minimo
+40001,4001,Checking,401,Regular Checking,57750,0.04,1000
+40002,4001,Checking,401,Regular Checking,18858,0.04,1000
+40003,4001,Checking,401,Regular Checking,88840,0.04,1000
+40004,4001,Checking,401,Regular Checking,49239,0.04,1000
+40005,4001,Checking,401,Regular Checking,23774,0.04,1000
+40006,4001,Checking,401,Regular Checking,42359,0.04,1000
+40007,4001,Checking,401,Regular Checking,38232,0.04,1000
+40008,4001,Checking,401,Regular Checking,14824,0.04,1000
+40009,4001,Checking,401,Regular Checking,73959,0.04,1000
+40010,4001,Checking,401,Regular Checking,67848,0.04,1000
+40011,4001,Checking,401,Regular Checking,81246,0.04,1000
+40012,4001,Checking,401,Regular Checking,76645,0.04,1000
+40013,4001,Checking,401,Regular Checking,71902,0.04,1000
+40014,4001,Checking,401,Regular Checking,22844,0.04,1000
+40015,4001,Checking,401,Regular Checking,86279,0.04,1000
+40016,4001,Checking,401,Regular Checking,96607,0.04,1000
+40017,4001,Checking,401,Regular Checking,97963,0.04,1000
+40018,4001,Checking,401,Regular Checking,12604,0.04,1000
+40019,4001,Checking,401,Regular Checking,43028,0.04,1000
+40020,4001,Checking,401,Regular Checking,46488,0.04,1000
+40021,4001,Checking,401,Regular Checking,88924,0.04,1000
+40022,4001,Checking,401,Regular Checking,64762,0.04,1000
+40023,4001,Checking,401,Regular Checking,97945,0.04,1000
+40024,4001,Checking,401,Regular Checking,98379,0.04,1000
+40025,4001,Checking,401,Regular Checking,43230,0.04,1000
+40026,4001,Checking,401,Regular Checking,45199,0.04,1000
+40027,4001,Checking,401,Regular Checking,35317,0.04,1000
+40028,4001,Checking,402,Checking w. Interest,94069,0.07,3000
+40029,4001,Checking,402,Checking w. Interest,15088,0.07,3000
+40030,4001,Checking,402,Checking w. Interest,52854,0.07,3000
+40031,4001,Checking,402,Checking w. Interest,67479,0.07,3000
+40032,4001,Checking,402,Checking w. Interest,58079,0.07,3000
+40033,4001,Checking,402,Checking w. Interest,79852,0.07,3000
+40034,4001,Checking,402,Checking w. Interest,74635,0.07,3000
+40035,4001,Checking,402,Checking w. Interest,43601,0.07,3000
+40036,4001,Checking,402,Checking w. Interest,93647,0.07,3000
+40037,4001,Checking,402,Checking w. Interest,15484,0.07,3000
+40038,4001,Checking,402,Checking w. Interest,71975,0.07,3000
+40039,4001,Checking,402,Checking w. Interest,20462,0.07,3000
+40040,4001,Checking,402,Checking w. Interest,89657,0.07,3000
+40041,4001,Checking,402,Checking w. Interest,69536,0.07,3000
+40042,4001,Checking,402,Checking w. Interest,98545,0.07,3000
+40043,4001,Checking,402,Checking w. Interest,54057,0.07,3000
+40044,4001,Checking,402,Checking w. Interest,85659,0.07,3000
+40045,4001,Checking,402,Checking w. Interest,36563,0.07,3000
+40046,4001,Checking,402,Checking w. Interest,88742,0.07,3000
+40047,4001,Checking,402,Checking w. Interest,76146,0.07,3000
+40048,4001,Checking,402,Checking w. Interest,34099,0.07,3000
+40049,4001,Checking,402,Checking w. Interest,12775,0.07,3000
+40050,4001,Checking,402,Checking w. Interest,21267,0.07,3000
+40051,4001,Checking,402,Checking w. Interest,75320,0.07,3000
+40052,4001,Checking,402,Checking w. Interest,26208,0.07,3000
+40053,4001,Checking,402,Checking w. Interest,91783,0.07,3000
+40054,4001,Checking,402,Checking w. Interest,68787,0.07,3000
+40055,4001,Checking,403,Checking w. Safeguard,99862,0.05,5000
+40056,4001,Checking,403,Checking w. Safeguard,32973,0.05,5000
+40057,4001,Checking,403,Checking w. Safeguard,25308,0.05,5000
+40058,4001,Checking,403,Checking w. Safeguard,76697,0.05,5000
+40059,4001,Checking,403,Checking w. Safeguard,46172,0.05,5000
+40060,4001,Checking,403,Checking w. Safeguard,46969,0.05,5000
+40061,4001,Checking,403,Checking w. Safeguard,43739,0.05,5000
+40062,4001,Checking,403,Checking w. Safeguard,93340,0.05,5000
+40063,4001,Checking,403,Checking w. Safeguard,54721,0.05,5000
+40064,4001,Checking,403,Checking w. Safeguard,43444,0.05,5000
+40065,4001,Checking,403,Checking w. Safeguard,75277,0.05,5000
+40066,4001,Checking,403,Checking w. Safeguard,53241,0.05,5000
+40067,4001,Checking,403,Checking w. Safeguard,79470,0.05,5000
+40068,4001,Checking,403,Checking w. Safeguard,93996,0.05,5000
+40069,4001,Checking,403,Checking w. Safeguard,15351,0.05,5000
+40070,4001,Checking,403,Checking w. Safeguard,23896,0.05,5000
+40071,4001,Checking,403,Checking w. Safeguard,66490,0.05,5000
+40072,4001,Checking,403,Checking w. Safeguard,62191,0.05,5000
+40073,4001,Checking,403,Checking w. Safeguard,47404,0.05,5000
+40074,4001,Checking,403,Checking w. Safeguard,88770,0.05,5000
+40075,4001,Checking,403,Checking w. Safeguard,86766,0.05,5000
+40076,4001,Checking,403,Checking w. Safeguard,24715,0.05,5000
+40077,4001,Checking,403,Checking w. Safeguard,10810,0.05,5000
+40078,4001,Checking,403,Checking w. Safeguard,71993,0.05,5000
+40079,4001,Checking,403,Checking w. Safeguard,13425,0.05,5000
+40080,4001,Checking,403,Checking w. Safeguard,15387,0.05,5000
+40081,4001,Checking,403,Checking w. Safeguard,19796,0.05,5000
+40082,4001,Checking,404,On Line Checking,33966,0.03,200
+40083,4001,Checking,404,On Line Checking,49500,0.03,200
+40084,4001,Checking,404,On Line Checking,66103,0.03,200
+40085,4001,Checking,404,On Line Checking,46225,0.03,200
+40086,4001,Checking,404,On Line Checking,27927,0.03,200
+40087,4001,Checking,404,On Line Checking,55434,0.03,200
+40088,4001,Checking,404,On Line Checking,22289,0.03,200
+40089,4001,Checking,404,On Line Checking,39075,0.03,200
+40090,4001,Checking,404,On Line Checking,11867,0.03,200
+40091,4001,Checking,404,On Line Checking,10033,0.03,200
+40092,4001,Checking,404,On Line Checking,92320,0.03,200
+40093,4001,Checking,404,On Line Checking,30347,0.03,200
+40094,4001,Checking,404,On Line Checking,65462,0.03,200
+40095,4001,Checking,404,On Line Checking,49620,0.03,200
+40096,4001,Checking,404,On Line Checking,75174,0.03,200
+40097,4001,Checking,404,On Line Checking,26846,0.03,200
+40098,4001,Checking,404,On Line Checking,60675,0.03,200
+40099,4001,Checking,404,On Line Checking,99747,0.03,200
+40100,4001,Checking,404,On Line Checking,72833,0.03,200
+40101,4001,Checking,404,On Line Checking,75426,0.03,200
+40102,4001,Checking,404,On Line Checking,69666,0.03,200
+40103,4001,Checking,404,On Line Checking,26029,0.03,200
+40104,4001,Checking,404,On Line Checking,40791,0.03,200
+40105,4001,Checking,404,On Line Checking,29772,0.03,200
+40106,4001,Checking,404,On Line Checking,88210,0.03,200
+40107,4001,Checking,404,On Line Checking,76196,0.03,200
+40108,4001,Checking,404,On Line Checking,73954,0.03,200
+40109,4001,Checking,405,Checking for Children,35129,0.01,0
+40110,4001,Checking,405,Checking for Children,48325,0.01,0
+40111,4001,Checking,405,Checking for Children,47407,0.01,0
+40112,4001,Checking,405,Checking for Children,24882,0.01,0
+40113,4001,Checking,405,Checking for Children,25686,0.01,0
+40114,4001,Checking,405,Checking for Children,98045,0.01,0
+40115,4001,Checking,405,Checking for Children,89458,0.01,0
+40116,4001,Checking,405,Checking for Children,92107,0.01,0
+40117,4001,Checking,405,Checking for Children,96337,0.01,0
+40118,4001,Checking,405,Checking for Children,61371,0.01,0
+40119,4001,Checking,405,Checking for Children,96697,0.01,0
+40120,4001,Checking,405,Checking for Children,82192,0.01,0
+40121,4001,Checking,405,Checking for Children,12098,0.01,0
+40122,4001,Checking,405,Checking for Children,29485,0.01,0
+40123,4001,Checking,405,Checking for Children,57825,0.01,0
+40124,4001,Checking,405,Checking for Children,17518,0.01,0
+40125,4001,Checking,405,Checking for Children,66755,0.01,0
+40126,4001,Checking,405,Checking for Children,59690,0.01,0
+40127,4001,Checking,405,Checking for Children,61467,0.01,0
+40128,4001,Checking,405,Checking for Children,56099,0.01,0
+40129,4001,Checking,405,Checking for Children,72923,0.01,0
+40130,4001,Checking,405,Checking for Children,64661,0.01,0
+40131,4001,Checking,405,Checking for Children,14253,0.01,0
+40132,4001,Checking,405,Checking for Children,47198,0.01,0
+40133,4001,Checking,405,Checking for Children,46734,0.01,0
+40134,4001,Checking,405,Checking for Children,78584,0.01,0
+40135,4001,Checking,405,Checking for Children,41862,0.01,0
+40136,4002,Saving,406,Regular Saving,22420,0.03,500
+40137,4002,Saving,406,Regular Saving,57468,0.03,500
+40138,4002,Saving,406,Regular Saving,15715,0.03,500
+40139,4002,Saving,406,Regular Saving,91747,0.03,500
+40140,4002,Saving,406,Regular Saving,70659,0.03,500
+40141,4002,Saving,406,Regular Saving,57188,0.03,500
+40142,4002,Saving,406,Regular Saving,60740,0.03,500
+40143,4002,Saving,406,Regular Saving,25587,0.03,500
+40144,4002,Saving,406,Regular Saving,24807,0.03,500
+40145,4002,Saving,406,Regular Saving,99908,0.03,500
+40146,4002,Saving,406,Regular Saving,27183,0.03,500
+40147,4002,Saving,406,Regular Saving,36928,0.03,500
+40148,4002,Saving,406,Regular Saving,72072,0.03,500
+40149,4002,Saving,406,Regular Saving,73073,0.03,500
+40150,4002,Saving,406,Regular Saving,91805,0.03,500
+40151,4002,Saving,406,Regular Saving,15075,0.03,500
+40152,4002,Saving,406,Regular Saving,17764,0.03,500
+40153,4002,Saving,406,Regular Saving,52654,0.03,500
+40154,4002,Saving,406,Regular Saving,82315,0.03,500
+40155,4002,Saving,406,Regular Saving,47672,0.03,500
+40156,4002,Saving,406,Regular Saving,20820,0.03,500
+40157,4002,Saving,406,Regular Saving,10985,0.03,500
+40158,4002,Saving,406,Regular Saving,80656,0.03,500
+40159,4002,Saving,406,Regular Saving,47792,0.03,500
+40160,4002,Saving,406,Regular Saving,32247,0.03,500
+40161,4002,Saving,406,Regular Saving,91582,0.03,500
+40162,4002,Saving,406,Regular Saving,72771,0.03,500
+40163,4002,Saving,407,Money Market Saving,47011,0.07,7000
+40164,4002,Saving,407,Money Market Saving,98526,0.07,7000
+40165,4002,Saving,407,Money Market Saving,51975,0.07,7000
+40166,4002,Saving,407,Money Market Saving,71889,0.07,7000
+40167,4002,Saving,407,Money Market Saving,77436,0.07,7000
+40168,4002,Saving,407,Money Market Saving,17166,0.07,7000
+40169,4002,Saving,407,Money Market Saving,28571,0.07,7000
+40170,4002,Saving,407,Money Market Saving,78350,0.07,7000
+40171,4002,Saving,407,Money Market Saving,75477,0.07,7000
+40172,4002,Saving,407,Money Market Saving,32672,0.07,7000
+40173,4002,Saving,407,Money Market Saving,32951,0.07,7000
+40174,4002,Saving,407,Money Market Saving,77537,0.07,7000
+40175,4002,Saving,407,Money Market Saving,12306,0.07,7000
+40176,4002,Saving,407,Money Market Saving,95852,0.07,7000
+40177,4002,Saving,407,Money Market Saving,70972,0.07,7000
+40178,4002,Saving,407,Money Market Saving,67692,0.07,7000
+40179,4002,Saving,407,Money Market Saving,79544,0.07,7000
+40180,4002,Saving,407,Money Market Saving,13661,0.07,7000
+40181,4002,Saving,407,Money Market Saving,79707,0.07,7000
+40182,4002,Saving,407,Money Market Saving,90996,0.07,7000
+40183,4002,Saving,407,Money Market Saving,78896,0.07,7000
+40184,4002,Saving,407,Money Market Saving,42687,0.07,7000
+40185,4002,Saving,407,Money Market Saving,18077,0.07,7000
+40186,4002,Saving,407,Money Market Saving,70060,0.07,7000
+40187,4002,Saving,407,Money Market Saving,25953,0.07,7000
+40188,4002,Saving,407,Money Market Saving,20397,0.07,7000
+40189,4002,Saving,407,Money Market Saving,81352,0.07,7000
+40190,4002,Saving,408,Saving w. Checking,45888,0.04,2500
+40191,4002,Saving,408,Saving w. Checking,53730,0.04,2500
+40192,4002,Saving,408,Saving w. Checking,22605,0.04,2500
+40193,4002,Saving,408,Saving w. Checking,74065,0.04,2500
+40194,4002,Saving,408,Saving w. Checking,27835,0.04,2500
+40195,4002,Saving,408,Saving w. Checking,48204,0.04,2500
+40196,4002,Saving,408,Saving w. Checking,22015,0.04,2500
+40197,4002,Saving,408,Saving w. Checking,38487,0.04,2500
+40198,4002,Saving,408,Saving w. Checking,86441,0.04,2500
+40199,4002,Saving,408,Saving w. Checking,66460,0.04,2500
+40200,4002,Saving,408,Saving w. Checking,36237,0.04,2500
+40201,4002,Saving,408,Saving w. Checking,42362,0.04,2500
+40202,4002,Saving,408,Saving w. Checking,73697,0.04,2500
+40203,4002,Saving,408,Saving w. Checking,13884,0.04,2500
+40204,4002,Saving,408,Saving w. Checking,15893,0.04,2500
+40205,4002,Saving,408,Saving w. Checking,37736,0.04,2500
+40206,4002,Saving,408,Saving w. Checking,90097,0.04,2500
+40207,4002,Saving,408,Saving w. Checking,67585,0.04,2500
+40208,4002,Saving,408,Saving w. Checking,12716,0.04,2500
+40209,4002,Saving,408,Saving w. Checking,66075,0.04,2500
+40210,4002,Saving,408,Saving w. Checking,32219,0.04,2500
+40211,4002,Saving,408,Saving w. Checking,90925,0.04,2500
+40212,4002,Saving,408,Saving w. Checking,10785,0.04,2500
+40213,4002,Saving,408,Saving w. Checking,95315,0.04,2500
+40214,4002,Saving,408,Saving w. Checking,98878,0.04,2500
+40215,4002,Saving,408,Saving w. Checking,87015,0.04,2500
+40216,4002,Saving,408,Saving w. Checking,33516,0.04,2500
+40217,4002,Saving,409,On Line Saving,93855,0.05,500
+40218,4002,Saving,409,On Line Saving,73584,0.05,500
+40219,4002,Saving,409,On Line Saving,68028,0.05,500
+40220,4002,Saving,409,On Line Saving,50436,0.05,500
+40221,4002,Saving,409,On Line Saving,73667,0.05,500
+40222,4002,Saving,409,On Line Saving,77234,0.05,500
+40223,4002,Saving,409,On Line Saving,99227,0.05,500
+40224,4002,Saving,409,On Line Saving,94665,0.05,500
+40225,4002,Saving,409,On Line Saving,18875,0.05,500
+40226,4002,Saving,409,On Line Saving,79314,0.05,500
+40227,4002,Saving,409,On Line Saving,97948,0.05,500
+40228,4002,Saving,409,On Line Saving,43456,0.05,500
+40229,4002,Saving,409,On Line Saving,18506,0.05,500
+40230,4002,Saving,409,On Line Saving,54268,0.05,500
+40231,4002,Saving,409,On Line Saving,87932,0.05,500
+40232,4002,Saving,409,On Line Saving,41204,0.05,500
+40233,4002,Saving,409,On Line Saving,35753,0.05,500
+40234,4002,Saving,409,On Line Saving,54545,0.05,500
+40235,4002,Saving,409,On Line Saving,16024,0.05,500
+40236,4002,Saving,409,On Line Saving,68368,0.05,500
+40237,4002,Saving,409,On Line Saving,60678,0.05,500
+40238,4002,Saving,409,On Line Saving,46869,0.05,500
+40239,4002,Saving,409,On Line Saving,58528,0.05,500
+40240,4002,Saving,409,On Line Saving,74931,0.05,500
+40241,4002,Saving,409,On Line Saving,73865,0.05,500
+40242,4002,Saving,409,On Line Saving,41261,0.05,500
+40243,4002,Saving,409,On Line Saving,57636,0.05,500
+40244,4002,Saving,410,Saving for Children,51853,0.03,0
+40245,4002,Saving,410,Saving for Children,43561,0.03,0
+40246,4002,Saving,410,Saving for Children,57109,0.03,0
+40247,4002,Saving,410,Saving for Children,91915,0.03,0
+40248,4002,Saving,410,Saving for Children,15042,0.03,0
+40249,4002,Saving,410,Saving for Children,47214,0.03,0
+40250,4002,Saving,410,Saving for Children,25256,0.03,0
+40251,4002,Saving,410,Saving for Children,15062,0.03,0
+40252,4002,Saving,410,Saving for Children,66193,0.03,0
+40253,4002,Saving,410,Saving for Children,21293,0.03,0
+40254,4002,Saving,410,Saving for Children,58744,0.03,0
+40255,4002,Saving,410,Saving for Children,35065,0.03,0
+40256,4002,Saving,410,Saving for Children,48551,0.03,0
+40257,4002,Saving,410,Saving for Children,14234,0.03,0
+40258,4002,Saving,410,Saving for Children,34186,0.03,0
+40259,4002,Saving,410,Saving for Children,50167,0.03,0
+40260,4002,Saving,410,Saving for Children,43060,0.03,0
+40261,4002,Saving,410,Saving for Children,81912,0.03,0
+40262,4002,Saving,410,Saving for Children,52558,0.03,0
+40263,4002,Saving,410,Saving for Children,36502,0.03,0
+40264,4002,Saving,410,Saving for Children,31422,0.03,0
+40265,4002,Saving,410,Saving for Children,92489,0.03,0
+40266,4002,Saving,410,Saving for Children,64985,0.03,0
+40267,4002,Saving,410,Saving for Children,38560,0.03,0
+40268,4002,Saving,410,Saving for Children,83265,0.03,0
+40269,4002,Saving,410,Saving for Children,15713,0.03,0
+40270,4002,Saving,410,Saving for Children,67667,0.03,0
+40271,4003,Mortgage,411,30 Year Mortgage,37166,0.05,0
+40272,4003,Mortgage,411,30 Year Mortgage,72855,0.05,0
+40273,4003,Mortgage,411,30 Year Mortgage,18708,0.05,0
+40274,4003,Mortgage,411,30 Year Mortgage,58696,0.05,0
+40275,4003,Mortgage,411,30 Year Mortgage,17941,0.05,0
+40276,4003,Mortgage,411,30 Year Mortgage,83769,0.05,0
+40277,4003,Mortgage,411,30 Year Mortgage,18381,0.05,0
+40278,4003,Mortgage,411,30 Year Mortgage,79675,0.05,0
+40279,4003,Mortgage,411,30 Year Mortgage,40396,0.05,0
+40280,4003,Mortgage,411,30 Year Mortgage,21629,0.05,0
+40281,4003,Mortgage,411,30 Year Mortgage,29825,0.05,0
+40282,4003,Mortgage,411,30 Year Mortgage,61222,0.05,0
+40283,4003,Mortgage,411,30 Year Mortgage,78797,0.05,0
+40284,4003,Mortgage,411,30 Year Mortgage,62682,0.05,0
+40285,4003,Mortgage,411,30 Year Mortgage,99164,0.05,0
+40286,4003,Mortgage,411,30 Year Mortgage,11630,0.05,0
+40287,4003,Mortgage,411,30 Year Mortgage,24559,0.05,0
+40288,4003,Mortgage,411,30 Year Mortgage,12047,0.05,0
+40289,4003,Mortgage,411,30 Year Mortgage,69788,0.05,0
+40290,4003,Mortgage,411,30 Year Mortgage,50733,0.05,0
+40291,4003,Mortgage,411,30 Year Mortgage,17938,0.05,0
+40292,4003,Mortgage,411,30 Year Mortgage,52304,0.05,0
+40293,4003,Mortgage,411,30 Year Mortgage,59756,0.05,0
+40294,4003,Mortgage,411,30 Year Mortgage,75861,0.05,0
+40295,4003,Mortgage,411,30 Year Mortgage,24010,0.05,0
+40296,4003,Mortgage,411,30 Year Mortgage,20523,0.05,0
+40297,4003,Mortgage,411,30 Year Mortgage,60536,0.05,0
+40298,4003,Mortgage,412,15 Year Mortgage,88219,0.1,0
+40299,4003,Mortgage,412,15 Year Mortgage,74442,0.1,0
+40300,4003,Mortgage,412,15 Year Mortgage,42843,0.1,0
+40301,4003,Mortgage,412,15 Year Mortgage,25958,0.1,0
+40302,4003,Mortgage,412,15 Year Mortgage,66662,0.1,0
+40303,4003,Mortgage,412,15 Year Mortgage,38109,0.1,0
+40304,4003,Mortgage,412,15 Year Mortgage,59586,0.1,0
+40305,4003,Mortgage,412,15 Year Mortgage,32157,0.1,0
+40306,4003,Mortgage,412,15 Year Mortgage,13668,0.1,0
+40307,4003,Mortgage,412,15 Year Mortgage,56947,0.1,0
+40308,4003,Mortgage,412,15 Year Mortgage,26521,0.1,0
+40309,4003,Mortgage,412,15 Year Mortgage,14438,0.1,0
+40310,4003,Mortgage,412,15 Year Mortgage,63078,0.1,0
+40311,4003,Mortgage,412,15 Year Mortgage,37144,0.1,0
+40312,4003,Mortgage,412,15 Year Mortgage,39634,0.1,0
+40313,4003,Mortgage,412,15 Year Mortgage,10369,0.1,0
+40314,4003,Mortgage,412,15 Year Mortgage,61349,0.1,0
+40315,4003,Mortgage,412,15 Year Mortgage,66222,0.1,0
+40316,4003,Mortgage,412,15 Year Mortgage,40867,0.1,0
+40317,4003,Mortgage,412,15 Year Mortgage,62815,0.1,0
+40318,4003,Mortgage,412,15 Year Mortgage,59978,0.1,0
+40319,4003,Mortgage,412,15 Year Mortgage,96750,0.1,0
+40320,4003,Mortgage,412,15 Year Mortgage,67792,0.1,0
+40321,4003,Mortgage,412,15 Year Mortgage,67515,0.1,0
+40322,4003,Mortgage,412,15 Year Mortgage,52198,0.1,0
+40323,4003,Mortgage,412,15 Year Mortgage,95813,0.1,0
+40324,4003,Mortgage,412,15 Year Mortgage,45230,0.1,0
+40325,4003,Mortgage,413,Low Down Mortgage,65188,0.2,0
+40326,4003,Mortgage,413,Low Down Mortgage,59119,0.2,0
+40327,4003,Mortgage,413,Low Down Mortgage,32352,0.2,0
+40328,4003,Mortgage,413,Low Down Mortgage,40102,0.2,0
+40329,4003,Mortgage,413,Low Down Mortgage,17671,0.2,0
+40330,4003,Mortgage,413,Low Down Mortgage,36448,0.2,0
+40331,4003,Mortgage,413,Low Down Mortgage,39372,0.2,0
+40332,4003,Mortgage,413,Low Down Mortgage,43272,0.2,0
+40333,4003,Mortgage,413,Low Down Mortgage,12085,0.2,0
+40334,4003,Mortgage,413,Low Down Mortgage,83296,0.2,0
+40335,4003,Mortgage,413,Low Down Mortgage,55642,0.2,0
+40336,4003,Mortgage,413,Low Down Mortgage,81925,0.2,0
+40337,4003,Mortgage,413,Low Down Mortgage,93856,0.2,0
+40338,4003,Mortgage,413,Low Down Mortgage,87278,0.2,0
+40339,4003,Mortgage,413,Low Down Mortgage,97552,0.2,0
+40340,4003,Mortgage,413,Low Down Mortgage,19639,0.2,0
+40341,4003,Mortgage,413,Low Down Mortgage,16681,0.2,0
+40342,4003,Mortgage,413,Low Down Mortgage,35490,0.2,0
+40343,4003,Mortgage,413,Low Down Mortgage,85491,0.2,0
+40344,4003,Mortgage,413,Low Down Mortgage,14594,0.2,0
+40345,4003,Mortgage,413,Low Down Mortgage,61796,0.2,0
+40346,4003,Mortgage,413,Low Down Mortgage,46731,0.2,0
+40347,4003,Mortgage,413,Low Down Mortgage,53426,0.2,0
+40348,4003,Mortgage,413,Low Down Mortgage,10784,0.2,0
+40349,4003,Mortgage,413,Low Down Mortgage,80554,0.2,0
+40350,4003,Mortgage,413,Low Down Mortgage,36875,0.2,0
+40351,4003,Mortgage,413,Low Down Mortgage,88522,0.2,0
+40352,4003,Mortgage,414,Second Home Mortgage,81001,0.25,0
+40353,4003,Mortgage,414,Second Home Mortgage,10692,0.25,0
+40354,4003,Mortgage,414,Second Home Mortgage,84883,0.25,0
+40355,4003,Mortgage,414,Second Home Mortgage,70152,0.25,0
+40356,4003,Mortgage,414,Second Home Mortgage,24000,0.25,0
+40357,4003,Mortgage,414,Second Home Mortgage,12035,0.25,0
+40358,4003,Mortgage,414,Second Home Mortgage,40446,0.25,0
+40359,4003,Mortgage,414,Second Home Mortgage,67171,0.25,0
+40360,4003,Mortgage,414,Second Home Mortgage,89593,0.25,0
+40361,4003,Mortgage,414,Second Home Mortgage,62015,0.25,0
+40362,4003,Mortgage,414,Second Home Mortgage,30662,0.25,0
+40363,4003,Mortgage,414,Second Home Mortgage,94241,0.25,0
+40364,4003,Mortgage,414,Second Home Mortgage,84884,0.25,0
+40365,4003,Mortgage,414,Second Home Mortgage,77241,0.25,0
+40366,4003,Mortgage,414,Second Home Mortgage,82407,0.25,0
+40367,4003,Mortgage,414,Second Home Mortgage,49371,0.25,0
+40368,4003,Mortgage,414,Second Home Mortgage,60149,0.25,0
+40369,4003,Mortgage,414,Second Home Mortgage,68598,0.25,0
+40370,4003,Mortgage,414,Second Home Mortgage,66437,0.25,0
+40371,4003,Mortgage,414,Second Home Mortgage,83183,0.25,0
+40372,4003,Mortgage,414,Second Home Mortgage,24339,0.25,0
+40373,4003,Mortgage,414,Second Home Mortgage,97439,0.25,0
+40374,4003,Mortgage,414,Second Home Mortgage,81863,0.25,0
+40375,4003,Mortgage,414,Second Home Mortgage,19997,0.25,0
+40376,4003,Mortgage,414,Second Home Mortgage,24464,0.25,0
+40377,4003,Mortgage,414,Second Home Mortgage,69590,0.25,0
+40378,4003,Mortgage,414,Second Home Mortgage,90326,0.25,0
+40379,4003,Mortgage,415,Mortgage w. Safeguard,42660,0.3,0
+40380,4003,Mortgage,415,Mortgage w. Safeguard,23461,0.3,0
+40381,4003,Mortgage,415,Mortgage w. Safeguard,25413,0.3,0
+40382,4003,Mortgage,415,Mortgage w. Safeguard,20300,0.3,0
+40383,4003,Mortgage,415,Mortgage w. Safeguard,28588,0.3,0
+40384,4003,Mortgage,415,Mortgage w. Safeguard,67083,0.3,0
+40385,4003,Mortgage,415,Mortgage w. Safeguard,40507,0.3,0
+40386,4003,Mortgage,415,Mortgage w. Safeguard,35406,0.3,0
+40387,4003,Mortgage,415,Mortgage w. Safeguard,65581,0.3,0
+40388,4003,Mortgage,415,Mortgage w. Safeguard,46815,0.3,0
+40389,4003,Mortgage,415,Mortgage w. Safeguard,63309,0.3,0
+40390,4003,Mortgage,415,Mortgage w. Safeguard,55942,0.3,0
+40391,4003,Mortgage,415,Mortgage w. Safeguard,61365,0.3,0
+40392,4003,Mortgage,415,Mortgage w. Safeguard,43581,0.3,0
+40393,4003,Mortgage,415,Mortgage w. Safeguard,69026,0.3,0
+40394,4003,Mortgage,415,Mortgage w. Safeguard,34971,0.3,0
+40395,4003,Mortgage,415,Mortgage w. Safeguard,23565,0.3,0
+40396,4003,Mortgage,415,Mortgage w. Safeguard,51117,0.3,0
+40397,4003,Mortgage,415,Mortgage w. Safeguard,13173,0.3,0
+40398,4003,Mortgage,415,Mortgage w. Safeguard,55567,0.3,0
+40399,4003,Mortgage,415,Mortgage w. Safeguard,65760,0.3,0
+40400,4003,Mortgage,415,Mortgage w. Safeguard,94329,0.3,0
+40401,4003,Mortgage,415,Mortgage w. Safeguard,49451,0.3,0
+40402,4003,Mortgage,415,Mortgage w. Safeguard,27652,0.3,0
+40403,4003,Mortgage,415,Mortgage w. Safeguard,52716,0.3,0
+40404,4003,Mortgage,415,Mortgage w. Safeguard,54908,0.3,0
+40405,4003,Mortgage,415,Mortgage w. Safeguard,72275,0.3,0
+40406,4004,Personal Loan,416,90 Day Secured Loan,89188,0.4,0
+40407,4004,Personal Loan,416,90 Day Secured Loan,47267,0.4,0
+40408,4004,Personal Loan,416,90 Day Secured Loan,96238,0.4,0
+40409,4004,Personal Loan,416,90 Day Secured Loan,79712,0.4,0
+40410,4004,Personal Loan,416,90 Day Secured Loan,44989,0.4,0
+40411,4004,Personal Loan,416,90 Day Secured Loan,37888,0.4,0
+40412,4004,Personal Loan,416,90 Day Secured Loan,48601,0.4,0
+40413,4004,Personal Loan,416,90 Day Secured Loan,58008,0.4,0
+40414,4004,Personal Loan,416,90 Day Secured Loan,98225,0.4,0
+40415,4004,Personal Loan,416,90 Day Secured Loan,63512,0.4,0
+40416,4004,Personal Loan,416,90 Day Secured Loan,68242,0.4,0
+40417,4004,Personal Loan,416,90 Day Secured Loan,77398,0.4,0
+40418,4004,Personal Loan,416,90 Day Secured Loan,85398,0.4,0
+40419,4004,Personal Loan,416,90 Day Secured Loan,90244,0.4,0
+40420,4004,Personal Loan,416,90 Day Secured Loan,69303,0.4,0
+40421,4004,Personal Loan,416,90 Day Secured Loan,56685,0.4,0
+40422,4004,Personal Loan,416,90 Day Secured Loan,63613,0.4,0
+40423,4004,Personal Loan,416,90 Day Secured Loan,64783,0.4,0
+40424,4004,Personal Loan,416,90 Day Secured Loan,34298,0.4,0
+40425,4004,Personal Loan,416,90 Day Secured Loan,72762,0.4,0
+40426,4004,Personal Loan,416,90 Day Secured Loan,10978,0.4,0
+40427,4004,Personal Loan,416,90 Day Secured Loan,13540,0.4,0
+40428,4004,Personal Loan,416,90 Day Secured Loan,64057,0.4,0
+40429,4004,Personal Loan,416,90 Day Secured Loan,20134,0.4,0
+40430,4004,Personal Loan,416,90 Day Secured Loan,19130,0.4,0
+40431,4004,Personal Loan,416,90 Day Secured Loan,55874,0.4,0
+40432,4004,Personal Loan,416,90 Day Secured Loan,17719,0.4,0
+40433,4004,Personal Loan,417,Line of Credit,43670,0.05,3000
+40434,4004,Personal Loan,417,Line of Credit,51040,0.05,3000
+40435,4004,Personal Loan,417,Line of Credit,71053,0.05,3000
+40436,4004,Personal Loan,417,Line of Credit,55995,0.05,3000
+40437,4004,Personal Loan,417,Line of Credit,42603,0.05,3000
+40438,4004,Personal Loan,417,Line of Credit,94348,0.05,3000
+40439,4004,Personal Loan,417,Line of Credit,54070,0.05,3000
+40440,4004,Personal Loan,417,Line of Credit,34410,0.05,3000
+40441,4004,Personal Loan,417,Line of Credit,90004,0.05,3000
+40442,4004,Personal Loan,417,Line of Credit,54870,0.05,3000
+40443,4004,Personal Loan,417,Line of Credit,66855,0.05,3000
+40444,4004,Personal Loan,417,Line of Credit,47873,0.05,3000
+40445,4004,Personal Loan,417,Line of Credit,18226,0.05,3000
+40446,4004,Personal Loan,417,Line of Credit,92332,0.05,3000
+40447,4004,Personal Loan,417,Line of Credit,56524,0.05,3000
+40448,4004,Personal Loan,417,Line of Credit,19313,0.05,3000
+40449,4004,Personal Loan,417,Line of Credit,56788,0.05,3000
+40450,4004,Personal Loan,417,Line of Credit,86231,0.05,3000
+40451,4004,Personal Loan,417,Line of Credit,79504,0.05,3000
+40452,4004,Personal Loan,417,Line of Credit,69936,0.05,3000
+40453,4004,Personal Loan,417,Line of Credit,62490,0.05,3000
+40454,4004,Personal Loan,417,Line of Credit,22991,0.05,3000
+40455,4004,Personal Loan,417,Line of Credit,90103,0.05,3000
+40456,4004,Personal Loan,417,Line of Credit,31669,0.05,3000
+40457,4004,Personal Loan,417,Line of Credit,86286,0.05,3000
+40458,4004,Personal Loan,417,Line of Credit,74564,0.05,3000
+40459,4004,Personal Loan,417,Line of Credit,70127,0.05,3000
+40460,4004,Personal Loan,418,90 Day Unsecured Loan,50367,0.03,0
+40461,4004,Personal Loan,418,90 Day Unsecured Loan,32367,0.03,0
+40462,4004,Personal Loan,418,90 Day Unsecured Loan,97444,0.03,0
+40463,4004,Personal Loan,418,90 Day Unsecured Loan,45033,0.03,0
+40464,4004,Personal Loan,418,90 Day Unsecured Loan,27870,0.03,0
+40465,4004,Personal Loan,418,90 Day Unsecured Loan,31833,0.03,0
+40466,4004,Personal Loan,418,90 Day Unsecured Loan,72781,0.03,0
+40467,4004,Personal Loan,418,90 Day Unsecured Loan,17621,0.03,0
+40468,4004,Personal Loan,418,90 Day Unsecured Loan,88565,0.03,0
+40470,4004,Personal Loan,418,90 Day Unsecured Loan,60540,0.03,0
+40471,4004,Personal Loan,418,90 Day Unsecured Loan,40638,0.03,0
+40472,4004,Personal Loan,418,90 Day Unsecured Loan,56967,0.03,0
+40473,4004,Personal Loan,418,90 Day Unsecured Loan,51051,0.03,0
+40474,4004,Personal Loan,418,90 Day Unsecured Loan,80908,0.03,0
+40475,4004,Personal Loan,418,90 Day Unsecured Loan,95390,0.03,0
+40476,4004,Personal Loan,418,90 Day Unsecured Loan,33069,0.03,0
+40477,4004,Personal Loan,418,90 Day Unsecured Loan,64187,0.03,0
+40478,4004,Personal Loan,418,90 Day Unsecured Loan,38255,0.03,0
+40479,4004,Personal Loan,418,90 Day Unsecured Loan,52291,0.03,0
+40480,4004,Personal Loan,418,90 Day Unsecured Loan,23597,0.03,0
+40481,4004,Personal Loan,418,90 Day Unsecured Loan,99699,0.03,0
+40482,4004,Personal Loan,418,90 Day Unsecured Loan,46919,0.03,0
+40483,4004,Personal Loan,418,90 Day Unsecured Loan,97882,0.03,0
+40484,4004,Personal Loan,418,90 Day Unsecured Loan,25535,0.03,0
+40485,4004,Personal Loan,418,90 Day Unsecured Loan,53937,0.03,0
+40486,4004,Personal Loan,418,90 Day Unsecured Loan,83967,0.03,0
+40487,4004,Personal Loan,419,1 Year Secured Loan,30943,0.02,0
+40488,4004,Personal Loan,419,1 Year Secured Loan,61582,0.02,0
+40489,4004,Personal Loan,419,1 Year Secured Loan,11968,0.02,0
+40490,4004,Personal Loan,419,1 Year Secured Loan,97260,0.02,0
+40491,4004,Personal Loan,419,1 Year Secured Loan,30324,0.02,0
+40492,4004,Personal Loan,419,1 Year Secured Loan,17289,0.02,0
+40493,4004,Personal Loan,419,1 Year Secured Loan,66190,0.02,0
+40494,4004,Personal Loan,419,1 Year Secured Loan,85302,0.02,0
+40495,4004,Personal Loan,419,1 Year Secured Loan,42855,0.02,0
+40496,4004,Personal Loan,419,1 Year Secured Loan,56202,0.02,0
+40497,4004,Personal Loan,419,1 Year Secured Loan,95553,0.02,0
+40498,4004,Personal Loan,419,1 Year Secured Loan,12781,0.02,0
+40499,4004,Personal Loan,419,1 Year Secured Loan,79632,0.02,0
+40500,4004,Personal Loan,419,1 Year Secured Loan,65210,0.02,0
+40501,4004,Personal Loan,419,1 Year Secured Loan,95908,0.02,0
+40502,4004,Personal Loan,419,1 Year Secured Loan,76979,0.02,0
+40503,4004,Personal Loan,419,1 Year Secured Loan,23347,0.02,0
+40504,4004,Personal Loan,419,1 Year Secured Loan,76352,0.02,0
+40505,4004,Personal Loan,419,1 Year Secured Loan,80824,0.02,0
+40506,4004,Personal Loan,419,1 Year Secured Loan,73574,0.02,0
+40507,4004,Personal Loan,419,1 Year Secured Loan,64405,0.02,0
+40508,4004,Personal Loan,419,1 Year Secured Loan,19550,0.02,0
+40509,4004,Personal Loan,419,1 Year Secured Loan,44128,0.02,0
+40510,4004,Personal Loan,419,1 Year Secured Loan,49242,0.02,0
+40511,4004,Personal Loan,419,1 Year Secured Loan,45903,0.02,0
+40512,4004,Personal Loan,419,1 Year Secured Loan,19738,0.02,0
+40513,4004,Personal Loan,419,1 Year Secured Loan,90079,0.02,0
+40514,4004,Personal Loan,420,1 Year Unsecured Loan,67440,0.02,0
+40515,4004,Personal Loan,420,1 Year Unsecured Loan,27800,0.02,0
+40516,4004,Personal Loan,420,1 Year Unsecured Loan,70057,0.02,0
+40517,4004,Personal Loan,420,1 Year Unsecured Loan,86959,0.02,0
+40518,4004,Personal Loan,420,1 Year Unsecured Loan,27002,0.02,0
+40519,4004,Personal Loan,420,1 Year Unsecured Loan,56662,0.02,0
+40520,4004,Personal Loan,420,1 Year Unsecured Loan,19729,0.02,0
+40521,4004,Personal Loan,420,1 Year Unsecured Loan,92618,0.02,0
+40522,4004,Personal Loan,420,1 Year Unsecured Loan,75774,0.02,0
+40523,4004,Personal Loan,420,1 Year Unsecured Loan,67458,0.02,0
+40524,4004,Personal Loan,420,1 Year Unsecured Loan,28781,0.02,0
+40525,4004,Personal Loan,420,1 Year Unsecured Loan,69204,0.02,0
+40526,4004,Personal Loan,420,1 Year Unsecured Loan,73760,0.02,0
+40527,4004,Personal Loan,420,1 Year Unsecured Loan,93783,0.02,0
+40528,4004,Personal Loan,420,1 Year Unsecured Loan,82301,0.02,0
+40529,4004,Personal Loan,420,1 Year Unsecured Loan,94858,0.02,0
+40530,4004,Personal Loan,420,1 Year Unsecured Loan,22832,0.02,0
+40531,4004,Personal Loan,420,1 Year Unsecured Loan,58510,0.02,0
+40532,4004,Personal Loan,420,1 Year Unsecured Loan,83300,0.02,0
+40533,4004,Personal Loan,420,1 Year Unsecured Loan,97379,0.02,0
+40534,4004,Personal Loan,420,1 Year Unsecured Loan,36050,0.02,0
+40535,4004,Personal Loan,420,1 Year Unsecured Loan,90275,0.02,0
+40536,4004,Personal Loan,420,1 Year Unsecured Loan,13479,0.02,0
+40537,4004,Personal Loan,420,1 Year Unsecured Loan,91891,0.02,0
+40538,4004,Personal Loan,420,1 Year Unsecured Loan,43379,0.02,0
+40539,4004,Personal Loan,420,1 Year Unsecured Loan,70687,0.02,0
+40540,4004,Personal Loan,420,1 Year Unsecured Loan,65015,0.02,0

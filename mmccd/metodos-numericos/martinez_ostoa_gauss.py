@@ -30,6 +30,32 @@ def operate(row, A):
       A[i][j] += A[row][j] * e
   return A
 
+def solve(A):
+    X = [A[A.shape[0]-1][-1]]
+    sol_index = -2
+    for row in range(A.shape[0]-2,-1,-1):
+        stored_sol_idx = sum_ = 0
+        for sol_col in range(-1, sol_index-1, -1):
+            if sol_col == -1:
+                sum_ += A[row][sol_col]
+                continue
+            sum_ -= A[row][sol_col]*X[stored_sol_idx]
+            stored_sol_idx += 1
+        X.append(sum_)
+        sol_index -= 1
+    return np.array(X)[::-1]
+
+def gauss(A, B=None):
+    if B is not None:
+        A = np.append(A, B, axis=1)
+    for i in range(len(A)):
+        element = A[i][i]
+        if element == 0:
+            A = swap(i, A)
+            element = A[i][i]
+        A = norm(i, A)
+        A = operate(i, A)
+    return solve(A)
 
 
 #A = np.array([[-4, -3, 1], [8, 11, -1], [4, 18, 5]]) #LU
@@ -54,13 +80,5 @@ A = np.array([
   [0,0,0,0,0,0,0,0,0,1,0,0,0,1,-4,-70.710678]
 ])
 
-
-
-for i in range(0, len(A)):
-  element = A[i][i]
-  if element == 0:
-    A = swap(i, A)
-    element = A[i][i]
-  A = norm(i, A)
-  A = operate(i, A)
-  print_matrix(A)
+S = gauss(A)
+print(S)
