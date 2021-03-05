@@ -1,0 +1,1000 @@
+ 1015  cd FP101/
+ 1016  ll
+ 1017  mv code_at_fi/* ./
+ 1018  ll
+ 1019  rm -rf code_at_fi/
+ 1020  ll
+ 1021  tree
+ 1022  code README.md 
+ 1023  git status
+ 1024  git add .
+ 1025  git commit -m "added books and syllabus directory"
+ 1026  git push
+ 1027  xopen books/PythonCrashCourse_EricMatthes.pdf 
+ 1028  calendar
+ 1029  cal
+ 1030  cal 3
+ 1031  cal 2021
+ 1032  ll
+ 1033  cd syllabus/
+ 1034  ll
+ 1035  mv dsa/ curricular_clases
+ 1036  cd ..
+ 1037  git status
+ 1038  git add .
+ 1039  git commit -m "renamed directory name"
+ 1040  git push
+ 1041  ll
+ 1042  cd ..
+ 1043  ll
+ 1044  cd ../Downloads/
+ 1045  ll
+ 1046  mv Syllabus.pdf FP101_draft_inicial.pdf
+ 1047  xopen FP101_draft_inicial.pdf 
+ 1048  mv FP101_draft_inicial.pdf FP101_syllabus_draft_inicial.pdf
+ 1049  rm FP101_syllabus_draft_inicial.pdf 
+ 1050  exit
+ 1051  sudo reboot
+ 1052  exit
+ 1053  sudo /sbin/vboxconfig 
+ 1054  sudo apt-get remove virtualbox
+ 1055  sudo apt-get --list
+ 1056  man apt
+ 1057  apt search virtualbox
+ 1058  sudo apt-get remove --purge virtualbox
+ 1059  exit
+ 1060  bde-pwd
+ 1061  exit
+ 1062  cd ..
+ 1063  cd Desktop/
+ 1064  ll
+ 1065  cd LCD_libros/
+ 1066  ll
+ 1067  cd ..
+ 1068  ll
+ 1069  cd files/
+ 1070  ll
+ 1071  cd books/
+ 1072  cd ..
+ 1073  cd data-science-masters/
+ 1074  ll
+ 1075  cd ..
+ 1076  ll
+ 1077  mv books/ ../
+ 1078  cd ..
+ 1079  ll
+ 1080  mv grad_schools/ files/
+ 1081  ll
+ 1082  mv LCD_libros/ books/
+ 1083  ll
+ 1084  cd books/
+ 1085  ll
+ 1086  xopen ./
+ 1087  ll
+ 1088  cd Chino/
+ 1089  ll
+ 1090  cd ..
+ 1091  ll
+ 1092  ls
+ 1093  mkdir datascience
+ 1094  mv 2017_Book_TheDataScienceDesignManual.pdf datascience/
+ 1095  xopen ./
+ 1096  exit
+ 1097  cd Downloads/
+ 1098  ll
+ 1099  tmux
+ 1100  exit
+ 1101  cd Desktop/
+ 1102  cd iimas-data-science/
+ 1103  cd 2021-2/
+ 1104  cd metest/
+ 1105  ll
+ 1106  cd R/
+ 1107  ll
+ 1108  open muestras_aleat.r 
+ 1109  xopen muestras_aleat.r 
+ 1110  exit
+ 1111  ls -F
+ 1112  ls
+ 1113  ññ
+ 1114  ll
+ 1115  ls -F
+ 1116  ls -F snap/
+ 1117  cd ..
+ 1118  ls -F
+ 1119  cd lost+found/
+ 1120  ll
+ 1121  cd ..
+ 1122  sudo su
+ 1123  cat
+ 1124  cd De
+ 1125  cd home/nestor/Desktop/
+ 1126  ll
+ 1127  sort 
+ 1128  sort > compras
+ 1129  cat compras 
+ 1130  sort < compras
+ 1131  sort >> compras
+ 1132  compras
+ 1133  less compras
+ 1134  cat compras
+ 1135  ls > sort > ls_sorted
+ 1136  cat ls_sorted 
+ 1137  ls > sort
+ 1138  ls | sort
+ 1139  ls -F
+ 1140  cat sort
+ 1141  ls | sort -r
+ 1142  ls -F
+ 1143  ls /usr/bin/ | less
+ 1144  ls -l
+ 1145  ls -l > sort
+ 1146  cat sort
+ 1147  rm sort
+ 1148  ls -l
+ 1149  ls -l | sort
+ 1150  ls -l | sort -r 
+ 1151  ls -l | sort -r  | head -1
+ 1152  ls -l | sort -r  | head 2
+ 1153  ls -l | sort -r  | head -2
+ 1154  ls
+ 1155  iexit
+ 1156  exit
+ 1157  speedtest
+ 1158  big data sets with a parallel, distributed algorithm on a cluster.[1][2][3]
+ 1159  A MapReduce program is composed of a map procedure, which performs filtering and sorting (such as sorting students by first name into queues, one queue for each name), and a reduce method, which performs a summary operation (such as counting the number of students in each queue, yielding name frequencies). The "MapReduce System" (also called "infrastructure" or "framework") orchestrates the processing by marshalling the distributed servers, running the various tasks in parallel, managing all communications and data transfers between the various parts of the system, and providing for redundancy and fault tolerance.
+ 1160  The model is a specialization of the split-apply-combine strategy for data analysis.[4] It is inspired by the map and reduce functions commonly used in functional programming,[5] although their purpose in the MapReduce framework is not the same as in their original forms.[6] The key contributions of the MapReduce framework are not the actual map and reduce functions (which, for example, resemble the 1995 Message Passing Interface standard's[7] reduce[8] and scatter[9] operations), but the scalability and fault-tolerance achieved for a variety of applications by optimizing the execution engine[citation needed]. As such, a single-threaded implementation of MapReduce is usually not faster than a traditional (non-MapReduce) implementation; any gains are usually only seen with multi-threaded implementations on multi-processor hardware.[10] The use of this model is beneficial only when the optimized distributed shuffle operation (which reduces network communication cost) and fault tolerance features of the MapReduce framework come into play. Optimizing the communication cost is essential to a good MapReduce algorithm.[11]
+ 1161  MapReduce libraries have been written in many programming languages, with different levels of optimization. A popular open-source implementation that has support for distributed shuffles is part of Apache Hadoop. The name MapReduce originally referred to the proprietary Google technology, but has since been genericized. By 2014, Google was no longer using MapReduce as their primary big data processing model,[12] and development on Apache Mahout had moved on to more capable and less disk-oriented mechanisms that incorporated full map and reduce capabilities.[13]
+ 1162  Contents
+ 1163  exit
+ 1164  7yyyyyyyyyyyyyyyyyyyyyyyyyq444444444444444444444444444ytiiiijuijidsewsaqqA<ZEWDSe
+ 1165  exit
+ 1166  sudo su
+ 1167  exit
+ 1168  tmux
+ 1169  cd Downloads/
+ 1170  ll
+ 1171  mv 'Code@FI - Draft.pdf' FP101_propuesta.pdf
+ 1172  cd Downloads/
+ 1173  ll
+ 1174  xopen ./
+ 1175  cd Desktop/
+ 1176  vim notas.md
+ 1177  exit
+ 1178  bde-pwd
+ 1179  exit
+ 1180  cd Desktop/
+ 1181  git clone https://github.com/nestorivanmo/CursoDatosMasivosI.git
+ 1182  ll
+ 1183  cd CursoDatosMasivosI/
+ 1184  ll
+ 1185  cd notebooks/
+ 1186  ll
+ 1187  code 2a_primeros_pasos.ipynb 
+ 1188  exit
+ 1189  cd Downloads/
+ 1190  ll
+ 1191  unzip players_20.csv.zip 
+ 1192  mv Downloads/3ldgn_compara_med.r Desktop/iimas-data-science/2021-2/metest/R/
+ 1193  cd Desktop/iimas-data-science/2021-2/metest/
+ 1194  ll
+ 1195  cd R/
+ 1196  ll
+ 1197  mv intro.r 1intro.r
+ 1198  ll
+ 1199  mv muestras_aleat.r 2muestras_aleat.r
+ 1200  ll
+ 1201  xopen 3ldgn_compara_med.r 
+ 1202  ll
+ 1203  pwd
+ 1204  sudo reboot
+ 1205  cd Desktop/iimas-data-science/
+ 1206  git pull
+ 1207  git status
+ 1208  exit
+ 1209  cd Desktop/
+ 1210  cd iimas-data-science/
+ 1211  git status
+ 1212  git add .
+ 1213  git commit -m "..."
+ 1214  git push
+ 1215  git pull
+ 1216  git status
+ 1217  git push
+ 1218  ls
+ 1219  cd 2021-2/
+ 1220  ll
+ 1221  cd metest/
+ 1222  ll
+ 1223  cd R/
+ 1224  ll
+ 1225  mv sinave.r ~/Desktop/
+ 1226  git add .
+ 1227  git commit -m "..."
+ 1228  git push
+ 1229  mv ~/Desktop/sinave.r ./
+ 1230  ll
+ 1231  mv sisver_public.csv ~/Desktop/
+ 1232  git add .
+ 1233  git commit -m "..."
+ 1234  git push
+ 1235  ls
+ 1236  git status
+ 1237  cd ..
+ 1238  ls
+ 1239  cd metest/
+ 1240  cd ..
+ 1241  tree
+ 1242  cd vi/
+ 1243  ll
+ 1244  mv ejemplo\ inicial.ipynb 1-ejemplo_inicial.ipynb
+ 1245  code 1-ejemplo_inicial.ipynb 
+ 1246  ewdf4efdt4eeeeeeeeeeeeeeeeeeeeeeediuiy76
+ 1247  sudo reboot
+ 1248  cd Desktop/iimas-data-science/2021-2/
+ 1249  cd vi/
+ 1250  ll
+ 1251  mv Práctica2 Practica2.pdf
+ 1252  xopen Practica2.pdf 
+ 1253  sudo shutdown now
+ 1254  cd Desktop/
+ 1255  mv Practica_0_MartinezOstoaNestor.pdf iimas-data-science/2021-2/vi/
+ 1256  cd iimas-data-science/2021-2/vi/
+ 1257  ll
+ 1258  mkdir practicas
+ 1259  mkdir practicas/0
+ 1260  mv Practica_0_MartinezOstoaNestor.pdf practicas/0/
+ 1261  mv 1-ejemplo_inicial.ipynb practicas/0/
+ 1262  mkdir practicas/1
+ 1263  tree
+ 1264  ls
+ 1265  mv Customer_Churn_Model.txt practicas/0/
+ 1266  mv movies.csv practicas/0/
+ 1267  ls
+ 1268  mv *2* practicas/1/
+ 1269  ls
+ 1270  tree
+ 1271  cd practicas/1/
+ 1272  ls
+ 1273  cd ..
+ 1274  ls
+ 1275  mv 2_cubo_colores.ipynb practicas/1/
+ 1276  cd practicas/1/
+ 1277  ls
+ 1278  mv 2_cubo_colores.ipynb practica_1_colores.ipynb
+ 1279  mv Practica2.pdf Instrucciones.pdf
+ 1280  xopen IN
+ 1281  xopen Instrucciones.pdf 
+ 1282  ls
+ 1283  code practica_1_colores.ipynb 
+ 1284  exit
+ 1285  cd Downloads/
+ 1286  ls
+ 1287  mv Tarea1Lunes19.pdf T1_redes.pdf
+ 1288  mv Tarea2Martes20Redes.pdf T2_martes.pdf
+ 1289  mv T3Miercoles21Redes.pdf T3_redes.pdf
+ 1290  mv T2_martes.pdf T2_redes.pdf
+ 1291  ls
+ 1292  mv T5Jueves22Redes.pdf T5_redes.pdf
+ 1293  mv Tarea6viernes23Redes.pdf T6_redes.pdf
+ 1294  ls
+ 1295  cd ..
+ 1296  cd Desktop/iimas-data-science/
+ 1297  tmux
+ 1298  sudo pip3 install skimage
+ 1299  sudo pip3 install scikit-image
+ 1300  exit
+ 1301  cd ..
+ 1302  ls
+ 1303  git status
+ 1304  git add vi/*
+ 1305  git commit -m ".."
+ 1306  git push
+ 1307  git status
+ 1308  git stash
+ 1309  ls
+ 1310  git status
+ 1311  git stash
+ 1312  git pull
+ 1313  git push
+ 1314  cd ..
+ 1315  ls
+ 1316  rm -rf iimas-data-science/
+ 1317  git clone https://github.com/nestorivanmo/iimas-data-science.git
+ 1318  cd iimas-data-science/
+ 1319  ls
+ 1320  cd 2021-2/
+ 1321  ls
+ 1322  cp -r ../../backup/2021-2/metest/ ./
+ 1323  ls
+ 1324  rm -rf vi
+ 1325  cp -r ../../backup/2021-2/vi/ ./
+ 1326  ls
+ 1327  tree
+ 1328  git status
+ 1329  git add .
+ 1330  git commit -m "..."
+ 1331  git push
+ 1332  exit
+ 1333  cd ..
+ 1334  ll
+ 1335  cd ..
+ 1336  ls
+ 1337  ll
+ 1338  cp -R iimas-data-science/ backup
+ 1339  ll
+ 1340  cd backup/
+ 1341  ls
+ 1342  cd ..
+ 1343  ls
+ 1344  exit
+ 1345  cd Desktop/iimas-data-science/2021-2/vi/practicas/1/
+ 1346  ll
+ 1347  xopen Instrucciones.pdf 
+ 1348  git status
+ 1349  git add .
+ 1350  git commit -m "..."
+ 1351  git push
+ 1352  tmux
+ 1353  exit
+ 1354  mv Desktop/lion.png Desktop/iimas-data-science/2021-2/vi/practicas/1/
+ 1355  git diff
+ 1356  cd Desktop/iimas-data-science/2021-2/vi/
+ 1357  cd practicas/1/
+ 1358  git diff
+ 1359  sudo apt install texlive-latex-extra
+ 1360  vim test.tex
+ 1361  pdflatex test.tex 
+ 1362  evince test.pdf 
+ 1363  exit
+ 1364  cd de
+ 1365  cd Desktop/
+ 1366  git clone https://github.com/jupyter/nbconvert.git
+ 1367  pip install -e
+ 1368  pip3 install -e
+ 1369  sudo apt-get install pandoc
+ 1370  sudo su
+ 1371  sudo apt-get install inkscape
+ 1372  sudo apt-get install texlive-xetex texlive-fonts-recommended
+ 1373  apt-get install texlive-xetex texlive-fonts-recommended texlive-generic-recommended
+ 1374  sudo apt-get install texlive-xetex texlive-fonts-recommended texlive-generic-recommended
+ 1375  texlive-generic-recommended
+ 1376  cd iimas-data-science/2021-2/vi/practicas/1/
+ 1377  jupyter nbconvert --to pdf practica_1_colores.ipynb 
+ 1378  pip3 install --upgrade Pygments
+ 1379  jupyter nbconvert --to pdf practica_1_colores.ipynb 
+ 1380  ls
+ 1381  cd
+ 1382  cd Desktop/
+ 1383  cd nbconvert/
+ 1384  pip install -e
+ 1385  pip3 install -e
+ 1386  pip3 install -e .
+ 1387  pip3 install nbconvert
+ 1388  cd ..
+ 1389  cd iimas-data-science/2021-2/vi/
+ 1390  cd practicas/1/
+ 1391  ls
+ 1392  rm test.*
+ 1393  ls
+ 1394  jupyter nbconvert --to pdf practica_1_colores.ipynb 
+ 1395  ls
+ 1396  jupyter nbconvert --to pdf practica_1_colores.ipynb 
+ 1397  ls
+ 1398  jupyter nbconvert --to pdf practica_1_colores.ipynb --template classic
+ 1399  pip3 install nb_pdf_template
+ 1400  python -m nb_pdf_template.install
+ 1401  python3 -m nb_pdf_template.install
+ 1402  xopen ~/Downloads/practica_1_colores.pdf 
+ 1403  cd
+ 1404  cd Downloads/
+ 1405  mv practica_1_colores.pdf Practica_1_RGB_Martinez_Ostoa_Nestor.pdf
+ 1406  exit
+ 1407  cd Desktop/
+ 1408  ls
+ 1409  cd ..
+ 1410  cd Downloads/
+ 1411  ls
+ 1412  sudo dpkg -i teams_1.3.00.30857_amd64.deb 
+ 1413  exit
+ 1414  cd Downloads/
+ 1415  ls
+ 1416  ll
+ 1417  rm 1_-_Basic_Concepts.pdf 
+ 1418  rm 2_-_Cryptography.pdf 
+ 1419  ls
+ 1420  ll
+ 1421  rm Caratula.*
+ 1422  rm Info_AIDA08SH_F2.rar 
+ 1423  rm players_20.csv
+ 1424  rm Pattern-recognition-review.pdf 
+ 1425  xopen T1_redes.pdf 
+ 1426  rm teams_1.3.00.30857_amd64.deb 
+ 1427  rm Tarea_1_Aplicaciones_MartinezOstoaNestor.pdf 
+ 1428  xopen Tema1.ConceptosBasicos.pdf 
+ 1429  rm Tema1.ConceptosBasicos.pdf 
+ 1430  ll
+ 1431  rm CCNA\ Routing\ and\ Switching\ Portable\ Command\ Guide\ \(ICND1\ 100-105\,\ ICND2\ 200-105\,\ and\ CCNA\ 200-125\)\ \(4th\ Edition\)\ by\ Scott\ Empson\ \(z-lib.org\).pdf 
+ 1432  mkdir redes
+ 1433  mv ansi-tia-eia-568-* redes/
+ 1434  mv T*_redes redes/
+ 1435  mv T* redes/
+ 1436  tree redes/
+ 1437  mv redes/Telegram\ Desktop/ ./
+ 1438  ls
+ 1439  tree redes/
+ 1440  ll
+ 1441  mv contour_gray.png ../Desktop/
+ 1442  mv Imagenes* ../Desktop/
+ 1443  cd ../Desktop/
+ 1444  ls
+ 1445  ll
+ 1446  rm compras 
+ 1447  mv cuestionario_previo_1.md ../Downloads/redes/
+ 1448  mv ../Downloads/redes/ ./
+ 1449  ls
+ 1450  ll
+ 1451  rm -rf redes/
+ 1452  ll
+ 1453  cd CursoDatosMasivosI/
+ 1454  ls
+ 1455  cd ..
+ 1456  ll
+ 1457  mkdir resources
+ 1458  mv contour_gray.png resources/
+ 1459  mv Imagenes* resources/
+ 1460  ls
+ 1461  ll
+ 1462  mv resources/ iimas-data-science/2021-2/rp/practicas/1/
+ 1463  ll
+ 1464  rm ls_sorted 
+ 1465  ll
+ 1466  rm .notas.md.swp 
+ 1467  rm -rf nbconvert/
+ 1468  ll
+ 1469  xopen Practica_0_MartinezOstoaNestor.odt 
+ 1470  mv Practica_0_MartinezOstoaNestor.odt iimas-data-science/2021-2/vi/practicas/0/
+ 1471  cd iimas-data-science/2021-2/
+ 1472  tree vi/
+ 1473  rm vi/practicas/0/Practica_0_MartinezOstoaNestor.odt 
+ 1474  cd rp/
+ 1475  ll
+ 1476  cd practicas/1/
+ 1477  ls
+ 1478  cd resources/
+ 1479  ls
+ 1480  unzip Imagenes2.zip 
+ 1481  unzip Imagenes
+ 1482  unzip Imagenes.zip 
+ 1483  ls
+ 1484  rm *.zip
+ 1485  ls
+ 1486  tree 
+ 1487  tree
+ 1488  cd ..
+ 1489  ls
+ 1490  cd 1/
+ 1491  tee
+ 1492  tree
+ 1493  code ./
+ 1494  ll
+ 1495  rm face.png 
+ 1496  fm face.raw 
+ 1497  rm face.raw 
+ 1498  rm random_0*
+ 1499  ls
+ 1500  ll
+ 1501  pip3 install pil
+ 1502  pip3 install pillow
+ 1503  mv ~/Desktop/landscape.png ./resources/
+ 1504  ll
+ 1505  cd resources/
+ 1506  ll
+ 1507  cd ..
+ 1508  xopen ./
+ 1509  cd resources/
+ 1510  rm landscape.xcf 
+ 1511  cd ..
+ 1512  ls
+ 1513  git stauts
+ 1514  git status
+ 1515  git add .
+ 1516  git commit -m "..."
+ 1517  git push
+ 1518  git status
+ 1519  git add .
+ 1520  git commit -m "..."
+ 1521  git push
+ 1522  git status
+ 1523  cd ..
+ 1524  cd 2021-2/
+ 1525  git status
+ 1526  git add vi/practicas/1/practica_1_colores.ipynb 
+ 1527  git add vi/practicas/1/lion.png 
+ 1528  git status
+ 1529  git commit -m "..."
+ 1530  git push
+ 1531  git status
+ 1532  git rp/practicas/1/
+ 1533  cd rp/practicas/1/
+ 1534  ls
+ 1535  ll
+ 1536  tree
+ 1537  pwd
+ 1538  git status
+ 1539  git add .
+ 1540  git commit -m "..."
+ 1541  git push
+ 1542  git status
+ 1543  exit
+ 1544  mv Downloads/IMG_5686.jpg Desktop/iimas-data-science/2021-2/rp/practicas/1/
+ 1545  cd Desktop/iimas-data-science/2021-2/rp/practicas/1/
+ 1546  code .(
+ 1547  code ./
+ 1548  exit
+ 1549  whoami
+ 1550  fdisk -l
+ 1551  cd ..
+ 1552  ls -l sbin/fdisk
+ 1553  exit
+ 1554  sudo su
+ 1555  exit
+ 1556  cat /etc/passwd
+ 1557  whoami
+ 1558  tmuz
+ 1559  tmux
+ 1560  exit
+ 1561  cd Desktop/
+ 1562  ls
+ 1563  mv code-fi/ code-fi-unam
+ 1564  cd code-fi-unam/
+ 1565  ls
+ 1566  cd books/
+ 1567  ls
+ 1568  xopen The_ANSI_C_Programming_Language.pdf 
+ 1569  xopen Introduction_to_algorithms_Cormen.pdf 
+ 1570  xopen 2020_Book_TheAlgorithmDesignManual.pdf 
+ 1571  exit
+ 1572  sudo reboot
+ 1573  cd Desktop/
+ 1574  ls
+ 1575  ll
+ 1576  cd code-fi-unam/
+ 1577  git status
+ 1578  cd ..
+ 1579  mv code-fi-unam/ backup
+ 1580  mkdir code-fi-unam
+ 1581  mv backup/* code-fi-unam/
+ 1582  tree code-fi-unam/
+ 1583  rm -rf backup/
+ 1584  ll
+ 1585  cd code-fi-unam/
+ 1586  ls
+ 1587  cd ..
+ 1588  ls
+ 1589  ll
+ 1590  exit
+ 1591  cd Desktop/iimas-data-science/2021-2/rp/practicas/1/
+ 1592  code ./
+ 1593  l
+ 1594  ll
+ 1595  rm gs_nestor.jpg 
+ 1596  rm im
+ 1597  rm IMG_5686.jpg 
+ 1598  cd Im
+ 1599  cd resources/Imagenes/
+ 1600  ls
+ 1601  rm 10*
+ 1602  rm *10*
+ 1603  ll
+ 1604  mkdir Imagenes_10x
+ 1605  mkdir Imagenes_3x
+ 1606  tree
+ 1607  exit
+ 1608  cd Desktop/iimas-data-science/2021-2/rp/
+ 1609  git status
+ 1610  git add .
+ 1611  git commit -m ".."
+ 1612  git push
+ 1613  sudo reboot
+ 1614  cd Desktop/iimas-data-science/2021-2/
+ 1615  ls
+ 1616  vi ~/.bashrc
+ 1617  source ~/.bashrc
+ 1618  cd
+ 1619  ds
+ 1620  exit
+ 1621  ds
+ 1622  cd rp/practicas/1/
+ 1623  weather
+ 1624  ls
+ 1625  code ./
+ 1626  tmux
+ 1627  ds
+ 1628  git status
+ 1629  git add .
+ 1630  git commit -m ".."
+ 1631  git push
+ 1632  cd rp/practicas/1/
+ 1633  tree resources/
+ 1634  git status
+ 1635  git add .
+ 1636  git commit -m "..."
+ 1637  git push
+ 1638  exit
+ 1639  sudo reboot
+ 1640  exit
+ 1641  sudo docker help
+ 1642  docker ps -a 
+ 1643  sudo docker ps -a
+ 1644  sudo docker exec -it contenedor_redis redis-cli
+ 1645  exit
+ 1646  docker ps -a
+ 1647  sudo docker ps -a
+ 1648  sudo docker start contenedor_redis
+ 1649  sudo docker exec -it contenedor_redis redis_cli
+ 1650  sudo docker exec -it contenedor_redis redis-cli
+ 1651  sudo docker exec -it contenedor_redis redis-benchmark
+ 1652  sudo exec -it contenedor_redis redis-cli
+ 1653  sudo docker exec -it contenedor_redis redis-cli
+ 1654  exit
+ 1655  tmux
+ 1656  exit
+ 1657  cd Downloads/
+ 1658  mkdir p2_cal
+ 1659  mv P2-CayPre-Dedup-Talend-FEB-recordlinkage.zip p2_cal/
+ 1660  cd p2_cal/
+ 1661  unzip P2-CayPre-Dedup-Talend-FEB-recordlinkage.zip 
+ 1662  ls
+ 1663  ll
+ 1664  unzip P2-CayPre-Dedup-Talend-FEB-recordlinkage.zip 
+ 1665  xopen
+ 1666  xopen ./
+ 1667  exit
+ 1668  ds
+ 1669  cd rp/practicas/1/
+ 1670  code ./
+ 1671  ll
+ 1672  rm -rf pycharm_project/
+ 1673  git status
+ 1674  exit
+ 1675  sudo apt-remove --purge virtualbox
+ 1676  sudo apt-get remove --purge virtualbox
+ 1677  man apt
+ 1678  apt search virtualbox
+ 1679  sudo apt remove --purge virtualbox
+ 1680  sudo apt-get remove --purge virtualbox 
+ 1681  sudo apt-get remove virtualbox* --purge
+ 1682  sudo apt-get install virtualbox
+ 1683  exit
+ 1684  cd Desktop/
+ 1685  ls
+ 1686  git clone https://github.com/nestorivanmo/computer-engineering.git
+ 1687  ls
+ 1688  cd computer-engineering/
+ 1689  ls
+ 1690  mkdir spring-21
+ 1691  cd spring-21/
+ 1692  mkdir csa
+ 1693  cd csa
+ 1694  vim print-pid.c
+ 1695  cc print-pid.c -o print-pid
+ 1696  ./print-pid 
+ 1697  vim print-pid
+ 1698  vim print-pid.c 
+ 1699  cc print-pid
+ 1700  cc print-pid.c -o print-pid
+ 1701  ./print-pid 
+ 1702  rm print-pid
+ 1703  cc print-pid.c -o print-pid.o
+ 1704  ./print-pid.o 
+ 1705  vim ids.c
+ 1706  cc ids.c -o ids.o
+ 1707  ./ids.o 
+ 1708  git status
+ 1709  git add .
+ 1710  git commit -m ".."
+ 1711  git push
+ 1712  ./print-pid.o 
+ 1713  ./ids.o 
+ 1714  exit
+ 1715  ds
+ 1716  cd vi
+ 1717  ls
+ 1718  cd practicas/
+ 1719  ls
+ 1720  tree
+ 1721  exit
+ 1722  cd Downloads/
+ 1723  ls
+ 1724  mv p2_cal/ ~/Desktop/iimas-data-science/2021-2/calprep/practicas/2
+ 1725  ds
+ 1726  cd calprep/practicas/2/
+ 1727  tree
+ 1728  cd ..
+ 1729  ll
+ 1730  code ./
+ 1731  ds
+ 1732  sudo vim ~/.bashrc
+ 1733  sudo source ~/.bashrc
+ 1734  ds
+ 1735  exit
+ 1736  ds
+ 1737  ls
+ 1738  mkdir calprep
+ 1739  cd calprep/
+ 1740  mkdir practicas
+ 1741  mkdir 2
+ 1742  ls
+ 1743  tree
+ 1744  rm -rf 2
+ 1745  tree
+ 1746  cd practicas/2/
+ 1747  ls
+ 1748  unzip P2-CayPre-Dedup-Talend-FEB-recordlinkage.zip 
+ 1749  ls
+ 1750  unzip -P 673511509 P2-CayPre-Dedup-Talend-FEB-recordlinkage.zip 
+ 1751  7za x P2-CayPre-Dedup-Talend-FEB-recordlinkage.zip 
+ 1752  ls
+ 1753  rm P2-CayPre-Dedup-Talend-FEB-recordlinkage.
+ 1754  ll
+ 1755  rm P2-CayPre-Dedup-Talend-FEB-recordlinkage.zip 
+ 1756  ll
+ 1757  xopen P2-CayPre-Dedup-Talend-FEB-recordlinkage.pdf 
+ 1758  cd ..
+ 1759  ls
+ 1760  cd ..
+ 1761  ds
+ 1762  cd ..
+ 1763  ls
+ 1764  mv 2021-1/ fall-20
+ 1765  mv 2021-2/ spring-21
+ 1766  ll
+ 1767  exti
+ 1768  exit
+ 1769  cd
+ 1770  sudo apt-get update -y
+ 1771  sudo apt-get install -y python-gtk2
+ 1772  python3
+ 1773  python-gtk2
+ 1774  git clone https://gitlab.gnome.org/GNOME/jhbuild.git
+ 1775  cd jhbuild/
+ 1776  ./autogen.sh 
+ 1777  make
+ 1778  make install
+ 1779  jhbuild
+ 1780  jhbuild sanitycheck
+ 1781  sudo apt-get install docbook-xsl
+ 1782  jhbuild sanitycheck
+ 1783  sudo apt-get install flex
+ 1784  jhbuild sanitycheck
+ 1785  sudo apt-get install bison
+ 1786  jhbuild sanitycheck
+ 1787  jhbuild build pygobject
+ 1788  jhbuild sysdeps --install pygobject
+ 1789  jhbuild build gkt+-3
+ 1790  jhbuild build gtk+-3
+ 1791  jhbuild sysdeps --install gtk+-3
+ 1792  cd ..
+ 1793  python3
+ 1794  cd Downloads/
+ 1795  cd ..
+ 1796  ls
+ 1797  rm -rf jhbuild/
+ 1798  exit
+ 1799  cd
+ 1800  cd Downloads/
+ 1801  pip3 install matplotlib
+ 1802  pip3 install pygtk
+ 1803  pip3 install gtk
+ 1804  pip install PyGTK
+ 1805  pip3 install PyGTK
+ 1806  pip3 install python-gtk2
+ 1807  python3
+ 1808  wget http://archive.ubuntu.com/ubuntu/pool/universe/p/pygtk/python-gtk2_2.24.0-5.1ubuntu2_amd64.deb
+ 1809  sudo apt-get install ./python-gtk2_2.24.0-5.1ubuntu2_amd64.deb
+ 1810  python3
+ 1811  pip3 install pygtk
+ 1812  pip3 install python-gtk2
+ 1813  sudo apt-get update -y
+ 1814  ds
+ 1815  ds21
+ 1816  ds
+ 1817  code ./
+ 1818  git status
+ 1819  git add .
+ 1820  git status
+ 1821  git commit -m "new file structure"
+ 1822  git push
+ 1823  ds21
+ 1824  ls
+ 1825  cd calprep/
+ 1826  cd practicas/2/
+ 1827  ls
+ 1828  xopen P2-CayPre-Dedup-Talend-FEB-recordlinkage.pdf 
+ 1829  tmux
+ 1830  sudo reboot
+ 1831  ll
+ 1832  vim codigo4_fork.c 
+ 1833  vim codigo5_fork2.c 
+ 1834  vim child.c
+ 1835  exit
+ 1836  cc codigo4_fork.c -o codigo4_fork.o
+ 1837  ./codigo4_fork.o 
+ 1838  mv ~/Downloads/*.c ./
+ 1839  ls
+ 1840  ls -f
+ 1841  ll
+ 1842  ls -l
+ 1843  ll
+ 1844  cat codigo3_system.c 
+ 1845  cc codigo3_system.c codigo3_system.o
+ 1846  cc codigo3_system.c -o codigo3_system.o
+ 1847  ./codigo3_system.o 
+ 1848  ./codigo4_fork.o 
+ 1849  htop
+ 1850  mv ~/Downloads/*.c ./
+ 1851  cc codigo5_fork2.c -o codigo5_fork2.o
+ 1852  ./codigo5_fork2.o 
+ 1853  cc codigo5_fork2.c -o codigo5_fork2.o
+ 1854  ./codigo5_fork2.o 
+ 1855  cc child.c 
+ 1856  head codigo4_fork.
+ 1857  head codigo4_fork.c 
+ 1858  cc child.c -o child.o
+ 1859  ./child.o 
+ 1860  cc child.c -o child.o
+ 1861  ./child.o 
+ 1862  vimtutor
+ 1863  cc child.c -o child.o
+ 1864  ./child.o 
+ 1865  cc child.c -o child.o
+ 1866  ./child.o 
+ 1867  exit
+ 1868  ds21
+ 1869  git status
+ 1870  git pull
+ 1871  ls
+ 1872  cd
+ 1873  cd Desktop/
+ 1874  ls
+ 1875  cd computer-engineering/
+ 1876  git status
+ 1877  git pull
+ 1878  ls
+ 1879  cd spring-21/
+ 1880  ls
+ 1881  cd csa/
+ 1882  ls
+ 1883  mv ~/Downloads/*.c ./
+ 1884  ls
+ 1885  tmux
+ 1886  exit
+ 1887  ds21
+ 1888  cd rp/practicas/1/
+ 1889  ll
+ 1890  rm -rf .idea/
+ 1891  rm -rf venv/
+ 1892  code ./
+ 1893  git stauts
+ 1894  git status
+ 1895  git add .
+ 1896  git commit -m "removed unnecesary files"
+ 1897  git push
+ 1898  git status
+ 1899  cd 
+ 1900  cd de
+ 1901  cd Desktop/
+ 1902  ll
+ 1903  rm 120-dec
+ 1904  rm 120-dec.png 
+ 1905  rm 60-*
+ 1906  ll
+ 1907  rm Imagenes.zip 
+ 1908  ll
+ 1909  tree Imagenes/
+ 1910  rm -rf Imagenes/
+ 1911  ll
+ 1912  tree rp_imgs/
+ 1913  ll
+ 1914  cd CursoDatosMasivosI/
+ 1915  git status
+ 1916  git pull
+ 1917  ll
+ 1918  cd notebooks/
+ 1919  ll
+ 1920  cd ..
+ 1921  ll
+ 1922  rm -rf CursoDatosMasivosI/
+ 1923  exit
+ 1924  mv Downloads/4tcl.r Desktop/iimas-data-science/spring-21/metest/R/
+ 1925  ds21
+ 1926  cd metest/
+ 1927  cd R/
+ 1928  ll
+ 1929  xopen 4tcl.r 
+ 1930  exit
+ 1931  cd Desktop/
+ 1932  ll
+ 1933  ds21 
+ 1934  ll
+ 1935  cd dm/
+ 1936  ll
+ 1937  cd ..
+ 1938  code ./
+ 1939  pip3 install pyspark
+ 1940  exit
+ 1941  sudo reboot
+ 1942  ds21
+ 1943  cd calprep/
+ 1944  cd practicas/2/
+ 1945  ll
+ 1946  xopen P2-CayPre-Dedup-Talend-FEB-recordlinkage.pdf 
+ 1947  pip3 install recordlinkage
+ 1948  pip install pygobject
+ 1949  pip3 install pygobject
+ 1950  pip3 install pygtk
+ 1951  clear
+ 1952  ll
+ 1953  code ./
+ 1954  python generate.py
+ 1955  code ./
+ 1956  exit
+ 1957  cd Downloads/
+ 1958  ll
+ 1959  mv P3-CayPre-Dedup-Eval.zip ../Desktop/iimas-data-science/spring-21/calprep/practicas/
+ 1960  ds21
+ 1961  cd calprep/practicas/
+ 1962  ll
+ 1963  mkdir 3
+ 1964  mv P3-CayPre-Dedup-Eval.zip 3/
+ 1965  tree
+ 1966  cd 3/
+ 1967  history
+ 1968  history | grep "-P"
+ 1969  history | find "-P"
+ 1970  history
+ 1971  history | grep "7"
+ 1972  history | grep "7z"
+ 1973  7za x P3-CayPre-Dedup-Eval.zip 
+ 1974  ll
+ 1975  xopen P3-CayPre-Dedup-Eval.
+ 1976  xopen P3-CayPre-Dedup-Eval.pdf 
+ 1977  mv ~/Downloads/basketball.csv ../../../metest/
+ 1978  cd ..
+ 1979  cd metest/
+ 1980  ll
+ 1981  mkdir fridays
+ 1982  mv basketball.csv fridays/
+ 1983  cd fridays/
+ 1984  mkdir 2
+ 1985  mv basketball.csv 2/
+ 1986  ll
+ 1987  cd 3
+ 1988  cd 2
+ 1989  LL
+ 1990  ll
+ 1991  touch code.R
+ 1992  xopen code.R 
+ 1993  pwd
+ 1994  code ./
+ 1995  git status
+ 1996  git add .
+ 1997  git commit -m "..."
+ 1998  git push
+ 1999  exot
+ 2000  exit
+ 2001  pip3 install pyspark
+ 2002  ds21
+ 2003  ll
+ 2004  rm -rf .vscode/
+ 2005  git status
+ 2006  git add .
+ 2007  git commit -m "..."
+ 2008  git push
+ 2009  git status
+ 2010  ll
+ 2011  cd dm/
+ 2012  ll
+ 2013  code ./
+ 2014  history >> data.txt
