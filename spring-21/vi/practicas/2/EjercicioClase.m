@@ -5,7 +5,7 @@
 % This dataset is part of Matlab
 %
 
-#[x,y,z,v] = flow; & Not octave
+[x,y,z,v] = flow % Not octave
 clear 
 close all
 clc
