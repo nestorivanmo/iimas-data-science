@@ -83,7 +83,7 @@ clf(figure(5))
 %p = patch(isosurface(x,y,z,v,isovalue));
 p = patch ("Faces", f, "Vertices", vert, "EdgeColor", "none");
 pbaspect ([1 1 1]);
-isonormals(x,y,z,v,p);
+isonormals(x,y,z,v,p)
 set(p,'FaceColor',purple,'EdgeColor','none');
 view([-10 40]);
 axis on;
@@ -124,8 +124,8 @@ v = rand (5, 5, 5);
 figure(7)
 isosurface (x, y, z, v, .5);
 
-N = 50;    # Increase number of vertices in each direction
-iso = .2;  # Change isovalue to .1 to display a sphere
+N = 50;    % Increase number of vertices in each direction
+iso = .2;  % Change isovalue to .1 to display a sphere
 lin = linspace (0, 2, N);
 [x, y, z] = meshgrid (lin, lin, lin);
 v = abs ((x-.5).^2 + (y-.5).^2 + (z-.5).^2);

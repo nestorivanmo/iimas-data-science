@@ -122,10 +122,18 @@ axis([0,20,-300,450]);
 % Inciso b)
 
 figure;
-yyaxis left;
-plot(time, y);
-yyaxis right;
-plot(time, h)
+p = plot(h, y, '-o', 'linewidth', 1.7);
+p.MarkerIndices = 1:10:length(h);
+p.MarkerEdgeColor = 'red';
+p.MarkerFaceColor = [1 .6 .6];
+p.MarkerSize = 6;
+hline = refline(0);
+hline.Color = [.6 .6 .6];
+axis([0 1000, -50, 400]);
+xlabel('Distancia horizontal en $m$', 'Interpreter', 'latex', 'FontSize', 15);
+ylabel('Distancia vertical en $m$', 'Interpreter', 'latex', 'FontSize', 15);
+title('Trayectoria para $v_0 = 100 [\frac{m}{s}]$, $h_0 = 0[m]$, $\theta = 60^\circ$ y $t\in[0,20]s$', 'Interpreter', 'latex', 'FontSize', 15);
+
 
 %% 
 
@@ -147,48 +155,29 @@ y3 = y0 + (v0*sin(theta(3))).*time -(0.5*g).*(time.^2);
 
 % 1)
 figure
-plot(time, h1, time, h2, time, h3, 'linewidth', 1.7);
-title('Distancia horizontal vs. tiempo para diferentes valores de $\theta$', 'Interpreter', 'latex', 'FontSize', 14);
-xlabel('Tiempo $t [s]$', 'Interpreter', 'latex', 'FontSize', 14);
-ylabel('Distancia horizontal $h [m]$', 'Interpreter', 'latex', 'FontSize', 14);
-%l = legend('$\theta = 30^\circ$', '$\theta = 45^\circ$', '$\theta = 80^\circ$', 'Location', 'northwest');
-%set(l, 'Interpreter', 'latex');
-%set(l, 'FontSize', 12);
-
-figure
-plot(time, y1, time, y2, time, y3, 'linewidth', 1.7);
-title('Distancia vertical vs. tiempo para diferentes valores de $\theta$', 'Interpreter', 'latex', 'FontSize', 14);
-xlabel('Tiempo $t [s]$', 'Interpreter', 'latex', 'FontSize', 14);
-ylabel('Distancia vertical $y [m]$', 'Interpreter', 'latex', 'FontSize', 14);
-axis([0,20,-1000,800]);
+plot(h1, y1, h2, y2, h3, y3, 'linewidth', 1.7);
 hline = refline(0);
-hline.Color = [.7 .7 .7];
-%l = legend('$\theta = 30^\circ$', '$\theta = 45^\circ$', '$\theta = 80^\circ$', 'Location', 'northwest');
-%set(l, 'Interpreter', 'latex');
-%set(l, 'FontSize', 12);
+hline.Color = [.6 .6 .6];
+title('Trayectorias para diferentes valores de $\theta$', 'Interpreter', 'latex', 'FontSize', 14);
+ylabel('Distancia vertical $h [m]$', 'Interpreter', 'latex', 'FontSize', 15);
+xlabel('Distancia horizontal $h [m]$', 'Interpreter', 'latex', 'FontSize', 15);
+l = legend('$\theta = 30^\circ$', '$\theta = 45^\circ$', '$\theta = 80^\circ$', 'Location', 'northeast');
+set(l, 'Interpreter', 'latex');
+%%
 
 % 2)
 figure
-plot(time, h1, time, h2, '--', time, h3,':', 'linewidth', 2.3);
-title('Distancia horizontal vs. tiempo para diferentes valores de $\theta$', 'Interpreter', 'latex', 'FontSize', 14);
-xlabel('Tiempo $t [s]$', 'Interpreter', 'latex', 'FontSize', 14);
-ylabel('Distancia horizontal $h [m]$', 'Interpreter', 'latex', 'FontSize', 14);
-l = legend('$\theta = 30^\circ$', '$\theta = 45^\circ$', '$\theta = 80^\circ$', 'Location', 'northwest');
-set(l, 'Interpreter', 'latex');
-set(l, 'FontSize', 12);
-
-figure
-plot(time, y1, time, y2, '--', time, y3, ':', 'linewidth', 2.3);
-title('Distancia vertical vs. tiempo para diferentes valores de $\theta$', 'Interpreter', 'latex', 'FontSize', 14);
-xlabel('Tiempo $t [s]$', 'Interpreter', 'latex', 'FontSize', 14);
-ylabel('Distancia vertical $y [m]$', 'Interpreter', 'latex', 'FontSize', 14);
-axis([0,20,-1000,800]);
+plot(h1, y1, h2, y2, '--', h3, y3, ':', 'linewidth', 2);
 hline = refline(0);
-hline.Color = [.7 .7 .7];
-l = legend('$\theta = 30^\circ$', '$\theta = 45^\circ$', '$\theta = 80^\circ$', 'Location', 'northwest');
+hline.Color = [.6 .6 .6];
+axis([0, 1750, -1000, 510]);
+title('Trayectorias para diferentes valores de $\theta$', 'Interpreter', 'latex', 'FontSize', 14);
+ylabel('Distancia vertical $h [m]$', 'Interpreter', 'latex', 'FontSize', 15);
+xlabel('Distancia horizontal $h [m]$', 'Interpreter', 'latex', 'FontSize', 15);
+l = legend('$\theta = 30^\circ$', '$\theta = 45^\circ$', '$\theta = 80^\circ$', 'Location', 'northeast');
 set(l, 'Interpreter', 'latex');
-set(l, 'FontSize', 12);
-%% 
+
+%%
 
 % 3)
 figure;
@@ -226,6 +215,11 @@ title('$\theta=30^\circ$', 'Interpreter', 'latex');
 l = legend('Distancia horizontal', 'Distancia vertical', 'Interpreter', 'latex');
 set(l, 'Location', 'northwest');
 
+%% 
+
+%
+%   Ejercicio 4: Conjuntos de Mandelbrot
+%
 
 
 
