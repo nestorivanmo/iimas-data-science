@@ -172,21 +172,21 @@ plot(time, h1, time, h2, '--', time, h3,':', 'linewidth', 1.7);
 title('Distancia horizontal vs. tiempo para diferentes valores de $\theta$', 'Interpreter', 'latex', 'FontSize', 14);
 xlabel('Tiempo $t [s]$', 'Interpreter', 'latex', 'FontSize', 14);
 ylabel('Distancia horizontal $h [m]$', 'Interpreter', 'latex', 'FontSize', 14);
-l = legend('$\theta = 30^\circ$', '$\theta = 45^\circ$', '$\theta = 80^\circ$', 'Location', 'northwest');
-set(l, 'Interpreter', 'latex');
-set(l, 'FontSize', 12);
+%l = legend('$\theta = 30^\circ$', '$\theta = 45^\circ$', '$\theta = 80^\circ$', 'Location', 'northwest');
+%set(l, 'Interpreter', 'latex');
+%set(l, 'FontSize', 12);
 
 figure
-plot(time, y1, time, y2, '--', time, y3, ':', 'linewidth', 1.7);
+plot(time, y1, time, y2, time, y3, ':', 'linewidth', 1.7);
 title('Distancia vertical vs. tiempo para diferentes valores de $\theta$', 'Interpreter', 'latex', 'FontSize', 14);
 xlabel('Tiempo $t [s]$', 'Interpreter', 'latex', 'FontSize', 14);
 ylabel('Distancia vertical $y [m]$', 'Interpreter', 'latex', 'FontSize', 14);
 axis([0,20,-1000,800]);
 hline = refline(0);
 hline.Color = [.7 .7 .7];
-l = legend('$\theta = 30^\circ$', '$\theta = 45^\circ$', '$\theta = 80^\circ$', 'Location', 'northwest');
-set(l, 'Interpreter', 'latex');
-set(l, 'FontSize', 12);
+%l = legend('$\theta = 30^\circ$', '$\theta = 45^\circ$', '$\theta = 80^\circ$', 'Location', 'northwest');
+%set(l, 'Interpreter', 'latex');
+%set(l, 'FontSize', 12);
 
 
 
