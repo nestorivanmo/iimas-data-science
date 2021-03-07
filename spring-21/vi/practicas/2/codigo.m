@@ -117,7 +117,7 @@ l = legend(vline, '$t=17.701$', 'Location', 'northwest');
 set(l, 'Interpreter', 'latex');
 set(l, 'FontSize', 12);
 axis([0,20,-300,450]);
-
+%% 
 
 % Inciso b)
 
@@ -126,6 +126,7 @@ yyaxis left;
 plot(time, y);
 yyaxis right;
 plot(time, h)
+
 %% 
 
 % Inciso c)
@@ -168,7 +169,7 @@ hline.Color = [.7 .7 .7];
 
 % 2)
 figure
-plot(time, h1, time, h2, '--', time, h3,':', 'linewidth', 1.7);
+plot(time, h1, time, h2, '--', time, h3,':', 'linewidth', 2.3);
 title('Distancia horizontal vs. tiempo para diferentes valores de $\theta$', 'Interpreter', 'latex', 'FontSize', 14);
 xlabel('Tiempo $t [s]$', 'Interpreter', 'latex', 'FontSize', 14);
 ylabel('Distancia horizontal $h [m]$', 'Interpreter', 'latex', 'FontSize', 14);
@@ -177,7 +178,7 @@ set(l, 'Interpreter', 'latex');
 set(l, 'FontSize', 12);
 
 figure
-plot(time, y1, time, y2, '--', time, y3, ':', 'linewidth', 1.7);
+plot(time, y1, time, y2, '--', time, y3, ':', 'linewidth', 2.3);
 title('Distancia vertical vs. tiempo para diferentes valores de $\theta$', 'Interpreter', 'latex', 'FontSize', 14);
 xlabel('Tiempo $t [s]$', 'Interpreter', 'latex', 'FontSize', 14);
 ylabel('Distancia vertical $y [m]$', 'Interpreter', 'latex', 'FontSize', 14);
@@ -187,7 +188,43 @@ hline.Color = [.7 .7 .7];
 l = legend('$\theta = 30^\circ$', '$\theta = 45^\circ$', '$\theta = 80^\circ$', 'Location', 'northwest');
 set(l, 'Interpreter', 'latex');
 set(l, 'FontSize', 12);
+%% 
 
+% 3)
+figure;
+t = tiledlayout(3,1);
+fontSize = 16;
+lineWidth = 1.3;
+title(t, 'Distancia vertical vs. Distancia Horizontal', 'Interpreter', 'latex', 'FontSize', fontSize);
+xlabel(t, 'Tiempo $t$ en $s$', 'Interpreter', 'latex', 'FontSize', fontSize);
+ylabel(t, 'Distancia en $m$', 'Interpreter', 'latex', 'FontSize', fontSize);
+
+nexttile;
+plot(time, h1, time, y1, 'linewidth', lineWidth);
+axis([0 20 -80 550]);
+hline = refline(0);
+hline.Color = [.6 .6 .6];
+title('$\theta=80^\circ$', 'Interpreter', 'latex');
+l = legend('Distancia horizontal', 'Distancia vertical', 'Interpreter', 'latex');
+set(l, 'Location', 'northwest');
+
+nexttile;
+plot(time, h2, time, y2, 'linewidth', lineWidth);
+axis([0 15 -120 1100]);
+hline = refline(0);
+hline.Color = [.6 .6 .6];
+title('$\theta=45^\circ$', 'Interpreter', 'latex');
+l = legend('Distancia horizontal', 'Distancia vertical', 'Interpreter', 'latex');
+set(l, 'Location', 'northwest');
+
+nexttile;
+plot(time, h3, time, y3, 'linewidth', lineWidth);
+axis([0 10.5 -100 1000]);
+hline = refline(0);
+hline.Color = [.6 .6 .6];
+title('$\theta=30^\circ$', 'Interpreter', 'latex');
+l = legend('Distancia horizontal', 'Distancia vertical', 'Interpreter', 'latex');
+set(l, 'Location', 'northwest');
 
 
 
