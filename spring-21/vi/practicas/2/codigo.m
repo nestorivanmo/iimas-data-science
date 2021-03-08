@@ -184,36 +184,42 @@ figure;
 t = tiledlayout(3,1);
 fontSize = 16;
 lineWidth = 1.3;
-title(t, 'Distancia vertical vs. Distancia Horizontal', 'Interpreter', 'latex', 'FontSize', fontSize);
+title(t, 'Trayectorias', 'Interpreter', 'latex', 'FontSize', fontSize);
 xlabel(t, 'Tiempo $t$ en $s$', 'Interpreter', 'latex', 'FontSize', fontSize);
 ylabel(t, 'Distancia en $m$', 'Interpreter', 'latex', 'FontSize', fontSize);
 
 nexttile;
-plot(time, h1, time, y1, 'linewidth', lineWidth);
-axis([0 20 -80 550]);
+p = plot(h1, y1, '-o', 'linewidth', lineWidth);
+p.MarkerIndices = 1:10:length(h1);
+p.MarkerEdgeColor = 'red';
+p.MarkerFaceColor = [1 .6 .6];
+p.MarkerSize = 6;
+axis([0 348 -80 600]);
 hline = refline(0);
 hline.Color = [.6 .6 .6];
 title('$\theta=80^\circ$', 'Interpreter', 'latex');
-l = legend('Distancia horizontal', 'Distancia vertical', 'Interpreter', 'latex');
-set(l, 'Location', 'northwest');
 
 nexttile;
-plot(time, h2, time, y2, 'linewidth', lineWidth);
-axis([0 15 -120 1100]);
+p = plot(h2, y2, '-o', 'linewidth', lineWidth);
+p.MarkerIndices = 1:10:length(h1);
+p.MarkerEdgeColor = 'red';
+p.MarkerFaceColor = [1 .6 .6];
+p.MarkerSize = 6;
+axis([0 1150 -200 350]);
 hline = refline(0);
 hline.Color = [.6 .6 .6];
 title('$\theta=45^\circ$', 'Interpreter', 'latex');
-l = legend('Distancia horizontal', 'Distancia vertical', 'Interpreter', 'latex');
-set(l, 'Location', 'northwest');
 
 nexttile;
-plot(time, h3, time, y3, 'linewidth', lineWidth);
-axis([0 10.5 -100 1000]);
+p = plot(h3, y3, '-o', 'linewidth', lineWidth);
+p.MarkerIndices = 1:10:length(h1);
+p.MarkerEdgeColor = 'red';
+p.MarkerFaceColor = [1 .6 .6];
+p.MarkerSize = 6;
+axis([0 1000 -50 200]);
 hline = refline(0);
 hline.Color = [.6 .6 .6];
 title('$\theta=30^\circ$', 'Interpreter', 'latex');
-l = legend('Distancia horizontal', 'Distancia vertical', 'Interpreter', 'latex');
-set(l, 'Location', 'northwest');
 
 %% 
 
@@ -221,18 +227,50 @@ set(l, 'Location', 'northwest');
 %   Ejercicio 4: Conjuntos de Mandelbrot
 %
 
+% Genere matrices utilizando meshgrid de 500x500
+stepsX = 2.5 / 500;
+stepsY = 3 / 500;
+[X, Y] = meshgrid(-1.5:stepsX:1,-1.5:stepsY:1.5);
+
+% Cree la matriz compleja Z0
+Z0 = X + Y*1i;
 
 
+% Inicialice la matriz compleja Z de tamaño 500x500
+Z = zeros(501, 501);
+
+% Establezca un número de iteraciones mayor a 50
+nIter = 100;
 
 
+% En cada iteración almacene aquellos puntos en el plano complejo con
+% abs(Z) > sqrt(5)
+M = zeros(501, 501);
+for k = 1:nIter
+   Z = Z.^2 + Z0;
+   M(abs(Z) > sqrt(5)) = k;
+end
 
+% Despliegue de imagen
+figure;
+t = tiledlayout(2,2);
+title(t, 'Fractal de Mandelbrot', 'Interpreter', 'latex', 'FontSize', 15);
 
+nexttile;
+image(M);
+colormap(gca, flag);
 
+nexttile;
+image(abs(Z)*900);
+colormap(gca, gray);
 
+nexttile;
+image(abs(Z)*400);
+colormap(gca, bone);
 
-
-
-
+nexttile;
+image(abs(Z)*350);
+colormap(gca, hot);
 
 
 
