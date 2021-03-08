@@ -5,16 +5,16 @@
 % This dataset is part of Matlab
 %
 
-[x,y,z,v] = flow % Not octave
+%[x,y,z,v] = flow % Not octave
 clear 
 close all
 clc
 
-%[x, y, z] = meshgrid(-3:0.25:3);
-%v = x.*exp(-x.^2 - y.^2 - z.^2);
+[x, y, z] = meshgrid(-3:0.25:3);
+v = x.*exp(-x.^2 - y.^2 - z.^2);
 
-[x, y, z] = meshgrid (linspace (-8, 8, 32));
-v = sin (sqrt (x.^2 + y.^2 + z.^2)) ./ (sqrt (x.^2 + y.^2 + z.^2));
+%[x, y, z] = meshgrid (linspace (-8, 8, 32));
+%v = sin (sqrt (x.^2 + y.^2 + z.^2)) ./ (sqrt (x.^2 + y.^2 + z.^2));
 
 figure,
 slice (x, y, z, v, [], 0, []);

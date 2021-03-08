@@ -55,8 +55,8 @@ y3 = sin(3.*x);
 
 figure
 plot(x,y1,x,y2,'--',x,y3,':', 'linewidth', 1.7);
-title_lab = title('Funciones senoidales para $x\in[-\pi, \pi]$', 'Interpreter', 'latex');
-set(title_lab, 'FontSize', 14);
+tl = title('Funciones senoidales para $x\in[-\pi, \pi]$', 'Interpreter', 'latex');
+set(tl, 'FontSize', 14);
 xlab = xlabel('x$\in [-\pi, \pi]$', 'Interpreter', 'latex');
 set(xlab, 'FontSize', 14);
 ylab = ylabel('y$\in [-1,1]$', 'Interpreter', 'latex');
@@ -132,7 +132,8 @@ hline.Color = [.6 .6 .6];
 axis([0 1000, -50, 400]);
 xlabel('Distancia horizontal en $m$', 'Interpreter', 'latex', 'FontSize', 15);
 ylabel('Distancia vertical en $m$', 'Interpreter', 'latex', 'FontSize', 15);
-title('Trayectoria para $v_0 = 100 [\frac{m}{s}]$, $h_0 = 0[m]$, $\theta = 60^\circ$ y $t\in[0,20]s$', 'Interpreter', 'latex', 'FontSize', 15);
+str = 'Trayectoria para $v_0 = 100 [\frac{m}{s}]$, $h_0 = 0[m]$, $\theta = 60^\circ$ y $t\in[0,20]s$';
+title(str, 'Interpreter', 'latex', 'FontSize', 15);
 
 
 %% 
@@ -278,7 +279,7 @@ title('Multiplo: $400$ Colormap: hot', 'Interpreter', 'latex');
 
 %%
 
-% 5. Función a implementar
+% 5. Correciones visuales
 
 clear 
 close all
@@ -286,9 +287,6 @@ clc
 
 [x, y, z] = meshgrid(-3:0.25:3);
 v = x.*exp(-x.^2 - y.^2 - z.^2);
-
-%[x, y, z] = meshgrid (linspace (-8, 8, 32));
-%v = sin (sqrt (x.^2 + y.^2 + z.^2)) ./ (sqrt (x.^2 + y.^2 + z.^2));
 
 slice (x, y, z, v, [], 0, []);
 
@@ -303,10 +301,10 @@ view(3);
 axis([-4 4 -4 4 -3 3]);
 grid on;
 colorbar;
-%light;
-%lighting gouraud;
-%camlight('left');
-%shading interp;
+light;
+lighting gouraud;
+camlight('left');
+shading interp;
 
 
 % Same visualization with a different Color Map
@@ -316,12 +314,12 @@ slice(x,y,z,v,xslice,yslice,zslice);
 view(3);
 axis([-4 4 -4 4 -3 3]);
 grid on;
-colormap jet;
+colormap winter;
 colorbar;
-%light;
-%lighting gouraud;
-%camlight('left');
-%shading interp;
+light;
+lighting gouraud;
+camlight('left');
+shading interp;
 
 % A New Color Map
 figure
@@ -329,12 +327,12 @@ clf(figure(3))
 slice(x,y,z,v,xslice,yslice,zslice);
 view(3);
 axis([-4 4 -4 4 -3 3]);
-colormap(flipud(jet));
+colormap(flipud(winter));
 colorbar;
-%light;
-%lighting gouraud;
-%camlight('left');
-%shading interp;
+light;
+lighting gouraud;
+camlight('left');
+shading interp;
 
 
 
