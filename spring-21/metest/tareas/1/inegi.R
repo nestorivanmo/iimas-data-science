@@ -4,6 +4,7 @@ library(glue)
 library(plotly)
 library(fastR2)
 library(reshape2)
+library(ggpubr)
 
 ################################################################################
 # 0. Carga de datos
@@ -69,11 +70,10 @@ fig <- fig %>% add_annotations(
 )
 fig <- fig %>% add_annotations(
     xref = 'paper', yref = 'paper', x = 0.23, y = -0.08,
-    text = "Censo de Población y Vivienda 2020 - INEGI (Accesado el 18 de Marzo 2021)",
+    text = "Censo de Población y Vivienda 2020 - INEGI (Accesado Marzo 2021)",
     font = list(family = 'Arial', size = 10, color = 'rgb(150,150,150)'), showarrow = FALSE
 )
 fig
-
 
 # 1.2.2 Por alcaldía de la CDMX
 temp_df <- 
@@ -108,7 +108,7 @@ fig <- fig %>% add_annotations(
 )
 fig <- fig %>% add_annotations(
   xref = 'paper', yref = 'paper', x = 0.18, y = -0.09, 
-  text = "Censo de Población y Vivienda 2020 - INEGI (Accesado el 18 de Marzo 2021)",
+  text = "Censo de Población y Vivienda 2020 - INEGI (Accesado Marzo 2021)",
   font = list(family = 'Arial', size = 10, color = 'rgb(150,150,150)'),
   showarrow = FALSE
 )
@@ -133,13 +133,8 @@ df_poblacion <- data.frame(
   PTJ_5_HLI = (as.numeric(temp_data$P5_HLI)*100)/as.numeric(temp_data$P_5YMAS),
   P15YM_AN = as.numeric(temp_data$P15YM_AN),
   P_15YMAS = as.numeric(temp_data$P_15YMAS),
-  PTJ_15_AN = (as.numeric(temp_data$P15YM_AN)*100)/as.numeric(temp_data$P_15YMAS),
-  SIZE_BUB = 20,
-  CATEGORY = "municipio"
+  PTJ_15_AN = (as.numeric(temp_data$P15YM_AN)*100)/as.numeric(temp_data$P_15YMAS)
 )
-
-# SIZE_BUB = (((as.numeric(temp_data$P5_HLI)*100)/as.numeric(temp_data$P_5YMAS)) * 
-# ((as.numeric(temp_data$P15YM_AN)*100)/as.numeric(temp_data$P_15YMAS))**2),
 
 temp_data <- data %>% filter(MUN == 0 & LOC == 0 & ENTIDAD != 0)
 df_poblacion_entidad <- data.frame(
@@ -150,21 +145,16 @@ df_poblacion_entidad <- data.frame(
   PTJ_5_HLI = (as.numeric(temp_data$P5_HLI)*100)/as.numeric(temp_data$P_5YMAS),
   P15YM_AN = as.numeric(temp_data$P15YM_AN),
   P_15YMAS = as.numeric(temp_data$P_15YMAS),
-  PTJ_15_AN = (as.numeric(temp_data$P15YM_AN)*100)/as.numeric(temp_data$P_15YMAS),
-  SIZE_BUB = 200,
-  CATEGORY = "entidad"
+  PTJ_15_AN = (as.numeric(temp_data$P15YM_AN)*100)/as.numeric(temp_data$P_15YMAS)
 )
 
-df_final <- rbind(df_poblacion, df_poblacion_entidad)
 font_color <- 'rgba(10,10,10,0.7)'
 font_family <- 'verdana'
 font_size <- 11
 
-# gf_point(PTJ_15_AN ~ PTJ_5_HLI | NOM_ENT, data = df_poblacion, color = '#57AFD1')
-
 fig <- plot_ly(
   data = df_poblacion, x = ~PTJ_5_HLI, y = ~PTJ_15_AN, type = 'scatter', 
-  mode = 'markers', size = ~SIZE_BUB, name = 'Municipio',
+  mode = 'markers', name = 'Municipio',
   marker=list(size=4, color = 'rgba(162, 179, 190, 0.35)'),
   hoverinfo = 'text', 
   text = ~paste('Municipio: ', NOM_MUN, '<br>Entidad federativa: ', NOM_ENT, 
@@ -187,7 +177,7 @@ fig <- fig %>% layout(
 )
 fig <- fig %>% add_annotations(
   xref = 'paper', yref = 'paper', x = 0.5, y = -0.23, 
-  text = "Censo de Población y Vivienda 2020 - INEGI (Accesado el 18 de Marzo 2021)",
+  text = "Censo de Población y Vivienda 2020 - INEGI (Accesado Marzo 2021)",
   font = list(family = 'Arial', size = 10, color = 'rgb(150,150,150)'),
   showarrow = FALSE
 )
@@ -212,3 +202,37 @@ fig <- fig %>% add_annotations(
   showarrow = FALSE
 )
 fig
+
+# Gráficas de correlación por entidad federativa
+entidades <- unique(df_poblacion$NOM_ENT)
+pearson <- c()
+num_municipios <- c()
+for (entidad in entidades) {
+  entidad_df <- df_poblacion %>% filter(NOM_ENT == entidad)
+  X <- entidad_df$PTJ_5_HLI
+  Y <- entidad_df$PTJ_15_AN
+  p <- cor.test(X, Y, nethod='pearson')$estimate
+  pearson <- c(pearson, p)
+  num_municipios <- c(num_municipios, length(entidad_df$NOM_ENT))
+  if (p <= 0) {
+    custom_color <- "#fe353a" 
+  } else {
+    custom_color <- "#2cb3c6"
+  }
+  print(p)
+  f <- ggscatter(data = entidad_df, x="PTJ_5_HLI", y="PTJ_15_AN", add = "reg.line",
+                 conf.int = TRUE, cor.coef = TRUE, cor.method = "pearson",
+                 color = "grey", add.params = list(color = custom_color, size = 2),
+                 xlab="Porcentaje de población de 5 años y más que habla alguna lengua indígena",
+                 ylab="Porcentaje de población de 15 años y más analfabeta",
+                 title=paste(entidad, length(entidad_df$NOM_ENT), "municipios - Correlación de Pearson", round(p,4))) + 
+      theme(plot.title = element_text(hjust = 0.5),
+            plot.margin = margin(2,2,1,2,"cm"))
+  show(f)
+}
+
+pearson_df <- data.frame(
+  NOM_ENT = entidades,
+  PEARSON = pearson,
+  NUM_MUN = num_municipios
+)
