@@ -75,6 +75,10 @@ fig <- fig %>% add_annotations(
 )
 fig
 
+mean(percentages)
+var(percentages)
+sd(percentages)
+
 # 1.2.2 Por alcaldía de la CDMX
 temp_df <- 
   data %>%
@@ -113,6 +117,10 @@ fig <- fig %>% add_annotations(
   showarrow = FALSE
 )
 fig
+
+mean(percentages_alcaldia)
+var(percentages_alcaldia)
+sd(percentages_alcaldia)
 
 ################################################################################
 # 1.3.1 Porcentaje de población de 5 años y más que habla alguna lengua indígena
