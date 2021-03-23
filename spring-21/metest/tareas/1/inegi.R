@@ -226,8 +226,8 @@ for (entidad in entidades) {
                  xlab="Porcentaje de población de 5 años y más que habla alguna lengua indígena",
                  ylab="Porcentaje de población de 15 años y más analfabeta",
                  title=paste(entidad, length(entidad_df$NOM_ENT), "municipios - Correlación de Pearson", round(p,4))) + 
-      theme(plot.title = element_text(hjust = 0.5),
-            plot.margin = margin(2,2,1,2,"cm"))
+    theme(plot.title = element_text(hjust = 0.5),
+          plot.margin = margin(2,2,1,2,"cm"))
   show(f)
 }
 
@@ -236,3 +236,7 @@ pearson_df <- data.frame(
   PEARSON = pearson,
   NUM_MUN = num_municipios
 )
+
+positive_corr_df <- pearson_df %>% filter(PEARSON > 0.85)
+negative_corr_df <- pearson_df %>% filter(PEARSON < -0.1)
+
