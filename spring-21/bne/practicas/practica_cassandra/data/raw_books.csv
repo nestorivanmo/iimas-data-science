@@ -1,0 +1,194 @@
+CLIENTE,PRODUCTO,AUTOR,CALIFICACION,CATEGORIA
+Alfonso,Un mundo feliz,Aldous Huxley,10,ficcion
+Alfonso,La dama de las camelias,Alexandre Dumas,10,novela
+Alfonso,El lazarillo de Tormes,Anónimo,9,novela
+Alfonso,El Principito,Antoine de Sainte-Exupéry,10,fantasia
+Alfonso,Nacidos para correr,Christopher McDougall,10,deportes
+Alfonso,Los crímenes de la calle Morgue,Edgar Allan Poe,9,fantasia
+Alfonso,El gato negro,Edgar Allan Poe,8,fantasia
+Alfonso,El ajedrez de Bobby Fischer,Elie Agur,10,ajedrez
+Alfonso,Nana,Émile Zola,8,novela
+Alfonso,El viejo y el mar,Ernest Hemingway,10,novela
+Alfonso,Cien años de soledad,Gabriel García Márquez,10,novela
+Alfonso,El amor en tiempos de cólera,Gabriel García Márquez,10,novela
+Alfonso,Madame Bovary,Gustave Flaubert,10,novela
+Alfonso,La cabaña del tío Tom,Harriet Beecher Stowe,10,novela
+Alfonso,Siddharta,Herman Hesse,10,novela
+Alfonso,La iliada,Homero,10,poesia
+Alfonso,Papá Goriot,Honoré de Balzac,9,novela
+Alfonso,Cuentos completos I,Isaac Asimov,9,ficcion
+Alfonso,Hábitos atómicos,James Clear,10,autoayuda
+Alfonso,Ana Karenina,Leo Tolstoy,9,novela
+Alfonso,Guerra y Paz,Leo Tolstoy,9,novela
+Alfonso,Fuente Ovejuna,Lope de Vega,10,novela
+Alfonso,Ajedrez genial,Manuel López Michelone,9,ajedrez
+Alfonso,Frankenstein,Mary W. Shelley,9,terror
+Alfonso,El pájaro azul,Maurice Maeterlinck,10,fantasia
+Alfonso,El ingenioso hidalgo don Quijote de la Mancha,Miguel de Cervantes,10,novela
+Alfonso,Niebla,Miguel de Unamuno,8,novela
+Alfonso,"Come sano, come vegano",Neal D. Barnard,10,salud
+Alfonso,Finding Ultra,Rich Roll,10,deportes
+Alfonso,"Padre rico, padre pobre",Robert T. Kiyosaki,10,finanzas
+Alfonso,Los 7 hábitos de la gente altamente efectiva,Stephen R. Covey,10,autoayuda
+Alfonso,El estudio de China,T. Collin Campbell,10,salud
+Antonio,A random walk down Wall Street,Burton G. Malkiel,8,educacion
+Antonio,Los hermanos Karamázov,Fyodor Dostoyevsky,10,novela
+Antonio,La catedral del mar,Ildefonso Falcones,9,novela
+Antonio,Viaje al centro de la tierra,Julio Verne,8,ficcion
+Antonio,Los pilares de la tierra,Ken Follett,10,novela
+Antonio,La historia sin Fin,Michael Ende,9,infantil
+Artemio,El túnel,Ernesto Sabato,9,novela
+Artemio,La Joven de las Naranjas,Jostein Gaarder,9,novela
+Artemio,El perseguidor,Julio Cortázar,7,novela
+Artemio,Ensayos,Michel de Montaigne,10,filosofia
+Artemio,Fedro,Platón,8,filosofia
+Artemio,El extraño caso del doctor Jekyll y el señor Hyde,Robert L. Stevenson,9,novela
+Artemio,Wigetta: un viaje mágico,Samuel de luque y Willyrex,10,ficcion
+Artemio,Bart Simpsons guide to life: A wee handbook for the perplexed,Various,10,educacion
+Artemio,El extranjero,Albert Camus,9,novela
+Artemio,El hombre ilustrado,Ray Bradbury,10,ficcion
+Artemio,Post Office,Charles Bukowski,9,novela
+Avilix,El extranjero,Albert Camus,9,novela
+Avilix,Hasta no verte Jesús mío,Elena Poniatowska,8,novela
+Avilix,Harry Potter y el prisionero de Azkaban,J. K. Rowling,9,fantasia
+Avilix,Las batallas en el desierto,José Emilio Pacheco,9,novela
+Avilix,Viaje al centro de la tierra,Julio Verne,9,ficcion
+Avilix,Cálculo infinitesimal,Michael Spivak,5,educacion
+Avilix,Atrapados en la escuela,Various,6,ficcion
+Avilix,Las cuatro esquinas del universo,Various,8,ficcion
+Avilix,For the Love of Physics,Walter Lewin,9,divulgacion
+Avilix,Hamlet,William Shakespeare,9,tragedia
+Benito,Las mil y una noches,Desconocido,9,infantil
+Benito,Calculo integral de varias variables,Javier Paéz Cardenas,10,educacion
+Benito,El psicoanalista,John Katzenbach,10,thriller 
+Carlos,A Short History of Nearly Everything,Bill Bryson,9,divulgacion
+Carlos,Grandes ideas de la ciencia,Isaac Asimov,9,divulgacion
+Carlos,Momentos estelares de la ciencia,Isaac Asimov,10,divulgacion
+Carlos,La clave secreta del universo,Lucy Hawking,8,infantil
+Carlos,For the Love of Physics,Walter Lewin,10,divulgacion
+Guillermo,Ficciones,Jorge Luis Borges,10,fantasia
+Guillermo,Cálculo infinitesimal,Michael Spivak,0,educacion
+Guillermo,Extraños Cuentos Peregrinos,Gabriel García Márquez,8,fantasia
+Guillermo,Watchmen,Alan Moore,9,novela
+Guillermo,Harry Potter y el prisionero de Azkaban,J. K. Rowling,10,fantasia
+Guillermo,Juego de tronos,George R. R. Martin,6,fantasia epica
+Guillermo,Cien años de soledad,Gabriel García Márquez,9,novela
+Hugo,El Conde de Montecristo,Alexandre Dumas,10,novela
+Hugo,Fedro,Platón,10,filosofia
+Hugo,República,Platón,10,politica
+Hugo,Introducción al psicoanálisis,Sigmund Freud,9,educacion
+Hugo,Hamlet,William Shakespeare,10,tragedia
+Israel,Eso,Stephen King,10,terror
+Israel,The stand,Stephen King,10,novela
+Néstor,The Fountainhead,Ayn Rand,9,novela
+Néstor,Atlas Shrugged,Ayn Rand,10,novela
+Néstor,"Why nations fail: The origins of power, prosperity and poverty",Daren Acemoglu,10,politica
+Néstor,Correr a fondo,Gerardo Alcalá,10,deportes
+Néstor,A confederacy of dunces,John Kennedy Toole,10,novela
+Néstor,Slaughterhouse five,Kurt Vonnegut,8,novela
+Néstor,En busca del tiempo perdido: por el camino de Swan,Marcel Proust,9,novela
+Néstor,The making of modern Japan,Marius Jansen,8,historia
+Néstor,Energy and civilization: A history,Vaclav Smil,8,historia
+Néstor,Benjamin Franklin,Walter Isaacson,9,biografia
+Pamela,After,Anna Renee Todd,9,novela
+Pamela,Acerca del alma,Aristóteles,9,filosofia
+Pamela,Los ojos de mi princesa,Carlos Cuauhtémoc Sánchez,8,novela
+Pamela,Memorias de mis p tristes,Gabriel García Márquez,8,novela
+Pamela,Bajo la misma estrella,John Green,9,novela
+Pamela,El perfume ,Patrick Süskind,9,novela
+Pamela,Veronika decide morir,Paulo Coelho,8,novela
+Pamela,Cujo,Stephen King,9,ficcion
+Pamela,El resplandor,Stephen King,9,ficcion
+Pamela,Doctor sueño,Stephen King,9,ficcion
+Pamela,Francesco: Una vida entre en cielo y la tierra,Yohana García,9,ficcion
+Patricio,Harry Potter y la piedra filosofal,J. K. Rowling,9,fantasia
+Patricio,Harry Potter y la cámara secreta,J. K. Rowling,9,fantasia
+Patricio,Harry Potter y el prisionero de Azkaban,J. K. Rowling,9,fantasia
+Patricio,Harry Potter y el cáliz de fuego,J. K. Rowling,9,fantasia
+Patricio,Harry Potter y la Orden del Fénix,J. K. Rowling,9,fantasia
+Patricio,Harry Potter y el misterio del príncipe,J. K. Rowling,9,fantasia
+Patricio,Harry Potter y las reliquias de la muerte,J. K. Rowling,9,fantasia
+Patricio,Animales fantásticos y dónde encontrarlos,J. K. Rowling,9,fantasia
+Patricio,Quidditch a través de los tiempos,J. K. Rowling,9,fantasia
+Patricio,Los cuentos de Beedle el Bardo,J. K. Rowling,9,fantasia
+Raul ,The education of a bodybuilder,Arnold Schwarzenegger,9,educacion
+Raul ,Clockwork prince,Cassandra Claire,9,fantasia
+Raul ,Clockwork princess,Cassandra Claire,10,fantasia
+Raul ,"The swoly Bible, the broscience way of life ",Dom Mazzetti,10,religion
+Raul ,Deep learning,Ian Goodfellow,9,educacion
+Raul ,El libro vaquero,Javier Vargas,10,historieta
+Raul ,El Corán,Abu Bakr,10,religion
+Raul ,Meditations,Marco Aurelio,10,filosofia
+Raul ,The Man in Search of Meaning,Viktor Frankl,9,filosofia
+rodfiso,La naranja mecánica ,Anthony Burgess ,9,ficcion
+rodfiso,Más allá del planeta silencioso ,C. S. Lewis,8,ficcion
+rodfiso,La princesa de hielo,Camilla Lackberg,8,thriller 
+rodfiso,Estación de la calle Perdido ,China Mieville,10,fantasia epica
+rodfiso,Guía del autoestopista galáctico,Douglas Adams,10,ficcion
+rodfiso,Artemis Fowl,Eoin Colfer,10,fantasia
+rodfiso,Futuro azul ,Eoin Colfer,9,ficcion
+rodfiso,Kafka en la orilla ,Haruki Murakami,10,ficcion
+rodfiso,Espejismo,Hugh Howey,9,ficcion
+rodfiso,"Yo, robot ",Isaac Asimov,10,ficcion
+rodfiso,Sombras de gris ,Jasper Fforde,8,ficcion
+rodfiso,El libro de las cosas perdidas,John Connelly ,8,fantasia
+rodfiso,La ladrona de libros,Markus Zusak,8,ficcion historica
+rodfiso,Ubik,Philip K. Dick,9,ficcion
+rodfiso,Máquinas mortales ,Philip Reeve,9,ficcion
+rodfiso,Crónicas marcianas ,Ray Bradbury,9,ficcion
+rodfiso,Cuentos de Terramar,Ursula K. LeGuinn,9,fantasia
+veleros,El último deseo,Andrzej Sapkowski,10,fantasia epica
+veleros,El marciano,Andy Weir,10,comedia
+veleros,Mistborn,Brandon Sanderson,10,fantasia epica
+veleros,Elantris,Brandon Sanderson,10,fantasia epica
+veleros,El principe de la niebla,Carlos Ruiz Zafón,10,novela
+veleros,La sombra del viento,Carlos Ruiz Zafón,10,novela
+veleros,Maldito karma,David Safier,10,comedia
+veleros,Guía del autoestopista galáctico,Douglas Adams,8,ficcion
+veleros,Planilandia,Edwin Abbott Abbott,3,ficcion
+veleros,Ready player one,Ernest Cline,10,ficcion
+veleros,México acribillado,Francisco Martín Moreno,10,ficcion historica
+veleros,Rebelión en la granja,George Orwell,10,satira
+veleros,Juego de tronos,George R. R. Martin,10,fantasia epica
+veleros,Choque de reyes,George R. R. Martin,10,fantasia epica
+veleros,Tormenta de espadas ,George R. R. Martin,10,fantasia epica
+veleros,Festín de cuervos,George R. R. Martin,10,fantasia epica
+veleros,Danza de dragones,George R. R. Martin,10,fantasia epica
+veleros,1Q84,Haruki Murakami,9,novela
+veleros,Hombres sin mujeres,Haruki Murakami,10,novela
+veleros,Suite francesa,Irene Nemirovsky,9,biografia
+veleros,Nada,Janne Teller,7,novela
+veleros,El abuelo que saltó por la ventana y se largo,Jonas Jonasson,10,novela
+veleros,El club de los raros,Jordi Sierra,8,infantil
+veleros,Largo invierno en París,Juan vilches,9,ficcion historica
+veleros,Circe,Madeline Miller,10,novela
+veleros,Un monstruo viene a verme,Patrick Ness,10,novela
+veleros,El elfo oscuro,R. A. Salvatore,10,fantasia epica
+veleros,Carry on,Rainbow Rowell,9,novela
+veleros,Historia de mujeres,Rosa Montero,9,ficcion historica
+veleros,El segundo sexo,Simone de Beauvoir,10,historia
+veleros,Mort,Terry Pratchett,10,fantasia epica
+veleros,Buenos presagios,Terry Pratchett,9,novela
+veleros,Guardias guardias,Terry Pratchett,10,fantasia epica
+bondi,Dead Astronauts,Jeff Vandermeer,8,novela
+bondi,El vértigo horizontal,Juan Villoro,9,historia
+bondi,El infinito en un junco,Irene Vallejo,10,historia
+bondi,Pétalos,Guadalupe Nettel,9,novela
+bondi,¡Sálvese quien pueda!,Andrés Oppenheimer,9,politica
+bondi,Twitter and Tear Gas,Zeynep Tufekci,10,politica
+bondi,How Democracies Die,Steven Levitsky,10,politica
+bondi,"People, Power and Profits",Josep E. Stiglitz,9,finanzas
+bondi,La borra del café,Mario Benedetti,9,novela
+bondi,La caza del carnero salvaje,Haruki Murakami,9,fantasia
+David,La historia del loco,Jhon Katzenbach,10,novela
+David,El retrato de Dorain Gray,Oscar Wilde,9,novela
+David,Drácula,Bram Stoker,10,novela
+David,Un bien al mundo,Andrea Bajani,10,novela
+David,El fantasma de la ópera,Gastón Leroux,10,novela
+cradik,Nada,Janne Teller,9,novela
+cradik,El principito,Antoine de Sainte-Exupéry,8,fantasia
+cradik,Las aventuras de Tom Sawyer,Mark Twain ,9,novela
+cradik,Los 120 días de Sodoma,Marqués de Sade,9,novela
+Fernando,Partial Differential Equations,Lawrence C. Evans,10,educacion
+Fernando,"Functional Analysis, Sobolev Spaces and Partial Differential Equations",Haim Brezis,10,educacion
+Fernando,Los miserables,Victor Hugo,10,novela
