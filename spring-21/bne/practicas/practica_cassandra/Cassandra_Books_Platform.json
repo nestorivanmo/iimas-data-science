@@ -1,0 +1,1876 @@
+{
+    "modelName": "New model",
+    "collections": [
+        {
+            "collectionName": "books_by_title",
+            "type": "object",
+            "properties": [
+                {
+                    "primaryKey": true,
+                    "mode": "text",
+                    "subtype": "string",
+                    "childType": "char",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePartitionKey",
+                        "compositeClusteringKey"
+                    ],
+                    "compositePartitionKey": true,
+                    "compositeClusteringKey": false,
+                    "name": "book_title",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "GUID": "52b4cb50-b2bf-11eb-9edc-5952c9ea2f58",
+                    "required": true
+                },
+                {
+                    "primaryKey": false,
+                    "mode": "text",
+                    "subtype": "string",
+                    "childType": "char",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePartitionKey",
+                        "compositeClusteringKey"
+                    ],
+                    "compositePartitionKey": false,
+                    "compositeClusteringKey": false,
+                    "name": "book_category",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "GUID": "58132740-b2bf-11eb-9edc-5952c9ea2f58",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    },
+                    "childRelationships": [
+                        "f2944e50-b2c1-11eb-9edc-5952c9ea2f58"
+                    ]
+                },
+                {
+                    "subtype": "set<str>",
+                    "primaryKey": false,
+                    "properties": [
+                        {
+                            "primaryKey": false,
+                            "mode": "text",
+                            "subtype": "string",
+                            "childType": "char",
+                            "type": "string",
+                            "compositeKey": [
+                                "compositePartitionKey",
+                                "compositeClusteringKey"
+                            ],
+                            "compositePartitionKey": false,
+                            "compositeClusteringKey": false,
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "GUID": "765212c0-b2bf-11eb-9edc-5952c9ea2f58",
+                            "arrayItem": true,
+                            "arrayParentType": "set"
+                        }
+                    ],
+                    "additionalProperties": false,
+                    "childType": "set",
+                    "type": "array",
+                    "compositeKey": [
+                        "compositePartitionKey",
+                        "compositeClusteringKey"
+                    ],
+                    "compositePartitionKey": false,
+                    "compositeClusteringKey": false,
+                    "name": "authors",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "GUID": "60469c30-b2bf-11eb-9edc-5952c9ea2f58",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    },
+                    "uniqueItems": false,
+                    "additionalItems": true
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "aa8f71f0-b2be-11eb-9edc-5952c9ea2f58"
+            },
+            "isActivated": true,
+            "collectionUsers": [],
+            "GUID": "aa8dc440-b2be-11eb-9edc-5952c9ea2f58",
+            "bucketId": "a48ff400-b2be-11eb-9edc-5952c9ea2f58",
+            "compositePartitionKey": [
+                {
+                    "keyId": "52b4cb50-b2bf-11eb-9edc-5952c9ea2f58",
+                    "type": ""
+                }
+            ]
+        },
+        {
+            "collectionName": "books_by_username",
+            "type": "object",
+            "properties": [
+                {
+                    "primaryKey": true,
+                    "mode": "text",
+                    "subtype": "string",
+                    "childType": "char",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePartitionKey",
+                        "compositeClusteringKey"
+                    ],
+                    "compositePartitionKey": true,
+                    "compositeClusteringKey": false,
+                    "name": "username",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "GUID": "a362f040-b2bf-11eb-9edc-5952c9ea2f58",
+                    "required": true
+                },
+                {
+                    "primaryKey": true,
+                    "mode": "text",
+                    "subtype": "string",
+                    "childType": "char",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePartitionKey",
+                        "compositeClusteringKey"
+                    ],
+                    "compositePartitionKey": false,
+                    "compositeClusteringKey": true,
+                    "name": "book_title",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "GUID": "a82ea920-b2bf-11eb-9edc-5952c9ea2f58",
+                    "required": true
+                },
+                {
+                    "primaryKey": true,
+                    "mode": "text",
+                    "subtype": "string",
+                    "childType": "char",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePartitionKey",
+                        "compositeClusteringKey"
+                    ],
+                    "compositePartitionKey": false,
+                    "compositeClusteringKey": true,
+                    "name": "book_category",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "GUID": "ad189860-b2bf-11eb-9edc-5952c9ea2f58",
+                    "required": true,
+                    "childRelationships": [
+                        "eea69960-b2c1-11eb-9edc-5952c9ea2f58"
+                    ]
+                },
+                {
+                    "subtype": "set<str>",
+                    "primaryKey": false,
+                    "properties": [
+                        {
+                            "primaryKey": false,
+                            "mode": "text",
+                            "subtype": "string",
+                            "childType": "char",
+                            "type": "string",
+                            "compositeKey": [
+                                "compositePartitionKey",
+                                "compositeClusteringKey"
+                            ],
+                            "compositePartitionKey": false,
+                            "compositeClusteringKey": false,
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "GUID": "b57fee90-b2bf-11eb-9edc-5952c9ea2f58",
+                            "arrayItem": true,
+                            "arrayParentType": "set"
+                        }
+                    ],
+                    "additionalProperties": false,
+                    "childType": "set",
+                    "type": "array",
+                    "compositeKey": [
+                        "compositePartitionKey",
+                        "compositeClusteringKey"
+                    ],
+                    "compositePartitionKey": false,
+                    "compositeClusteringKey": false,
+                    "name": "book_authors",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "GUID": "b199dac0-b2bf-11eb-9edc-5952c9ea2f58",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                },
+                {
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "mode": "smallint",
+                    "childType": "numeric",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositePartitionKey",
+                        "compositeClusteringKey"
+                    ],
+                    "compositePartitionKey": false,
+                    "compositeClusteringKey": false,
+                    "name": "score",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "GUID": "bc6ab6e0-b2bf-11eb-9edc-5952c9ea2f58",
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "b1a31f00-b2be-11eb-9edc-5952c9ea2f58"
+            },
+            "isActivated": true,
+            "collectionUsers": [],
+            "GUID": "b1a1bf70-b2be-11eb-9edc-5952c9ea2f58",
+            "bucketId": "a48ff400-b2be-11eb-9edc-5952c9ea2f58",
+            "compositePartitionKey": [
+                {
+                    "keyId": "a362f040-b2bf-11eb-9edc-5952c9ea2f58",
+                    "type": ""
+                }
+            ],
+            "compositeClusteringKey": [
+                {
+                    "keyId": "a82ea920-b2bf-11eb-9edc-5952c9ea2f58",
+                    "type": "ascending"
+                },
+                {
+                    "keyId": "ad189860-b2bf-11eb-9edc-5952c9ea2f58",
+                    "type": "ascending"
+                }
+            ]
+        },
+        {
+            "collectionName": "books_by_score",
+            "type": "object",
+            "properties": [
+                {
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": true,
+                    "mode": "smallint",
+                    "childType": "numeric",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositePartitionKey",
+                        "compositeClusteringKey"
+                    ],
+                    "compositePartitionKey": true,
+                    "compositeClusteringKey": false,
+                    "name": "score",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "GUID": "e9375f70-b2bf-11eb-9edc-5952c9ea2f58",
+                    "required": true,
+                    "childRelationships": [
+                        "ff9ccaf0-b2c1-11eb-9edc-5952c9ea2f58"
+                    ]
+                },
+                {
+                    "primaryKey": true,
+                    "mode": "text",
+                    "subtype": "string",
+                    "childType": "char",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePartitionKey",
+                        "compositeClusteringKey"
+                    ],
+                    "compositePartitionKey": false,
+                    "compositeClusteringKey": true,
+                    "name": "book_title",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "GUID": "f4bda8e0-b2bf-11eb-9edc-5952c9ea2f58",
+                    "required": true
+                },
+                {
+                    "primaryKey": true,
+                    "mode": "text",
+                    "subtype": "string",
+                    "childType": "char",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePartitionKey",
+                        "compositeClusteringKey"
+                    ],
+                    "compositePartitionKey": false,
+                    "compositeClusteringKey": true,
+                    "name": "book_category",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "GUID": "fa66c970-b2bf-11eb-9edc-5952c9ea2f58",
+                    "required": true,
+                    "error": {}
+                },
+                {
+                    "subtype": "set<str>",
+                    "primaryKey": false,
+                    "properties": [
+                        {
+                            "primaryKey": false,
+                            "mode": "text",
+                            "subtype": "string",
+                            "childType": "char",
+                            "type": "string",
+                            "compositeKey": [
+                                "compositePartitionKey",
+                                "compositeClusteringKey"
+                            ],
+                            "compositePartitionKey": false,
+                            "compositeClusteringKey": false,
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "GUID": "ff7c5c90-b2bf-11eb-9edc-5952c9ea2f58",
+                            "arrayItem": true,
+                            "arrayParentType": "set"
+                        }
+                    ],
+                    "additionalProperties": false,
+                    "childType": "set",
+                    "type": "array",
+                    "compositeKey": [
+                        "compositePartitionKey",
+                        "compositeClusteringKey"
+                    ],
+                    "compositePartitionKey": false,
+                    "compositeClusteringKey": false,
+                    "name": "authors",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "GUID": "fdf23a20-b2bf-11eb-9edc-5952c9ea2f58",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "bce819b0-b2be-11eb-9edc-5952c9ea2f58"
+            },
+            "isActivated": true,
+            "collectionUsers": [],
+            "GUID": "bce61de0-b2be-11eb-9edc-5952c9ea2f58",
+            "bucketId": "a48ff400-b2be-11eb-9edc-5952c9ea2f58",
+            "compositePartitionKey": [
+                {
+                    "keyId": "e9375f70-b2bf-11eb-9edc-5952c9ea2f58",
+                    "type": ""
+                }
+            ],
+            "compositeClusteringKey": [
+                {
+                    "keyId": "f4bda8e0-b2bf-11eb-9edc-5952c9ea2f58",
+                    "type": "ascending"
+                },
+                {
+                    "keyId": "fa66c970-b2bf-11eb-9edc-5952c9ea2f58",
+                    "type": "ascending"
+                }
+            ]
+        },
+        {
+            "collectionName": "clients_by_username",
+            "type": "object",
+            "properties": [
+                {
+                    "primaryKey": true,
+                    "mode": "text",
+                    "subtype": "string",
+                    "childType": "char",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePartitionKey",
+                        "compositeClusteringKey"
+                    ],
+                    "compositePartitionKey": true,
+                    "compositeClusteringKey": false,
+                    "name": "username",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "GUID": "598c8b60-b2c0-11eb-9edc-5952c9ea2f58",
+                    "required": true,
+                    "childRelationships": [
+                        "17296340-b2c2-11eb-9edc-5952c9ea2f58"
+                    ]
+                },
+                {
+                    "primaryKey": false,
+                    "mode": "text",
+                    "subtype": "string",
+                    "childType": "char",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePartitionKey",
+                        "compositeClusteringKey"
+                    ],
+                    "compositePartitionKey": false,
+                    "compositeClusteringKey": false,
+                    "name": "first_name",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "GUID": "5cca5140-b2c0-11eb-9edc-5952c9ea2f58",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                },
+                {
+                    "primaryKey": true,
+                    "mode": "text",
+                    "subtype": "string",
+                    "childType": "char",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePartitionKey",
+                        "compositeClusteringKey"
+                    ],
+                    "compositePartitionKey": false,
+                    "compositeClusteringKey": true,
+                    "name": "last_name",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "GUID": "622eeec0-b2c0-11eb-9edc-5952c9ea2f58",
+                    "required": true
+                },
+                {
+                    "primaryKey": true,
+                    "mode": "text",
+                    "subtype": "string",
+                    "childType": "char",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePartitionKey",
+                        "compositeClusteringKey"
+                    ],
+                    "compositePartitionKey": false,
+                    "compositeClusteringKey": true,
+                    "name": "country",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "GUID": "657714e0-b2c0-11eb-9edc-5952c9ea2f58",
+                    "required": true
+                },
+                {
+                    "primaryKey": false,
+                    "mode": "text",
+                    "subtype": "string",
+                    "childType": "char",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePartitionKey",
+                        "compositeClusteringKey"
+                    ],
+                    "compositePartitionKey": false,
+                    "compositeClusteringKey": false,
+                    "name": "membership",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "GUID": "6a3c3e10-b2c0-11eb-9edc-5952c9ea2f58",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "d4c717c0-b2be-11eb-9edc-5952c9ea2f58"
+            },
+            "isActivated": true,
+            "collectionUsers": [],
+            "GUID": "d4c54300-b2be-11eb-9edc-5952c9ea2f58",
+            "bucketId": "c216b310-b2be-11eb-9edc-5952c9ea2f58",
+            "compositePartitionKey": [
+                {
+                    "keyId": "598c8b60-b2c0-11eb-9edc-5952c9ea2f58",
+                    "type": ""
+                }
+            ],
+            "compositeClusteringKey": [
+                {
+                    "keyId": "622eeec0-b2c0-11eb-9edc-5952c9ea2f58",
+                    "type": "ascending"
+                },
+                {
+                    "keyId": "657714e0-b2c0-11eb-9edc-5952c9ea2f58",
+                    "type": "ascending"
+                }
+            ]
+        },
+        {
+            "collectionName": "clients_by_country",
+            "type": "object",
+            "properties": [
+                {
+                    "primaryKey": true,
+                    "mode": "text",
+                    "subtype": "string",
+                    "childType": "char",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePartitionKey",
+                        "compositeClusteringKey"
+                    ],
+                    "compositePartitionKey": true,
+                    "compositeClusteringKey": false,
+                    "name": "country",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "GUID": "7d26c590-b2c0-11eb-9edc-5952c9ea2f58",
+                    "required": true
+                },
+                {
+                    "primaryKey": true,
+                    "mode": "text",
+                    "subtype": "string",
+                    "childType": "char",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePartitionKey",
+                        "compositeClusteringKey"
+                    ],
+                    "compositePartitionKey": false,
+                    "compositeClusteringKey": true,
+                    "name": "username",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "GUID": "807cf570-b2c0-11eb-9edc-5952c9ea2f58",
+                    "required": true,
+                    "childRelationships": [
+                        "1a5b4240-b2c2-11eb-9edc-5952c9ea2f58"
+                    ]
+                },
+                {
+                    "primaryKey": false,
+                    "mode": "text",
+                    "subtype": "string",
+                    "childType": "char",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePartitionKey",
+                        "compositeClusteringKey"
+                    ],
+                    "compositePartitionKey": false,
+                    "compositeClusteringKey": false,
+                    "name": "first_name",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "GUID": "88a56de0-b2c0-11eb-9edc-5952c9ea2f58",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                },
+                {
+                    "primaryKey": false,
+                    "mode": "text",
+                    "subtype": "string",
+                    "childType": "char",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePartitionKey",
+                        "compositeClusteringKey"
+                    ],
+                    "compositePartitionKey": false,
+                    "compositeClusteringKey": false,
+                    "name": "last_name",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "GUID": "8aaef980-b2c0-11eb-9edc-5952c9ea2f58",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                },
+                {
+                    "primaryKey": false,
+                    "mode": "text",
+                    "subtype": "string",
+                    "childType": "char",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePartitionKey",
+                        "compositeClusteringKey"
+                    ],
+                    "compositePartitionKey": false,
+                    "compositeClusteringKey": false,
+                    "name": "membership",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "GUID": "8cb80ff0-b2c0-11eb-9edc-5952c9ea2f58",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "da734590-b2be-11eb-9edc-5952c9ea2f58"
+            },
+            "isActivated": true,
+            "collectionUsers": [],
+            "GUID": "da703850-b2be-11eb-9edc-5952c9ea2f58",
+            "bucketId": "c216b310-b2be-11eb-9edc-5952c9ea2f58",
+            "compositePartitionKey": [
+                {
+                    "keyId": "7d26c590-b2c0-11eb-9edc-5952c9ea2f58",
+                    "type": ""
+                }
+            ],
+            "compositeClusteringKey": [
+                {
+                    "keyId": "807cf570-b2c0-11eb-9edc-5952c9ea2f58",
+                    "type": "ascending"
+                }
+            ]
+        },
+        {
+            "collectionName": "clients_by_membership",
+            "type": "object",
+            "properties": [
+                {
+                    "primaryKey": true,
+                    "mode": "text",
+                    "subtype": "string",
+                    "childType": "char",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePartitionKey",
+                        "compositeClusteringKey"
+                    ],
+                    "compositePartitionKey": true,
+                    "compositeClusteringKey": false,
+                    "name": "membership",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "GUID": "97421f10-b2c0-11eb-9edc-5952c9ea2f58",
+                    "required": true
+                },
+                {
+                    "primaryKey": true,
+                    "mode": "text",
+                    "subtype": "string",
+                    "childType": "char",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePartitionKey",
+                        "compositeClusteringKey"
+                    ],
+                    "compositePartitionKey": false,
+                    "compositeClusteringKey": true,
+                    "name": "username",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "GUID": "9982c040-b2c0-11eb-9edc-5952c9ea2f58",
+                    "required": true,
+                    "childRelationships": [
+                        "1dfea7c0-b2c2-11eb-9edc-5952c9ea2f58"
+                    ]
+                },
+                {
+                    "primaryKey": false,
+                    "mode": "text",
+                    "subtype": "string",
+                    "childType": "char",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePartitionKey",
+                        "compositeClusteringKey"
+                    ],
+                    "compositePartitionKey": false,
+                    "compositeClusteringKey": false,
+                    "name": "first_name",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "GUID": "9b3aa970-b2c0-11eb-9edc-5952c9ea2f58",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                },
+                {
+                    "primaryKey": false,
+                    "mode": "text",
+                    "subtype": "string",
+                    "childType": "char",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePartitionKey",
+                        "compositeClusteringKey"
+                    ],
+                    "compositePartitionKey": false,
+                    "compositeClusteringKey": false,
+                    "name": "last_name",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "GUID": "9fc69a30-b2c0-11eb-9edc-5952c9ea2f58",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                },
+                {
+                    "primaryKey": false,
+                    "mode": "text",
+                    "subtype": "string",
+                    "childType": "char",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePartitionKey",
+                        "compositeClusteringKey"
+                    ],
+                    "compositePartitionKey": false,
+                    "compositeClusteringKey": false,
+                    "name": "country",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "GUID": "a1b68350-b2c0-11eb-9edc-5952c9ea2f58",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "e0d33300-b2be-11eb-9edc-5952c9ea2f58"
+            },
+            "isActivated": true,
+            "collectionUsers": [],
+            "GUID": "e0d18550-b2be-11eb-9edc-5952c9ea2f58",
+            "bucketId": "c216b310-b2be-11eb-9edc-5952c9ea2f58",
+            "compositePartitionKey": [
+                {
+                    "keyId": "97421f10-b2c0-11eb-9edc-5952c9ea2f58",
+                    "type": ""
+                }
+            ],
+            "compositeClusteringKey": [
+                {
+                    "keyId": "9982c040-b2c0-11eb-9edc-5952c9ea2f58",
+                    "type": "ascending"
+                }
+            ]
+        },
+        {
+            "collectionName": "best_books_by_category",
+            "type": "object",
+            "properties": [
+                {
+                    "primaryKey": true,
+                    "mode": "text",
+                    "subtype": "string",
+                    "childType": "char",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePartitionKey",
+                        "compositeClusteringKey"
+                    ],
+                    "compositePartitionKey": true,
+                    "compositeClusteringKey": false,
+                    "name": "book_category",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "GUID": "8ad85e00-b2c1-11eb-9edc-5952c9ea2f58",
+                    "required": true,
+                    "error": {},
+                    "relationshipType": "Foreign Key",
+                    "foreignCollection": "a6925170-b373-11eb-9bed-51f36cd7c80e",
+                    "foreignField": [
+                        "a6925170-b373-11eb-9bed-51f36cd7c80e",
+                        "ae68b240-b373-11eb-9bed-51f36cd7c80e"
+                    ],
+                    "parentRelationship": "c0f38d90-b373-11eb-9bed-51f36cd7c80e"
+                },
+                {
+                    "primaryKey": true,
+                    "mode": "text",
+                    "subtype": "string",
+                    "childType": "char",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePartitionKey",
+                        "compositeClusteringKey"
+                    ],
+                    "compositePartitionKey": false,
+                    "compositeClusteringKey": true,
+                    "name": "book_title",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "GUID": "94ce4370-b2c1-11eb-9edc-5952c9ea2f58",
+                    "required": true
+                },
+                {
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": true,
+                    "mode": "smallint",
+                    "childType": "numeric",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositePartitionKey",
+                        "compositeClusteringKey"
+                    ],
+                    "compositePartitionKey": true,
+                    "compositeClusteringKey": false,
+                    "name": "score",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "GUID": "9dc24940-b2c1-11eb-9edc-5952c9ea2f58",
+                    "required": true
+                },
+                {
+                    "subtype": "set<str>",
+                    "primaryKey": false,
+                    "properties": [
+                        {
+                            "primaryKey": false,
+                            "mode": "text",
+                            "subtype": "string",
+                            "childType": "char",
+                            "type": "string",
+                            "compositeKey": [
+                                "compositePartitionKey",
+                                "compositeClusteringKey"
+                            ],
+                            "compositePartitionKey": false,
+                            "compositeClusteringKey": false,
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "GUID": "a75b41a0-b2c1-11eb-9edc-5952c9ea2f58",
+                            "arrayItem": true,
+                            "arrayParentType": "set"
+                        }
+                    ],
+                    "additionalProperties": false,
+                    "childType": "set",
+                    "type": "array",
+                    "compositeKey": [
+                        "compositePartitionKey",
+                        "compositeClusteringKey"
+                    ],
+                    "compositePartitionKey": false,
+                    "compositeClusteringKey": false,
+                    "name": "authors",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "GUID": "a21e5060-b2c1-11eb-9edc-5952c9ea2f58",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "02ade2e0-b2bf-11eb-9edc-5952c9ea2f58"
+            },
+            "isActivated": true,
+            "collectionUsers": [],
+            "GUID": "02acaa60-b2bf-11eb-9edc-5952c9ea2f58",
+            "bucketId": "f4e7bb90-b2be-11eb-9edc-5952c9ea2f58",
+            "compositePartitionKey": [
+                {
+                    "keyId": "8ad85e00-b2c1-11eb-9edc-5952c9ea2f58",
+                    "type": ""
+                },
+                {
+                    "keyId": "9dc24940-b2c1-11eb-9edc-5952c9ea2f58",
+                    "type": ""
+                }
+            ],
+            "compositeClusteringKey": [
+                {
+                    "keyId": "94ce4370-b2c1-11eb-9edc-5952c9ea2f58",
+                    "type": "ascending"
+                }
+            ]
+        },
+        {
+            "collectionName": "most_satisfied_clients_by_book",
+            "type": "object",
+            "properties": [
+                {
+                    "primaryKey": true,
+                    "mode": "text",
+                    "subtype": "string",
+                    "childType": "char",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePartitionKey",
+                        "compositeClusteringKey"
+                    ],
+                    "compositePartitionKey": true,
+                    "compositeClusteringKey": false,
+                    "name": "book_title",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "GUID": "d4d16610-b2c0-11eb-9edc-5952c9ea2f58",
+                    "required": true
+                },
+                {
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": true,
+                    "mode": "smallint",
+                    "childType": "numeric",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositePartitionKey",
+                        "compositeClusteringKey"
+                    ],
+                    "compositePartitionKey": true,
+                    "compositeClusteringKey": false,
+                    "name": "score",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "GUID": "d7851460-b2c0-11eb-9edc-5952c9ea2f58",
+                    "required": true,
+                    "relationshipType": "Foreign Key",
+                    "foreignCollection": "bce61de0-b2be-11eb-9edc-5952c9ea2f58",
+                    "foreignField": [
+                        "bce61de0-b2be-11eb-9edc-5952c9ea2f58",
+                        "e9375f70-b2bf-11eb-9edc-5952c9ea2f58"
+                    ],
+                    "parentRelationship": "ff9ccaf0-b2c1-11eb-9edc-5952c9ea2f58"
+                },
+                {
+                    "primaryKey": true,
+                    "mode": "text",
+                    "subtype": "string",
+                    "childType": "char",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePartitionKey",
+                        "compositeClusteringKey"
+                    ],
+                    "compositePartitionKey": false,
+                    "compositeClusteringKey": true,
+                    "name": "username",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "GUID": "dfb63f60-b2c0-11eb-9edc-5952c9ea2f58",
+                    "required": true
+                },
+                {
+                    "primaryKey": true,
+                    "mode": "text",
+                    "subtype": "string",
+                    "childType": "char",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePartitionKey",
+                        "compositeClusteringKey"
+                    ],
+                    "compositePartitionKey": false,
+                    "compositeClusteringKey": true,
+                    "name": "country",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "GUID": "e9d66920-b2c0-11eb-9edc-5952c9ea2f58",
+                    "required": true
+                },
+                {
+                    "primaryKey": false,
+                    "mode": "text",
+                    "subtype": "string",
+                    "childType": "char",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePartitionKey",
+                        "compositeClusteringKey"
+                    ],
+                    "compositePartitionKey": false,
+                    "compositeClusteringKey": false,
+                    "name": "membership",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "GUID": "eb868a20-b2c0-11eb-9edc-5952c9ea2f58",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                },
+                {
+                    "subtype": "set<str>",
+                    "primaryKey": false,
+                    "properties": [
+                        {
+                            "primaryKey": false,
+                            "mode": "text",
+                            "subtype": "string",
+                            "childType": "char",
+                            "type": "string",
+                            "compositeKey": [
+                                "compositePartitionKey",
+                                "compositeClusteringKey"
+                            ],
+                            "compositePartitionKey": false,
+                            "compositeClusteringKey": false,
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "GUID": "f523c840-b2c0-11eb-9edc-5952c9ea2f58",
+                            "arrayItem": true,
+                            "arrayParentType": "set"
+                        }
+                    ],
+                    "additionalProperties": false,
+                    "childType": "set",
+                    "type": "array",
+                    "compositeKey": [
+                        "compositePartitionKey",
+                        "compositeClusteringKey"
+                    ],
+                    "compositePartitionKey": false,
+                    "compositeClusteringKey": false,
+                    "name": "authors",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "GUID": "f2ad7110-b2c0-11eb-9edc-5952c9ea2f58",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                },
+                {
+                    "primaryKey": false,
+                    "mode": "text",
+                    "subtype": "string",
+                    "childType": "char",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePartitionKey",
+                        "compositeClusteringKey"
+                    ],
+                    "compositePartitionKey": false,
+                    "compositeClusteringKey": false,
+                    "name": "book_category",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "GUID": "ebc6a980-b346-11eb-9bed-51f36cd7c80e",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    },
+                    "relationshipType": "Foreign Key",
+                    "foreignCollection": "a6925170-b373-11eb-9bed-51f36cd7c80e",
+                    "foreignField": [
+                        "a6925170-b373-11eb-9bed-51f36cd7c80e",
+                        "ae68b240-b373-11eb-9bed-51f36cd7c80e"
+                    ],
+                    "parentRelationship": "c5929120-b373-11eb-9bed-51f36cd7c80e"
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "150c5700-b2bf-11eb-9edc-5952c9ea2f58"
+            },
+            "isActivated": true,
+            "collectionUsers": [],
+            "GUID": "150a0d10-b2bf-11eb-9edc-5952c9ea2f58",
+            "bucketId": "f4e7bb90-b2be-11eb-9edc-5952c9ea2f58",
+            "compositePartitionKey": [
+                {
+                    "keyId": "d4d16610-b2c0-11eb-9edc-5952c9ea2f58",
+                    "type": ""
+                },
+                {
+                    "keyId": "d7851460-b2c0-11eb-9edc-5952c9ea2f58",
+                    "type": ""
+                }
+            ],
+            "compositeClusteringKey": [
+                {
+                    "keyId": "dfb63f60-b2c0-11eb-9edc-5952c9ea2f58",
+                    "type": "ascending"
+                },
+                {
+                    "keyId": "e9d66920-b2c0-11eb-9edc-5952c9ea2f58",
+                    "type": "ascending"
+                }
+            ]
+        },
+        {
+            "collectionName": "favorite_category_by_client",
+            "type": "object",
+            "properties": [
+                {
+                    "primaryKey": true,
+                    "mode": "text",
+                    "subtype": "string",
+                    "childType": "char",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePartitionKey",
+                        "compositeClusteringKey"
+                    ],
+                    "compositePartitionKey": true,
+                    "compositeClusteringKey": false,
+                    "name": "username",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "GUID": "b2ef1510-b2c0-11eb-9edc-5952c9ea2f58",
+                    "required": true,
+                    "relationshipType": "Foreign Key",
+                    "foreignCollection": "e0d18550-b2be-11eb-9edc-5952c9ea2f58",
+                    "foreignField": [
+                        "e0d18550-b2be-11eb-9edc-5952c9ea2f58",
+                        "9982c040-b2c0-11eb-9edc-5952c9ea2f58"
+                    ],
+                    "parentRelationship": "1dfea7c0-b2c2-11eb-9edc-5952c9ea2f58"
+                },
+                {
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": true,
+                    "mode": "integer",
+                    "childType": "numeric",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositePartitionKey",
+                        "compositeClusteringKey"
+                    ],
+                    "compositePartitionKey": false,
+                    "compositeClusteringKey": true,
+                    "name": "category_frequency",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "GUID": "b5b057f0-b2c0-11eb-9edc-5952c9ea2f58",
+                    "required": true
+                },
+                {
+                    "primaryKey": false,
+                    "mode": "text",
+                    "subtype": "string",
+                    "childType": "char",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePartitionKey",
+                        "compositeClusteringKey"
+                    ],
+                    "compositePartitionKey": false,
+                    "compositeClusteringKey": false,
+                    "name": "category",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "GUID": "c030ca20-b2c0-11eb-9edc-5952c9ea2f58",
+                    "error": {
+                        "name": false,
+                        "code": false
+                    },
+                    "relationshipType": "Foreign Key",
+                    "foreignCollection": "a6925170-b373-11eb-9bed-51f36cd7c80e",
+                    "foreignField": [
+                        "a6925170-b373-11eb-9bed-51f36cd7c80e",
+                        "ae68b240-b373-11eb-9bed-51f36cd7c80e"
+                    ],
+                    "parentRelationship": "c32f4cc0-b373-11eb-9bed-51f36cd7c80e"
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "1f179930-b2bf-11eb-9edc-5952c9ea2f58"
+            },
+            "isActivated": true,
+            "collectionUsers": [],
+            "GUID": "1f157650-b2bf-11eb-9edc-5952c9ea2f58",
+            "bucketId": "f4e7bb90-b2be-11eb-9edc-5952c9ea2f58",
+            "compositePartitionKey": [
+                {
+                    "keyId": "b2ef1510-b2c0-11eb-9edc-5952c9ea2f58",
+                    "type": ""
+                }
+            ],
+            "compositeClusteringKey": [
+                {
+                    "keyId": "b5b057f0-b2c0-11eb-9edc-5952c9ea2f58",
+                    "type": "descending"
+                }
+            ]
+        },
+        {
+            "collectionName": "category_by_name",
+            "type": "object",
+            "properties": [
+                {
+                    "primaryKey": true,
+                    "mode": "text",
+                    "subtype": "string",
+                    "childType": "char",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePartitionKey",
+                        "compositeClusteringKey"
+                    ],
+                    "compositePartitionKey": true,
+                    "compositeClusteringKey": false,
+                    "name": "category",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "GUID": "ae68b240-b373-11eb-9bed-51f36cd7c80e",
+                    "required": true,
+                    "childRelationships": [
+                        "c0f38d90-b373-11eb-9bed-51f36cd7c80e",
+                        "c32f4cc0-b373-11eb-9bed-51f36cd7c80e",
+                        "c5929120-b373-11eb-9bed-51f36cd7c80e"
+                    ]
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "a6947450-b373-11eb-9bed-51f36cd7c80e"
+            },
+            "isActivated": true,
+            "collectionUsers": [],
+            "GUID": "a6925170-b373-11eb-9bed-51f36cd7c80e",
+            "bucketId": "a48ff400-b2be-11eb-9edc-5952c9ea2f58",
+            "compositePartitionKey": [
+                {
+                    "keyId": "ae68b240-b373-11eb-9bed-51f36cd7c80e",
+                    "type": ""
+                }
+            ]
+        }
+    ],
+    "buckets": [
+        {
+            "name": "books_keyspace",
+            "type": "bucket",
+            "collectionIds": [
+                "aa8dc440-b2be-11eb-9edc-5952c9ea2f58",
+                "b1a1bf70-b2be-11eb-9edc-5952c9ea2f58",
+                "bce61de0-b2be-11eb-9edc-5952c9ea2f58",
+                "a6925170-b373-11eb-9bed-51f36cd7c80e"
+            ],
+            "backgroundColor": {
+                "r": 0,
+                "g": 138,
+                "b": 0,
+                "a": 1
+            },
+            "show": true,
+            "isActivated": true,
+            "indexes": [],
+            "replStrategy": "SimpleStrategy",
+            "addToCqlScript": true,
+            "GUID": "a48ff400-b2be-11eb-9edc-5952c9ea2f58"
+        },
+        {
+            "name": "clients_keyspace",
+            "type": "bucket",
+            "collectionIds": [
+                "d4c54300-b2be-11eb-9edc-5952c9ea2f58",
+                "da703850-b2be-11eb-9edc-5952c9ea2f58",
+                "e0d18550-b2be-11eb-9edc-5952c9ea2f58"
+            ],
+            "backgroundColor": {
+                "r": 254,
+                "g": 193,
+                "b": 7,
+                "a": 1
+            },
+            "show": true,
+            "isActivated": true,
+            "indexes": [],
+            "replStrategy": "SimpleStrategy",
+            "addToCqlScript": true,
+            "GUID": "c216b310-b2be-11eb-9edc-5952c9ea2f58"
+        },
+        {
+            "name": "queries_keyspace",
+            "type": "bucket",
+            "collectionIds": [
+                "02acaa60-b2bf-11eb-9edc-5952c9ea2f58",
+                "150a0d10-b2bf-11eb-9edc-5952c9ea2f58",
+                "1f157650-b2bf-11eb-9edc-5952c9ea2f58"
+            ],
+            "backgroundColor": {
+                "r": 254,
+                "g": 87,
+                "b": 34,
+                "a": 1
+            },
+            "show": true,
+            "isActivated": true,
+            "indexes": [],
+            "replStrategy": "SimpleStrategy",
+            "addToCqlScript": true,
+            "GUID": "f4e7bb90-b2be-11eb-9edc-5952c9ea2f58"
+        }
+    ],
+    "views": [],
+    "relationships": [
+        {
+            "name": "fk books_by_username.book_category to best_books_by_category.book_category",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "b1a1bf70-b2be-11eb-9edc-5952c9ea2f58",
+                    "ad189860-b2bf-11eb-9edc-5952c9ea2f58"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "02acaa60-b2bf-11eb-9edc-5952c9ea2f58",
+                    "8ad85e00-b2c1-11eb-9edc-5952c9ea2f58"
+                ]
+            ],
+            "childCardinality": "1",
+            "parentCollection": "b1a1bf70-b2be-11eb-9edc-5952c9ea2f58",
+            "childCollection": "02acaa60-b2bf-11eb-9edc-5952c9ea2f58",
+            "GUID": "eea69960-b2c1-11eb-9edc-5952c9ea2f58"
+        },
+        {
+            "name": "fk books_by_title.book_category to best_books_by_category.book_category",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "aa8dc440-b2be-11eb-9edc-5952c9ea2f58",
+                    "58132740-b2bf-11eb-9edc-5952c9ea2f58"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "02acaa60-b2bf-11eb-9edc-5952c9ea2f58",
+                    "8ad85e00-b2c1-11eb-9edc-5952c9ea2f58"
+                ]
+            ],
+            "childCardinality": "1",
+            "parentCollection": "aa8dc440-b2be-11eb-9edc-5952c9ea2f58",
+            "childCollection": "02acaa60-b2bf-11eb-9edc-5952c9ea2f58",
+            "GUID": "f2944e50-b2c1-11eb-9edc-5952c9ea2f58"
+        },
+        {
+            "name": "fk books_by_score.score to most_satissfied_clients_by_book.score",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "bce61de0-b2be-11eb-9edc-5952c9ea2f58",
+                    "e9375f70-b2bf-11eb-9edc-5952c9ea2f58"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "150a0d10-b2bf-11eb-9edc-5952c9ea2f58",
+                    "d7851460-b2c0-11eb-9edc-5952c9ea2f58"
+                ]
+            ],
+            "childCardinality": "1",
+            "parentCollection": "bce61de0-b2be-11eb-9edc-5952c9ea2f58",
+            "childCollection": "150a0d10-b2bf-11eb-9edc-5952c9ea2f58",
+            "GUID": "ff9ccaf0-b2c1-11eb-9edc-5952c9ea2f58"
+        },
+        {
+            "name": "fk clients_by_username.username to favorite_category_by_client.username",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "d4c54300-b2be-11eb-9edc-5952c9ea2f58",
+                    "598c8b60-b2c0-11eb-9edc-5952c9ea2f58"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "1f157650-b2bf-11eb-9edc-5952c9ea2f58",
+                    "b2ef1510-b2c0-11eb-9edc-5952c9ea2f58"
+                ]
+            ],
+            "childCardinality": "1",
+            "parentCollection": "d4c54300-b2be-11eb-9edc-5952c9ea2f58",
+            "childCollection": "1f157650-b2bf-11eb-9edc-5952c9ea2f58",
+            "GUID": "17296340-b2c2-11eb-9edc-5952c9ea2f58"
+        },
+        {
+            "name": "fk clients_by_country.username to favorite_category_by_client.username",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "da703850-b2be-11eb-9edc-5952c9ea2f58",
+                    "807cf570-b2c0-11eb-9edc-5952c9ea2f58"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "1f157650-b2bf-11eb-9edc-5952c9ea2f58",
+                    "b2ef1510-b2c0-11eb-9edc-5952c9ea2f58"
+                ]
+            ],
+            "childCardinality": "1",
+            "parentCollection": "da703850-b2be-11eb-9edc-5952c9ea2f58",
+            "childCollection": "1f157650-b2bf-11eb-9edc-5952c9ea2f58",
+            "GUID": "1a5b4240-b2c2-11eb-9edc-5952c9ea2f58"
+        },
+        {
+            "name": "fk clients_by_membership.username to favorite_category_by_client.username",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "e0d18550-b2be-11eb-9edc-5952c9ea2f58",
+                    "9982c040-b2c0-11eb-9edc-5952c9ea2f58"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "1f157650-b2bf-11eb-9edc-5952c9ea2f58",
+                    "b2ef1510-b2c0-11eb-9edc-5952c9ea2f58"
+                ]
+            ],
+            "childCardinality": "1",
+            "parentCollection": "e0d18550-b2be-11eb-9edc-5952c9ea2f58",
+            "childCollection": "1f157650-b2bf-11eb-9edc-5952c9ea2f58",
+            "GUID": "1dfea7c0-b2c2-11eb-9edc-5952c9ea2f58"
+        },
+        {
+            "name": "fk category_by_name.category to best_books_by_category.book_category",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "a6925170-b373-11eb-9bed-51f36cd7c80e",
+                    "ae68b240-b373-11eb-9bed-51f36cd7c80e"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "02acaa60-b2bf-11eb-9edc-5952c9ea2f58",
+                    "8ad85e00-b2c1-11eb-9edc-5952c9ea2f58"
+                ]
+            ],
+            "childCardinality": "1",
+            "parentCollection": "a6925170-b373-11eb-9bed-51f36cd7c80e",
+            "childCollection": "02acaa60-b2bf-11eb-9edc-5952c9ea2f58",
+            "GUID": "c0f38d90-b373-11eb-9bed-51f36cd7c80e"
+        },
+        {
+            "name": "fk category_by_name.category to favorite_category_by_client.category",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "a6925170-b373-11eb-9bed-51f36cd7c80e",
+                    "ae68b240-b373-11eb-9bed-51f36cd7c80e"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "1f157650-b2bf-11eb-9edc-5952c9ea2f58",
+                    "c030ca20-b2c0-11eb-9edc-5952c9ea2f58"
+                ]
+            ],
+            "childCardinality": "1",
+            "parentCollection": "a6925170-b373-11eb-9bed-51f36cd7c80e",
+            "childCollection": "1f157650-b2bf-11eb-9edc-5952c9ea2f58",
+            "GUID": "c32f4cc0-b373-11eb-9bed-51f36cd7c80e"
+        },
+        {
+            "name": "fk category_by_name.category to most_satisfied_clients_by_book.book_category",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "a6925170-b373-11eb-9bed-51f36cd7c80e",
+                    "ae68b240-b373-11eb-9bed-51f36cd7c80e"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "150a0d10-b2bf-11eb-9edc-5952c9ea2f58",
+                    "ebc6a980-b346-11eb-9bed-51f36cd7c80e"
+                ]
+            ],
+            "childCardinality": "1",
+            "parentCollection": "a6925170-b373-11eb-9bed-51f36cd7c80e",
+            "childCollection": "150a0d10-b2bf-11eb-9edc-5952c9ea2f58",
+            "GUID": "c5929120-b373-11eb-9bed-51f36cd7c80e"
+        }
+    ],
+    "users": [],
+    "diagramViews": [
+        {
+            "GUID": "a2a1f7f0-b2c4-11eb-9edc-5952c9ea2f58",
+            "name": "test",
+            "buckets": [
+                "a48ff400-b2be-11eb-9edc-5952c9ea2f58",
+                "c216b310-b2be-11eb-9edc-5952c9ea2f58",
+                "f4e7bb90-b2be-11eb-9edc-5952c9ea2f58"
+            ],
+            "entities": [
+                "bce61de0-b2be-11eb-9edc-5952c9ea2f58",
+                "aa8dc440-b2be-11eb-9edc-5952c9ea2f58",
+                "b1a1bf70-b2be-11eb-9edc-5952c9ea2f58",
+                "da703850-b2be-11eb-9edc-5952c9ea2f58",
+                "e0d18550-b2be-11eb-9edc-5952c9ea2f58",
+                "d4c54300-b2be-11eb-9edc-5952c9ea2f58",
+                "02acaa60-b2bf-11eb-9edc-5952c9ea2f58",
+                "1f157650-b2bf-11eb-9edc-5952c9ea2f58",
+                "150a0d10-b2bf-11eb-9edc-5952c9ea2f58"
+            ]
+        }
+    ],
+    "idToNameHashTable": {
+        "a48ff400-b2be-11eb-9edc-5952c9ea2f58": "books_keyspace",
+        "aa8dc440-b2be-11eb-9edc-5952c9ea2f58": "books_by_title",
+        "b1a1bf70-b2be-11eb-9edc-5952c9ea2f58": "books_by_username",
+        "bce61de0-b2be-11eb-9edc-5952c9ea2f58": "books_by_score",
+        "c216b310-b2be-11eb-9edc-5952c9ea2f58": "clients_keyspace",
+        "cd05c590-b2be-11eb-9edc-5952c9ea2f58": "New view",
+        "d4c54300-b2be-11eb-9edc-5952c9ea2f58": "clients_by_username",
+        "da703850-b2be-11eb-9edc-5952c9ea2f58": "clients_by_country",
+        "e0d18550-b2be-11eb-9edc-5952c9ea2f58": "clients_by_membership",
+        "f4e7bb90-b2be-11eb-9edc-5952c9ea2f58": "queries_keyspace",
+        "02acaa60-b2bf-11eb-9edc-5952c9ea2f58": "best_books_by_category",
+        "150a0d10-b2bf-11eb-9edc-5952c9ea2f58": "most_satisfied_clients_by_book",
+        "1f157650-b2bf-11eb-9edc-5952c9ea2f58": "favorite_category_by_client",
+        "52b4cb50-b2bf-11eb-9edc-5952c9ea2f58": "book_title",
+        "60469c30-b2bf-11eb-9edc-5952c9ea2f58": "authors",
+        "a362f040-b2bf-11eb-9edc-5952c9ea2f58": "username",
+        "a82ea920-b2bf-11eb-9edc-5952c9ea2f58": "book_title",
+        "ad189860-b2bf-11eb-9edc-5952c9ea2f58": "book_category",
+        "b199dac0-b2bf-11eb-9edc-5952c9ea2f58": "book_authors",
+        "bc6ab6e0-b2bf-11eb-9edc-5952c9ea2f58": "score",
+        "e9375f70-b2bf-11eb-9edc-5952c9ea2f58": "score",
+        "f4bda8e0-b2bf-11eb-9edc-5952c9ea2f58": "book_title",
+        "fa66c970-b2bf-11eb-9edc-5952c9ea2f58": "book_category",
+        "fdf23a20-b2bf-11eb-9edc-5952c9ea2f58": "authors",
+        "598c8b60-b2c0-11eb-9edc-5952c9ea2f58": "username",
+        "5cca5140-b2c0-11eb-9edc-5952c9ea2f58": "first_name",
+        "622eeec0-b2c0-11eb-9edc-5952c9ea2f58": "last_name",
+        "657714e0-b2c0-11eb-9edc-5952c9ea2f58": "country",
+        "6a3c3e10-b2c0-11eb-9edc-5952c9ea2f58": "membership",
+        "7d26c590-b2c0-11eb-9edc-5952c9ea2f58": "country",
+        "807cf570-b2c0-11eb-9edc-5952c9ea2f58": "username",
+        "88a56de0-b2c0-11eb-9edc-5952c9ea2f58": "first_name",
+        "8aaef980-b2c0-11eb-9edc-5952c9ea2f58": "last_name",
+        "8cb80ff0-b2c0-11eb-9edc-5952c9ea2f58": "membership",
+        "97421f10-b2c0-11eb-9edc-5952c9ea2f58": "membership",
+        "9982c040-b2c0-11eb-9edc-5952c9ea2f58": "username",
+        "9b3aa970-b2c0-11eb-9edc-5952c9ea2f58": "first_name",
+        "9fc69a30-b2c0-11eb-9edc-5952c9ea2f58": "last_name",
+        "a1b68350-b2c0-11eb-9edc-5952c9ea2f58": "country",
+        "b2ef1510-b2c0-11eb-9edc-5952c9ea2f58": "username",
+        "b5b057f0-b2c0-11eb-9edc-5952c9ea2f58": "category_frequency",
+        "c030ca20-b2c0-11eb-9edc-5952c9ea2f58": "category",
+        "d4d16610-b2c0-11eb-9edc-5952c9ea2f58": "book_title",
+        "d7851460-b2c0-11eb-9edc-5952c9ea2f58": "score",
+        "dfb63f60-b2c0-11eb-9edc-5952c9ea2f58": "username",
+        "e9d66920-b2c0-11eb-9edc-5952c9ea2f58": "country",
+        "eb868a20-b2c0-11eb-9edc-5952c9ea2f58": "membership",
+        "f2ad7110-b2c0-11eb-9edc-5952c9ea2f58": "authors",
+        "8ad85e00-b2c1-11eb-9edc-5952c9ea2f58": "book_category",
+        "94ce4370-b2c1-11eb-9edc-5952c9ea2f58": "book_title",
+        "9dc24940-b2c1-11eb-9edc-5952c9ea2f58": "score",
+        "a21e5060-b2c1-11eb-9edc-5952c9ea2f58": "authors",
+        "58132740-b2bf-11eb-9edc-5952c9ea2f58": "book_category",
+        "eea69960-b2c1-11eb-9edc-5952c9ea2f58": "fk books_by_username.book_category to best_books_by_category.book_category",
+        "f2944e50-b2c1-11eb-9edc-5952c9ea2f58": "fk books_by_title.book_category to best_books_by_category.book_category",
+        "ff9ccaf0-b2c1-11eb-9edc-5952c9ea2f58": "fk books_by_score.score to most_satissfied_clients_by_book.score",
+        "17296340-b2c2-11eb-9edc-5952c9ea2f58": "fk clients_by_username.username to favorite_category_by_client.username",
+        "1a5b4240-b2c2-11eb-9edc-5952c9ea2f58": "fk clients_by_country.username to favorite_category_by_client.username",
+        "1dfea7c0-b2c2-11eb-9edc-5952c9ea2f58": "fk clients_by_membership.username to favorite_category_by_client.username",
+        "8cd8e190-b2c4-11eb-9edc-5952c9ea2f58": "New view",
+        "8d61c0a0-b2c4-11eb-9edc-5952c9ea2f58": "New view(1)",
+        "a2a1f7f0-b2c4-11eb-9edc-5952c9ea2f58": "test",
+        "ebc6a980-b346-11eb-9bed-51f36cd7c80e": "book_category",
+        "a6925170-b373-11eb-9bed-51f36cd7c80e": "category_by_name",
+        "ae68b240-b373-11eb-9bed-51f36cd7c80e": "category",
+        "c0f38d90-b373-11eb-9bed-51f36cd7c80e": "fk category_by_name.category to best_books_by_category.book_category",
+        "c32f4cc0-b373-11eb-9bed-51f36cd7c80e": "fk category_by_name.category to favorite_category_by_client.category",
+        "c5929120-b373-11eb-9bed-51f36cd7c80e": "fk category_by_name.category to most_satisfied_clients_by_book.book_category"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "8b9c0381-b2be-11eb-9edc-5952c9ea2f58"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "8b9c0382-b2be-11eb-9edc-5952c9ea2f58"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVersion": "3.x",
+    "dbVendor": "Cassandra",
+    "appTarget": "CASSANDRA",
+    "creationTS": "2021-05-12T01:08:22.072Z",
+    "GUID": "8b9c0380-b2be-11eb-9edc-5952c9ea2f58",
+    "isLineageEnabled": false,
+    "hideModelViews": false,
+    "lastModifTS": "2021-05-13T00:54:09.762Z",
+    "persistenceSchemaVersion": "4",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginName": "Cassandra",
+        "pluginVersion": "0.1.75",
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "4.3.20"
+    },
+    "hackoladeMeta": {},
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "aa8dc440-b2be-11eb-9edc-5952c9ea2f58",
+                        "x": 287,
+                        "y": 105,
+                        "width": 286,
+                        "height": 89,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "b1a1bf70-b2be-11eb-9edc-5952c9ea2f58",
+                        "x": 284,
+                        "y": 224,
+                        "width": 318,
+                        "height": 117,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "bce61de0-b2be-11eb-9edc-5952c9ea2f58",
+                        "x": 290,
+                        "y": 368,
+                        "width": 305,
+                        "height": 103,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "d4c54300-b2be-11eb-9edc-5952c9ea2f58",
+                        "x": 1295,
+                        "y": 109,
+                        "width": 271,
+                        "height": 103,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "da703850-b2be-11eb-9edc-5952c9ea2f58",
+                        "x": 1300,
+                        "y": 219,
+                        "width": 284,
+                        "height": 103,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "e0d18550-b2be-11eb-9edc-5952c9ea2f58",
+                        "x": 1294,
+                        "y": 338,
+                        "width": 284,
+                        "height": 103,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "02acaa60-b2bf-11eb-9edc-5952c9ea2f58",
+                        "x": 772,
+                        "y": 216,
+                        "width": 302,
+                        "height": 89,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "150a0d10-b2bf-11eb-9edc-5952c9ea2f58",
+                        "x": 774,
+                        "y": 354,
+                        "width": 302,
+                        "height": 131,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "1f157650-b2bf-11eb-9edc-5952c9ea2f58",
+                        "x": 773,
+                        "y": 104,
+                        "width": 324,
+                        "height": 75,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "a6925170-b373-11eb-9bed-51f36cd7c80e",
+                        "x": 287,
+                        "y": 485,
+                        "width": 248,
+                        "height": 47,
+                        "color": {}
+                    }
+                ],
+                "buckets": [
+                    {
+                        "x": 244,
+                        "y": 65,
+                        "GUID": "a48ff400-b2be-11eb-9edc-5952c9ea2f58"
+                    },
+                    {
+                        "x": 1254,
+                        "y": 69,
+                        "GUID": "c216b310-b2be-11eb-9edc-5952c9ea2f58"
+                    },
+                    {
+                        "x": 732,
+                        "y": 64,
+                        "GUID": "f4e7bb90-b2be-11eb-9edc-5952c9ea2f58"
+                    }
+                ],
+                "collapsedNodes": [
+                    "02acaa60-b2bf-11eb-9edc-5952c9ea2f58a21e5060-b2c1-11eb-9edc-5952c9ea2f58",
+                    "150a0d10-b2bf-11eb-9edc-5952c9ea2f58f2ad7110-b2c0-11eb-9edc-5952c9ea2f58"
+                ],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "hideRelationshipName": false,
+                    "showPropertiesBoxes": false,
+                    "nameAlongTheLine": false,
+                    "forceLayout": true,
+                    "defaultLinkLength": 300
+                },
+                "diagramViews": [
+                    {
+                        "GUID": "a2a1f7f0-b2c4-11eb-9edc-5952c9ea2f58",
+                        "entities": [
+                            {
+                                "GUID": "bce61de0-b2be-11eb-9edc-5952c9ea2f58",
+                                "x": 290,
+                                "y": 368,
+                                "width": 305,
+                                "height": 103,
+                                "color": {}
+                            },
+                            {
+                                "GUID": "aa8dc440-b2be-11eb-9edc-5952c9ea2f58",
+                                "x": 287,
+                                "y": 105,
+                                "width": 286,
+                                "height": 89,
+                                "color": {}
+                            },
+                            {
+                                "GUID": "b1a1bf70-b2be-11eb-9edc-5952c9ea2f58",
+                                "x": 284,
+                                "y": 224,
+                                "width": 318,
+                                "height": 117,
+                                "color": {}
+                            },
+                            {
+                                "GUID": "da703850-b2be-11eb-9edc-5952c9ea2f58",
+                                "x": 1300,
+                                "y": 219,
+                                "width": 284,
+                                "height": 103,
+                                "color": {}
+                            },
+                            {
+                                "GUID": "e0d18550-b2be-11eb-9edc-5952c9ea2f58",
+                                "x": 1294,
+                                "y": 338,
+                                "width": 284,
+                                "height": 103,
+                                "color": {}
+                            },
+                            {
+                                "GUID": "d4c54300-b2be-11eb-9edc-5952c9ea2f58",
+                                "x": 1295,
+                                "y": 109,
+                                "width": 271,
+                                "height": 103,
+                                "color": {}
+                            },
+                            {
+                                "GUID": "02acaa60-b2bf-11eb-9edc-5952c9ea2f58",
+                                "x": 772,
+                                "y": 216,
+                                "width": 302,
+                                "height": 89,
+                                "color": {}
+                            },
+                            {
+                                "GUID": "1f157650-b2bf-11eb-9edc-5952c9ea2f58",
+                                "x": 773,
+                                "y": 104,
+                                "width": 324,
+                                "height": 75,
+                                "color": {}
+                            },
+                            {
+                                "GUID": "150a0d10-b2bf-11eb-9edc-5952c9ea2f58",
+                                "x": 774,
+                                "y": 354,
+                                "width": 302,
+                                "height": 131,
+                                "color": {}
+                            }
+                        ],
+                        "buckets": [
+                            {
+                                "x": 244,
+                                "y": 65,
+                                "GUID": "a48ff400-b2be-11eb-9edc-5952c9ea2f58"
+                            },
+                            {
+                                "x": 1254,
+                                "y": 69,
+                                "GUID": "c216b310-b2be-11eb-9edc-5952c9ea2f58"
+                            },
+                            {
+                                "x": 732,
+                                "y": 64,
+                                "GUID": "f4e7bb90-b2be-11eb-9edc-5952c9ea2f58"
+                            }
+                        ]
+                    }
+                ],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": []
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "details": true,
+            "hideErdDetails": false,
+            "shouldDistributeCollections": false
+        }
+    }
+}
