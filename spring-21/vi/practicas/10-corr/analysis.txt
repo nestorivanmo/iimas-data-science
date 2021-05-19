@@ -1,0 +1,7 @@
+MSZoning: 'C (all)' <- 'C'
+Exterior2nd: 'Brk Cmn' <- 'BrkComm'
+'Bedroom' <- 'BedroomAbvGr'
+'Kitchen' <- 'KitchenAbvGr'
+
+
+Classes:
