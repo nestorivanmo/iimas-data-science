@@ -1,7 +1,3 @@
-#L = {0^n 1^n}
-#L = {ZERO^n ONE^n}
-#G(V,T,P,S)
-
 tokens = (
     'ZERO','ONE',   #Alfabeto
     )
@@ -23,14 +19,14 @@ lex.lex(debug=1)
 # dictionary of names
 names = { }
 
-#S->0S1
-#S->01
-
 def p_statement_assign(p):
-    'statement : ZERO statement ONE'    
-  
+    'statement : ZERO statement ZERO'    
+
 def p_statement_assign2(p):
-    'statement : ZERO ONE'    
+    'statement : ONE statement ONE'    
+  
+def p_statement_assign3(p):
+    'statement :'
 
 def p_error(p):
     if p:
