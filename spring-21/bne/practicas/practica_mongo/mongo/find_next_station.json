@@ -1,0 +1,28 @@
+db.trips.aggregate([
+    {
+        $match: {
+            $and: [
+                {start_station_id: 516},
+                {end_station_id: {$ne: 516}}
+            ]
+        }
+    },
+    {$project:{
+        _id: 0,
+        hour: {$hour: {date: {$dateFromString: {dateString: '$start_time'}}}},
+        year: {$year: {date: {$dateFromString: {dateString: '$start_time'}}}},
+        month: {$month: {date: {$dateFromString: {dateString: '$start_time'}}}},
+        trip_duration: 1,
+        start_station_id:1,
+        end_station_id:1
+    }},
+    {$sort: {hour: 1, year: -1, month: 1, trip_duration: -1}},
+    {
+        $match: {
+            $and: [
+                {hour: {$gte: 6, $lte: 8}},
+                {trip_duration: {$lte: 200}}
+            ]
+        }
+    }
+])

@@ -1,0 +1,17 @@
+db.stations.aggregate([
+    {
+        "$geoNear": {
+            "near": {"type":"Point", "coordinates": [-73.9816324043, 40.752062306999996]},
+            "key": "loc",
+            "distanceField":"dist",
+            "spherical":true
+        }
+    },
+    {
+        $project:{
+            _id:0,
+            id:1,
+            dist:1
+        }
+    }
+])
