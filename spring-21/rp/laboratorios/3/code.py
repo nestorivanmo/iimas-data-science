@@ -32,7 +32,7 @@ class Main:
         df['y_name'] = b
         df['class'] = c
         return df
-    
+
 
 if __name__ == '__main__':
     path = 'iris.csv'

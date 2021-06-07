@@ -55,11 +55,18 @@ class PointClass:
 		return members
 
 class Maximin:
-	def __init__(self, path_to_csv, x_name, y_name, f=0.5):
-		builder = Builder(path_to_csv)
-		self.data = builder.build_data(x_name, y_name)
-		self.points_classes = [] #[<PointClass>]
-		self.f = f
+	def __init__(self, path_to_csv=None, x_name=None, y_name=None, data=None, f=0.5):
+		try:
+			if data is not None:
+				self.data = data
+			else:
+				print("here")
+				builder = Builder(path_to_csv)
+				self.data = builder.build_data(x_name, y_name)
+			self.points_classes = [] #[<PointClass>]
+			self.f = f
+		except:
+			raise Exception("Error while initializing Maximin")
 
 	def print_status(self):
 		for idx, pc in enumerate(self.points_classes):
@@ -171,16 +178,24 @@ class Maximin:
 
 
 if __name__ == '__main__':
-	# data = [
-	# 	Point(0,0),
-	# 	Point(3,8),
-	# 	Point(2,2),
-	# 	Point(1,1),
-	# 	Point(5,3),
-	# 	Point(4,8),
-	# 	Point(6,3),
-	# 	Point(5,4),
-	# 	Point(6,4),
-	# 	Point(7,5),
-	# ]
+	# Textbook example
+# 	data = [
+# 		Point(0,0),
+# 		Point(3,8),
+# 		Point(2,2),
+# 		Point(1,1),
+# 		Point(5,3),
+# 		Point(4,8),
+# 		Point(6,3),
+# 		Point(5,4),
+# 		Point(6,4),
+# 		Point(7,5),
+# 	]
+#
+# 	data = Maximin(data=data).run_(verbose=True)
+
+	# Iris dataset
 	data = Maximin(path_to_csv='iris.csv', x_name='sepal_length', y_name='petal_width').run_(verbose=True)
+
+
+
