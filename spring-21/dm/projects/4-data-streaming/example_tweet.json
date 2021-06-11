@@ -1,0 +1,70 @@
+{
+    "data": {
+        "author_id": "2159735905",
+        "created_at": "2021-05-29T20:04:03.000Z",
+        "entities": {
+            "annotations": [
+                {
+                    "end": 35,
+                    "normalized_text": "Mariana Rodr\u00edguez",
+                    "probability": 0.9962,
+                    "start": 19,
+                    "type": "Person"
+                }
+            ],
+            "mentions": [
+                {
+                    "end": 11,
+                    "start": 3,
+                    "username": "greyszu"
+                },
+                {
+                    "end": 133,
+                    "start": 118,
+                    "username": "samuel_garcias"
+                }
+            ]
+        },
+        "id": "1398731888077029376",
+        "public_metrics": {
+            "like_count": 0,
+            "quote_count": 0,
+            "reply_count": 0,
+            "retweet_count": 5
+        },
+        "referenced_tweets": [
+            {
+                "id": "1398730928156037121",
+                "type": "retweeted"
+            }
+        ],
+        "source": "Twitter Web App",
+        "text": "RT @greyszu: Hasta Mariana Rodr\u00edguez est\u00e1 hasta la madre de tus payasadas qu\u00e9 haces para tu campa\u00f1a llena de mentiras @samuel_garcias. Esta\u2026"
+    },
+    "includes": {
+        "users": [
+            {
+                "created_at": "2013-10-27T22:22:31.000Z",
+                "description": "MD",
+                "id": "2159735905",
+                "location": "Mexico. Df",
+                "name": "THIRLWALL\u2661",
+                "protected": false,
+                "public_metrics": {
+                    "followers_count": 178,
+                    "following_count": 203,
+                    "listed_count": 2,
+                    "tweet_count": 2047
+                },
+                "username": "MichRmz_1D",
+                "verified": false
+            }
+        ]
+    },
+    "matching_rules": [
+        {
+            "id": 1398729449777111045,
+            "tag": "Samuel Garcia"
+        }
+    ]
+}

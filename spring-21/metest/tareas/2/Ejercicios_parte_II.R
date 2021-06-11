@@ -1,6 +1,8 @@
 library(tidyverse)
 library(ggplot2)
 library(dplyr)
+library(GGally)
+library(plotly)
 
 # Sección II: Preguntas prácticas
 
@@ -117,8 +119,44 @@ summary(data)
 nrow(data)
 ncol(data)
 
+# BARPLOT   ---------------------------------
+fig <- plot_ly(
+  x = seq(1,28),
+  y = data$y,
+  type = "bar",
+  marker=list(color=c(
+    'rgba(204,204,204,1)', 'rgba(204,204,204,1)', 'rgba(204,204,204,1)', 'rgba(222,45,38,0.8)',
+    'rgba(204,204,204,1)', 'rgba(204,204,204,1)', 'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
+    'rgba(204,204,204,1)', 'rgba(204,204,204,1)', 'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
+    'rgba(204,204,204,1)', 'rgba(204,204,204,1)', 'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
+    'rgba(204,204,204,1)', 'rgba(204,204,204,1)', 'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
+    'rgba(204,204,204,1)', 'rgba(204,204,204,1)', 'rgba(204,204,204,1)', 'rgba(204,204,204,1)',
+    'rgba(204,204,204,1)', 'rgba(204,204,204,1)', 'rgba(204,204,204,1)', 'rgba(222,45,38,0.8)'
+  ))
+)
+fig <- fig %>% layout(
+  title="Juegos ganados por 28 equipos de la NFL para 1976",
+  yaxis=list(title="Juegos ganados"),
+  xaxis=list(title="Equipos de la NFL")
+)
+fig
 
-# SEABORN PAIRPLOT
+# BOXPLOT1   ---------------------------------
+fig <- plot_ly(y = data$x1, type = "box", name='X1: Yardas por tierra')
+fig <- fig %>% add_trace(y = data$x2, name='X2: Yardas por aire')
+fig <- fig %>% add_trace(y = data$x8, name='X8: Yardas por tierra del contrario ')
+fig <- fig %>% add_trace(y = data$x9, name='X9: Yardas por aire del contrario')
+fig
+
+# BOXPLOT2   ---------------------------------
+fig <- plot_ly(y = data$y, type = "box", name='Juegos ganados')
+fig
+
+
+# CORR PLOT ---------------------------------
+ggpairs(data)
+
+
 
 # -----------------------------------------------------------------------------
 # 3.2. ¿Qué variable es la que se encuentra mayormente correlacionada con y?
@@ -142,7 +180,7 @@ for (i in 2:ncol(data)) {
 corr_df <- data.frame(col_idx, correlations)
 corr_df <- corr_df[order(corr_df$correlations, decreasing=TRUE), ]
 
-paste("La columna más correlacionada tiene índice", most_corr_col_idx, "con un valor de", 
+paste("La columna más correlacionada es X", most_corr_col_idx-1, "con un valor de", 
       most_corr)
 
 # RESPUESTA ---------------------------------
@@ -179,12 +217,11 @@ actual_preds
 min_max_acc <- mean(apply(actual_preds, 1, min) / apply(actual_preds, 1, max))
 min_max_acc
 
-
 plot(data$x8, data$y,
-     main = "Scatterplot of x vs. y",
+     main = "Y vs. X8",
      pch=16,
-     xlab='x',
-     ylab='y')
+     xlab='Yardas terrestres del contrario',
+     ylab='Juegos ganados')
 abline(lmMod, col='steelblue')
 
 
