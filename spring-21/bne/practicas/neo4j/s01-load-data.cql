@@ -3,6 +3,12 @@
 // Author: @nestorivanmo
 
 // -----------------------------------------------------------------------------
+// Delete every node and label
+// -----------------------------------------------------------------------------
+MATCH (n)
+DETACH DELETE n
+
+// -----------------------------------------------------------------------------
 // Load State nodes
 // -----------------------------------------------------------------------------
 LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/nestorivanmo/iimas-data-science/master/spring-21/bne/practicas/neo4j/data/states.csv" AS row
@@ -22,4 +28,12 @@ SET n = row
 // -----------------------------------------------------------------------------
 LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/nestorivanmo/iimas-data-science/master/spring-21/bne/practicas/neo4j/data/products.csv" AS row
 CREATE (n:Product)
+SET n = row
+
+
+// -----------------------------------------------------------------------------
+// Load ProductStore nodes
+// -----------------------------------------------------------------------------
+LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/nestorivanmo/iimas-data-science/master/spring-21/bne/practicas/neo4j/data/product_store.csv" AS row
+CREATE (n:ProductStore)
 SET n = row
