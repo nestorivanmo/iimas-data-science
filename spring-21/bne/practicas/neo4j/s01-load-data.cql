@@ -37,3 +37,19 @@ SET n = row
 LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/nestorivanmo/iimas-data-science/master/spring-21/bne/practicas/neo4j/data/product_store.csv" AS row
 CREATE (n:ProductStore)
 SET n = row
+
+
+// -----------------------------------------------------------------------------
+// Load Clients
+// -----------------------------------------------------------------------------
+LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/nestorivanmo/iimas-data-science/master/spring-21/bne/practicas/neo4j/data/clients.csv" AS row
+CREATE (n:Client)
+SET n = row
+
+
+// -----------------------------------------------------------------------------
+// Load Purchases
+// -----------------------------------------------------------------------------
+LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/nestorivanmo/iimas-data-science/master/spring-21/bne/practicas/neo4j/data/purchases.csv" AS row
+CREATE (n:Purchase)
+SET n = row
