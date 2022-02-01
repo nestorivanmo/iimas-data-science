@@ -38,23 +38,23 @@ Undergraduate courses taken:
 Undergraduate courses taken: 
 | Course | 
 | ------ |
-| [Machine Learning]() |
-| [Data Mining]() |
-| [Big Data II]() |
-| [Natural Language Processing]() |
-| [Multivariate Analysis]() |
-| [Finance]() |
+| [Machine Learning](https://github.com/nestorivanmo/iimas-data-science/tree/master/fall-21/machine-learning) |
+| [Data Mining](https://github.com/nestorivanmo/iimas-data-science/tree/master/fall-21/data-mining) |
+| [Big Data II](https://github.com/nestorivanmo/iimas-data-science/tree/master/fall-21/massive-data-ii) |
+| [Natural Language Processing](https://github.com/nestorivanmo/iimas-data-science/tree/master/fall-21/nlp) |
+| [Multivariate Analysis](https://github.com/nestorivanmo/iimas-data-science/tree/master/fall-21/analisis-multivariado) |
+| [Finance](https://github.com/nestorivanmo/iimas-data-science/tree/master/fall-21/finance/1-correlation) |
 
 ## Spring 2022
-- [Link]()
+- [Link](https://github.com/nestorivanmo/iimas-data-science/tree/master/spring-22)
 
 Undergraduate courses taken: 
 | Course | 
 | ------ |
-| []() |
-| []() |
-| []() |
-| []() |
-| []() |
-| []() |
+| [Deep Learning](https://github.com/nestorivanmo/iimas-data-science/tree/master/spring-22/deep-learning) |
+| [Machine Learning and Advanced Data Mining]() |
+| [Text Mining]() |
+| [Computational Statistics]() |
+| [Ethics for Data Science]() |
+| [Investment Strategies]() |
 
