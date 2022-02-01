@@ -6,52 +6,44 @@ National Autonomous University of Mexico (UNAM).
 
 ---
 
-| Semester | Course |
-| -------- | ------ |
-| Fall 2020 | [Structured Data Bases](https://github.com/nestorivanmo/iimas-data-science/tree/master/fall-20/bde) |
-| Fall 2020 | [Concurrent Programming](https://github.com/nestorivanmo/iimas-data-science/tree/master/fall-20/cc) |
-| Fall 2020 | 
-
 ## Fall 2020
-- dir_name: *fall-20/*
 - [Link](https://github.com/nestorivanmo/iimas-data-science/tree/master/fall-20)
 
 Undergraduate courses taken: 
 | Course | 
 | ------ |
-| [Introduction to Machine Learning]() |
-| [Discrete Mathematics and Algorithms]() |
-| [Concurrent Computing]() |
-| [Relational Databases]() |
-| [Numerical Methods and Linear Algebra for Data Science]() |
-| [Applied Probability and Stochastic Simulation]() |
+| [Introduction to Machine Learning](https://github.com/nestorivanmo/iimas-data-science/tree/master/fall-20/ppcd) |
+| [Discrete Mathematics and Algorithms](https://github.com/nestorivanmo/iimas-data-science/tree/master/fall-20/mda) |
+| [Concurrent Computing](https://github.com/nestorivanmo/iimas-data-science/tree/master/fall-20/cc) |
+| [Relational Databases](https://github.com/nestorivanmo/iimas-data-science/tree/master/fall-20/bde) |
+| [Numerical Methods and Linear Algebra for Data Science](https://github.com/nestorivanmo/iimas-data-science/tree/master/fall-20/mmccd) |
+| [Applied Probability and Stochastic Simulation](https://github.com/nestorivanmo/iimas-data-science/tree/master/fall-20/pase) |
 
 ## Spring 2021
-- dir_name: *spring-21/*
-- [Link]()
+- [Link](https://github.com/nestorivanmo/iimas-data-science/tree/master/spring-21)
 
 Undergraduate courses taken: 
 | Course | 
 | ------ |
-| [Pattern Recognition ]() |
-| [Statistical Methods]() |
-| [Non relational Databases]() |
-| [Data Visualizatoin]() |
-| [Big Data I]() |
-| [Data Quality and Preprocessing]() |
+| [Pattern Recognition ](https://github.com/nestorivanmo/iimas-data-science/tree/master/spring-21/rp) |
+| [Statistical Methods](https://github.com/nestorivanmo/iimas-data-science/tree/master/spring-21/metest) |
+| [Non relational Databases](https://github.com/nestorivanmo/iimas-data-science/tree/master/spring-21/bne) |
+| [Data Visualizatoin](https://github.com/nestorivanmo/iimas-data-science/tree/master/spring-21/vi) |
+| [Big Data I](https://github.com/nestorivanmo/iimas-data-science/tree/master/spring-21/dm) |
+| [Data Quality and Preprocessing](https://github.com/nestorivanmo/iimas-data-science/tree/master/spring-21/calprep) |
 
 ## Fall 2021
-- [Link]()
+- [Link](https://github.com/nestorivanmo/iimas-data-science/tree/master/fall-21)
 
 Undergraduate courses taken: 
 | Course | 
 | ------ |
-| []() |
-| []() |
-| []() |
-| []() |
-| []() |
-| []() |
+| [Machine Learning]() |
+| [Data Mining]() |
+| [Big Data II]() |
+| [Natural Language Processing]() |
+| [Multivariate Analysis]() |
+| [Finance]() |
 
 ## Spring 2022
 - [Link]()
